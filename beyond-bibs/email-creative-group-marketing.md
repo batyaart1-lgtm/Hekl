@@ -1,6 +1,17 @@
 # Email to Creative Group Marketing
 
-Creative Group Marketing (Stamford, CT) is a licensing agent for toy, juvenile and baby products: https://creativegroupmarketing.com/services/. Before sending, check their site for a submission form, any review fee or a non-disclosure agreement they want signed, and use their process if they have one. Attach the product sheet and 4–6 photos from the studio set. Make sure the video's Google Drive sharing is set to "Anyone with the link".
+**Send to:** InfoatCGM@aol.com
+Creative Group Marketing LLC, 213 Wire Mill Road, Stamford, CT 06901 · (203) 359-3500 · toll-free 1-800-678-8972
+https://creativegroupmarketing.com/services/
+
+They take juvenile and infant products and charge **no submission fee**. They offer a free phone consultation.
+
+**Attach:**
+1. Their **Declaration of Confidentiality**, read, signed and scanned: https://creativegroupmarketing.com/wp-content/uploads/2026/01/CREA-NON42.pdf
+2. Their **Concept/Product Data Sheet**, filled in: https://creativegroupmarketing.com/wp-content/uploads/2026/01/CREA-REC2.pdf
+3. The product sheet and 4–6 photos from the studio set
+
+Make sure the video's Google Drive sharing is set to "Anyone with the link".
 
 ---
 
@@ -28,7 +39,7 @@ I am the sole owner of the patents and the brand. I am open to a license with an
 
 You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view
 
-Attached are the product sheet and photos. I can send samples to your office on request. Could you let me know your submission process and whether Beyond Bibs is a fit for your clients?
+Attached are your signed Declaration of Confidentiality, the completed Concept/Product Data Sheet, my product sheet and photos. I can send samples to your office on request, and I would welcome a call to discuss whether Beyond Bibs is a fit for your clients.
 
 Thank you for your time.
 

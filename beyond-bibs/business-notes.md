@@ -73,7 +73,7 @@ Lessons for future pitches:
 
 1. **Licensing agents (top pick).** Many manufacturers only accept submissions through agents they know.
    - Anjar Co. & Becker Associates: infant, preschool and toy licensing; $195 concept review fee; reply in about 2 weeks. https://www.anjar.com/inventors · https://www.beckerassociates.com/inventors
-   - Creative Group Marketing (Stamford, CT): represents inventors of juvenile and baby products. https://creativegroupmarketing.com/services/
+   - Creative Group Marketing (Stamford, CT): takes juvenile and infant products; no submission fee; free phone consultation on 1-800-678-8972; email InfoatCGM@aol.com. Submit their Declaration of Confidentiality and Concept/Product Data Sheet. https://creativegroupmarketing.com/services/
 2. **Sell the whole package** (patents, brand, stock, fabric, suppliers, reviews) on Flippa or Acquire.com. Expect a modest price: one patented baby product was listed for $10,000 including $23,100 of inventory (https://flippa.com/11622360).
 3. **Bib makers** that already license products, such as Crown Crafts (one of the largest US producers of bibs). These are best reached through an agent.
 4. **An operating partner** (an Amazon seller, a mom-influencer or a small baby brand) runs the business for a royalty or equity share.
