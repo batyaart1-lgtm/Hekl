@@ -33,7 +33,7 @@ Kind regards,
 
 Batya Wachmann
 Inventor and owner, Beyond Bibs
-+972 58-325-9935 · batyaart1@gmail.com · beyondbibs.co.il
++1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il
 
 ## Product sheet
 
@@ -62,7 +62,7 @@ Beyond Bibs is a full-length crawling bib that keeps babies' clothes clean so pa
 | Product | Retail price |
 | --- | --- |
 | Crawling bib (full length), ages 6–12 and 12–18 months | ₪99 (about $33) |
-| Eating bib (patent pending), ages 1–3 | ₪45 (about $15) |
+| Eating bib (Israeli patent pending), ages 1–3 | ₪45 (about $15) |
 
 **Intellectual property**
 
@@ -115,7 +115,7 @@ Batya can stay on as the inventor and brand story, for media, product photos and
 Send to Anjar Co. & Becker Associates (concept review fee $195, reply in about 2 weeks) and Creative Group Marketing; check each site's current submission terms first.
 
 - [x] Choose one English spelling of your surname and use it everywhere (Wachmann)
-- [ ] Check the phone number in the letter (the eating-bib card shows 058-542-4036, the flyer 058-325-9935)
+- [x] Phone number set to the US number, +1 929-377-2999
 - [ ] Attach 4–6 photos from the studio set and the flyer: front, the X-strap back, the eating bib, the packaging
 - [ ] Attach a 30-second video of a baby crawling in the bib
 - [ ] Add 3–5 short customer reviews, translated into English

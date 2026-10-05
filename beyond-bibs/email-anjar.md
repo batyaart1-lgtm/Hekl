@@ -20,7 +20,7 @@ Why I think it is licensable:
 - **Healthy margin:** it costs about $8 per unit in small batches in Israel, and volume production would lower that.
 - **Untested markets:** it has not been marketed in the US, online or on social media. A UK reseller already sells it on Amazon UK.
 - **Protected:** US utility patent 11,986,026 B2 (granted May 2024, 14 claims), Israeli design registration no. 67877 and an Israeli patent application.
-- **A second product:** a matching eating bib for ages 1–3 (patent pending) that closes at the back and can't be pulled off.
+- **A second product:** a matching eating bib for ages 1–3 (Israeli patent pending) that closes at the back and can't be pulled off.
 - **Customer response:** strong reviews; the most common comment is "why isn't this better known?"
 
 I am the inventor and sole owner. I am looking for a license with an advance and royalties, or a sale of the full package: patents, designs, about 200 finished units, 19 rolls of production fabric and all supplier contacts. I would be happy to stay involved as the inventor behind the brand story.
@@ -33,4 +33,4 @@ Kind regards,
 
 Batya Wachmann
 Inventor and owner, Beyond Bibs
-+972 58-325-9935 · batyaart1@gmail.com · beyondbibs.co.il
++1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il

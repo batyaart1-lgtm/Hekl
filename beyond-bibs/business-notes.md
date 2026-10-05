@@ -14,11 +14,11 @@ Background, numbers and the plan for selling or licensing Beyond Bibs. The submi
 ## Product
 
 - **Crawling bib:** full length; covers chest, belly and legs. X-shaped elastic back straps close at the back, not the neck. Three straps per leg (thigh, knee, heel). Sewn-closed elastic with no snaps or Velcro, so the baby can't pull it off. Waterproof cotton inner layer and a dark absorbent outer layer. Ages 6–12 and 12–18 months (originally one size, 7–13 months). Colours: green and burgundy. Sold at ₪99–100.
-- **Eating bib:** ages 1–3, patent pending. Closes at the back, so nothing rubs the neck. No Velcro or snaps; it can't be pulled off. Thick towel outer layer with a waterproof PU-cotton inner layer. Sold at ₪45.
+- **Eating bib:** ages 1–3, Israeli patent pending. Closes at the back, so nothing rubs the neck. No Velcro or snaps; it can't be pulled off. Thick towel outer layer with a waterproof PU-cotton inner layer. Sold at ₪45.
 - **Limitation:** the crawling bib's fabric catches on carpet and artificial grass, so it isn't suited to those surfaces.
 - **Original brand name:** "Crawling Always" (קרולינג). It is now sold as Beyond Bibs.
 - **Origin story:** Batya's own crawling baby kept spitting up and getting soaked. She sewed the first bib by hand from a floor cloth and a mattress protector.
-- **Contact:** 058-325-9935 · batyaart1@gmail.com · beyondbibs.co.il. The eating-bib card shows a different number, 058-542-4036, which needs checking.
+- **Contact:** use the US number +1 929-377-2999 for all English pitches · batyaart1@gmail.com · beyondbibs.co.il. Israeli numbers on older materials: 058-325-9935 (flyer), 058-542-4036 (eating-bib card).
 
 ## Intellectual property
 
