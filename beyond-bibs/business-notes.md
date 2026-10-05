@@ -7,6 +7,8 @@ Background, numbers and the plan for selling or licensing Beyond Bibs. The submi
 ## Situation
 
 - Batya Wachmann is the inventor and **sole owner** of everything: patents, brand, stock. Lea Rinat, an early co-investor, has left the business.
+- Company: Crawling Always LLC (brand: Beyond Bibs). Address: 105 5th Street, Lakewood, NJ 08701, USA. Batya is a US citizen. Yehuda Wachmann (Batya's husband) is connected to the business; his role is still to be confirmed.
+- Idea conceived: summer 2021.
 - Goal: sell or license the product. Running the business (manufacturing, supply, finance, marketing) is not where Batya wants to be.
 - Selling directly, hiring a marketer and approaching companies by cold email have not produced a deal.
 - The most common customer comment: "why isn't this more publicly known? It's such a great product."

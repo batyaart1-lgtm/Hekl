@@ -11,14 +11,14 @@ OUT = pathlib.Path(__file__).parent
 BLUE = (0, 0, 0.55)
 
 # Fill these in, then re-run.
-ADDRESS = ""          # street address
-CITY, STATE, ZIP, COUNTRY = "", "", "", ""
-CITIZENSHIP = ""
+ADDRESS = "105 5th Street"
+CITY, STATE, ZIP, COUNTRY = "Lakewood", "NJ", "08701", "USA"
+CITIZENSHIP = "US citizen"
 OCCUPATION = ""
-CONCEPTION = ""       # e.g. "Summer 2021"
+CONCEPTION = "Summer 2021"
 
 NAME = "Batya Wachmann"
-COMPANY = "Beyond Bibs"
+COMPANY = "Crawling Always LLC (brand: Beyond Bibs)"
 PHONE = "+1 929-377-2999"
 INVENTION = 'Beyond Bibs crawling bib ("Unitary Baby Bib", US Pat. 11,986,026 B2)'
 
@@ -47,17 +47,17 @@ def data_sheet(src):
     p = d[0]
     put(p, 130, 234, NAME)
     put(p, 178, 276, COMPANY)
-    put(p, 142, 303, ADDRESS)
-    put(p, 118, 331, CITY, 8)
-    put(p, 215, 331, STATE, 8)
-    put(p, 287, 331, ZIP, 8)
-    put(p, 372, 331, COUNTRY, 8)
+    put(p, 156, 303, ADDRESS)
+    put(p, 122, 331, CITY, 9)
+    put(p, 236, 331, STATE, 9)
+    put(p, 292, 331, ZIP, 9)
+    put(p, 392, 331, COUNTRY, 9)
     put(p, 395, 359, PHONE)
-    put(p, 160, 386, CITIZENSHIP, 9)
+    put(p, 168, 386, CITIZENSHIP, 9)
     put(p, 395, 386, OCCUPATION, 9)
     put(p, 132, 441, "N/A")
     put(p, 162, 579, INVENTION, 9)
-    put(p, 160, 621, CONCEPTION)
+    put(p, 172, 621, CONCEPTION)
 
     p = d[1]
     put(p, 92, 300, "Patent, drawings and photographs attached:", 11)
