@@ -20,12 +20,12 @@ The product is already proven on a small scale:
 
 - More than 500 units sold in Israel at ₪99 (about $33) retail, almost entirely through local print ads
 - Production cost of about ₪26 (about $8) per unit in small batches, so there is room for a manufacturer, a retailer and a royalty
-- A UK reseller bought stock and lists it on Amazon UK
+- Sold in three baby stores in Israel and through a network of home sales points; a UK reseller lists it on Amazon UK
 - Strong customer reviews; the most common comment is "why isn't this better known?"
 
 The US, online and social-media markets are untested. I invented the product, but marketing and distribution are not my strengths, and I believe a company with the right channels can scale it quickly.
 
-The IP is a granted US utility patent (11,986,026 B2, May 2024, 14 claims), an Israeli design registration, and an Israeli patent application. I also have about 200 finished units and 19 rolls of production fabric that can go with a deal.
+The IP is a granted US utility patent (11,986,026 B2, May 2024, 14 claims), an Israeli design registration (no. 67877), and an Israeli patent application. I also have about 200 finished units and 19 rolls of production fabric that can go with a deal.
 
 I would be glad to send samples, photos and video. Thank you for considering Beyond Bibs.
 
@@ -33,11 +33,13 @@ Kind regards,
 
 Batya Wachmann
 Inventor and owner, Beyond Bibs
-[Phone] · [Email]
++972 58-325-9935 · batyaart1@gmail.com · beyondbibs.co.il
 
 ## Product sheet
 
 Beyond Bibs is a full-length crawling bib that keeps babies' clothes clean so parents allow more floor time.
+
+**Origin:** Batya invented it when her own crawling baby kept spitting up and getting soaked. She sewed the first one by hand from a floor cloth and a mattress protector.
 
 **The problem**
 
@@ -48,25 +50,26 @@ Beyond Bibs is a full-length crawling bib that keeps babies' clothes clean so pa
 **The solution**
 
 - Covers chest, belly and legs, everywhere the baby touches the floor.
-- Patented X-shaped elastic back straps keep it in place while the baby moves.
-- Waterproof inner lining and a soft, absorbent outer layer.
-- Goes over any outfit, so there is no need to change clothes.
+- Patented X-shaped elastic back straps close at the back, not the neck, and hold the bib against the body.
+- Three straps on each leg (thigh, knee and heel) keep it in place in every position: crawling, sitting, standing and lying down.
+- Sewn-closed soft elastic, with no snaps or Velcro to wear out; the baby can't pull it off.
+- Waterproof inner lining with soft cotton against the skin, and a dark absorbent outer layer.
+- Goes over any outfit, including dresses and special-occasion clothes.
 - Doubles as a feeding and drool bib.
-- No buttons, snaps or zippers.
 
 **Product line**
 
 | Product | Retail price |
 | --- | --- |
-| Crawling bib (full length) | ₪99 (about $33) |
-| Eating bib | ₪45 (about $15) |
+| Crawling bib (full length), ages 6–12 and 12–18 months | ₪99 (about $33) |
+| Eating bib (patent pending), ages 1–3 | ₪45 (about $15) |
 
 **Intellectual property**
 
 | Right | Status |
 | --- | --- |
 | US utility patent 11,986,026 B2 (14 claims) | Granted May 2024 |
-| Israeli design registration | Registered |
+| Israeli design registration no. 67877 | Registered |
 | Israeli patent | Application pending |
 
 Dollar amounts use about ₪3 to the dollar.
@@ -112,8 +115,8 @@ Batya can stay on as the inventor and brand story, for media, product photos and
 Send to Anjar Co. & Becker Associates (concept review fee $195, reply in about 2 weeks) and Creative Group Marketing; check each site's current submission terms first.
 
 - [x] Choose one English spelling of your surname and use it everywhere (Wachmann)
-- [ ] Add your phone and email to the letter
-- [ ] Attach 4–6 photos: the bib on a crawling baby, the X-strap back, the packaging
+- [ ] Check the phone number in the letter (the eating-bib card shows 058-542-4036, the flyer 058-325-9935)
+- [ ] Attach 4–6 photos from the studio set and the flyer: front, the X-strap back, the eating bib, the packaging
 - [ ] Attach a 30-second video of a baby crawling in the bib
 - [ ] Add 3–5 short customer reviews, translated into English
 - [ ] Estimate how many bibs the 19 rolls of fabric will make
