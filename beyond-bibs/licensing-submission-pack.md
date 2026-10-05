@@ -18,8 +18,8 @@ The bib covers the chest, belly and legs, the parts of a crawling baby that touc
 
 The product is already proven on a small scale:
 
-- More than 500 units sold in Israel at ₪99 (about $27) retail, almost entirely through local print ads
-- Production cost of about ₪26 (about $7) per unit in small batches, so there is room for a manufacturer, a retailer and a royalty
+- More than 500 units sold in Israel at ₪99 (about $33) retail, almost entirely through local print ads
+- Production cost of about ₪26 (about $8) per unit in small batches, so there is room for a manufacturer, a retailer and a royalty
 - A UK reseller bought stock and lists it on Amazon UK
 - Strong customer reviews; the most common comment is "why isn't this better known?"
 
