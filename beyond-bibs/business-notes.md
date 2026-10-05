@@ -42,6 +42,7 @@ Background, numbers and the plan for selling or licensing Beyond Bibs. The submi
 - A UK buyer bought stock and sells it on Amazon UK. Sales there are unknown.
 - Retail stores (from the flyer): Baby Zol (Rambam 21), Kidspace (Yehuda HaNasi 102), Chanunit (Yehuda HaNasi 106), plus home sales.
 - Home sales-point network: sellers hung flyers (daycares, baby clinics), let customers try the bib on, and earned ₪20 per bib sold at ₪100.
+- Product video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view
 - Marketing materials: a studio photo set, a Hebrew flyer (with a 1+1 offer), instruction cards and a seller info sheet.
 - Unit cost is about ₪26: sewing ₪18, fabric incl. shipping ₪4.72, elastic ₪2, labels ₪1.23.
 

@@ -1,6 +1,6 @@
 # Email to Anjar Co. & Becker Associates
 
-Send through the New Product Submission page at https://www.anjar.com/inventors (check the current address, form and fee there first). Attach the product sheet, 4–6 photos from the studio set and a short video.
+Send through the New Product Submission page at https://www.anjar.com/inventors (check the current address, form and fee there first). Attach the product sheet and 4–6 photos from the studio set. The video is linked in the email; make sure its Google Drive sharing is set to "Anyone with the link".
 
 ---
 
@@ -25,7 +25,9 @@ Why I think it is licensable:
 
 I am the inventor and sole owner. I am looking for a license with an advance and royalties, or a sale of the full package: patents, designs, about 200 finished units, 19 rolls of production fabric and all supplier contacts. I would be happy to stay involved as the inventor behind the brand story.
 
-Attached are the product sheet, photos and a short video. I can send samples to your office on request.
+You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view
+
+Attached are the product sheet and photos. I can send samples to your office on request.
 
 Thank you for your time. I look forward to hearing from you.
 

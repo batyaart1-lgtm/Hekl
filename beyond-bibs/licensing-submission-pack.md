@@ -27,7 +27,7 @@ The US, online and social-media markets are untested. I invented the product, bu
 
 The IP is a granted US utility patent (11,986,026 B2, "Unitary Baby Bib", granted May 21, 2024, 14 claims, in force to about September 2042), which covers both the full-length crawling bib and a shorter torso-only version, an Israeli design registration (no. 67877), and Israeli patent application no. 286884. I also have about 200 finished units and 19 rolls of production fabric that can go with a deal.
 
-I would be glad to send samples, photos and video. Thank you for considering Beyond Bibs.
+You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view. I would be glad to send samples and more photos. Thank you for considering Beyond Bibs.
 
 Kind regards,
 
@@ -117,7 +117,7 @@ Send to Anjar Co. & Becker Associates (concept review fee $195, reply in about 2
 - [x] Choose one English spelling of your surname and use it everywhere (Wachmann)
 - [x] Phone number set to the US number, +1 929-377-2999
 - [ ] Attach 4–6 photos from the studio set and the flyer: front, the X-strap back, the eating bib, the packaging
-- [ ] Attach a 30-second video of a baby crawling in the bib
+- [ ] Video link added; set it to "Anyone with the link" in Google Drive and test it in a private browser window
 - [ ] Add 3–5 short customer reviews, translated into English
 - [ ] Estimate how many bibs the 19 rolls of fabric will make
 - [ ] Check the UK reseller's Amazon listing and any sales it shows
