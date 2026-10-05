@@ -25,7 +25,7 @@ The product is already proven on a small scale:
 
 The US, online and social-media markets are untested. I invented the product, but marketing and distribution are not my strengths, and I believe a company with the right channels can scale it quickly.
 
-The IP is a granted US utility patent (11,986,026 B2, May 2024, 14 claims), an Israeli design registration (no. 67877), and an Israeli patent application. I also have about 200 finished units and 19 rolls of production fabric that can go with a deal.
+The IP is a granted US utility patent (11,986,026 B2, "Unitary Baby Bib", granted May 21, 2024, 14 claims, in force to about September 2042), which covers both the full-length crawling bib and a shorter torso-only version, an Israeli design registration (no. 67877), and Israeli patent application no. 286884. I also have about 200 finished units and 19 rolls of production fabric that can go with a deal.
 
 I would be glad to send samples, photos and video. Thank you for considering Beyond Bibs.
 
@@ -68,9 +68,9 @@ Beyond Bibs is a full-length crawling bib that keeps babies' clothes clean so pa
 
 | Right | Status |
 | --- | --- |
-| US utility patent 11,986,026 B2 (14 claims) | Granted May 2024 |
+| US utility patent 11,986,026 B2, "Unitary Baby Bib" (14 claims: full-length crawling version, claim 1; torso-only version, claim 12) | Granted May 21, 2024; filed Sep 29, 2022, so in force to about Sep 2042 |
 | Israeli design registration no. 67877 | Registered |
-| Israeli patent | Application pending |
+| Israeli patent application no. 286884 (filed Sep 30, 2021) | Application pending |
 
 Dollar amounts use about ₪3 to the dollar.
 
@@ -121,6 +121,6 @@ Send to Anjar Co. & Becker Associates (concept review fee $195, reply in about 2
 - [ ] Add 3–5 short customer reviews, translated into English
 - [ ] Estimate how many bibs the 19 rolls of fabric will make
 - [ ] Check the UK reseller's Amazon listing and any sales it shows
-- [ ] Confirm the US patent maintenance fees are paid
+- [ ] Pay the first US maintenance fee between May 21 and Nov 21, 2027 (late, with a surcharge, until May 21, 2028)
 - [ ] Decide whether to share the total invested; agents care more about sales and margin
 - [ ] Never pay thousands of dollars upfront to an invention-promotion company

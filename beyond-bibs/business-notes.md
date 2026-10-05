@@ -22,10 +22,18 @@ Background, numbers and the plan for selling or licensing Beyond Bibs. The submi
 
 ## Intellectual property
 
-- US utility patent 11,986,026 B2, granted May 2024, 14 claims
+- US utility patent 11,986,026 B2, "Unitary Baby Bib"
+  - Inventor and applicant: Batya Wachmann, Elad (IL). Attorney: Rivka Friedman.
+  - Filed Sep 29, 2022 (appl. 17/955,861); published as US 2023/0095605 A1; granted May 21, 2024. Priority: Israeli application 286884, filed Sep 30, 2021.
+  - 14 claims. Claim 1 is the full-length crawling bib: front panel with shoulder flaps, contoured neckline and split legs, plus elastic bands sewn diagonally to cross behind the back. Claims 2–4 add the thigh, ankle and knee straps; other claims cover the 1-, 2- and 3-layer fabric versions. Claim 12 is the same crossed-strap design with a torso-only front panel (no legs), which may also cover the eating bib. Confirm this with the patent attorney before claiming it in a pitch.
+  - Term: 20 years from US filing, so to about Sep 29, 2042, as long as maintenance fees are paid.
 - Israeli design registration no. 67877
-- Israeli patent application (pending)
-- Keep the US patent maintenance fees paid: the patent is the main asset in any deal.
+- Israeli patent application no. 286884 (pending)
+- US maintenance fees keep the patent alive, and it is the main asset in any deal:
+  - 1st fee (3.5 years): pay between May 21 and Nov 21, 2027; late, with a surcharge, until May 21, 2028
+  - 2nd fee (7.5 years): pay between May 21 and Nov 21, 2031
+  - 3rd fee (11.5 years): pay between May 21 and Nov 21, 2035
+  - If a license deal is signed, the licensee often pays these.
 
 ## Numbers
 

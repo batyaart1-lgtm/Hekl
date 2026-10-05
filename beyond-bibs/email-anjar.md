@@ -19,7 +19,7 @@ Why I think it is licensable:
 - **Proven demand:** more than 500 units sold in Israel at about $33 retail, through three baby stores, a network of home sales points and local print ads.
 - **Healthy margin:** it costs about $8 per unit in small batches in Israel, and volume production would lower that.
 - **Untested markets:** it has not been marketed in the US, online or on social media. A UK reseller already sells it on Amazon UK.
-- **Protected:** US utility patent 11,986,026 B2 (granted May 2024, 14 claims), Israeli design registration no. 67877 and an Israeli patent application.
+- **Protected:** US utility patent 11,986,026 B2, "Unitary Baby Bib" (granted May 21, 2024, 14 claims, in force to about 2042). Its claims cover both the full-length crawling bib and a shorter torso-only version. Also Israeli design registration no. 67877 and Israeli patent application no. 286884.
 - **A second product:** a matching eating bib for ages 1–3 (Israeli patent pending) that closes at the back and can't be pulled off.
 - **Customer response:** strong reviews; the most common comment is "why isn't this better known?"
 
