@@ -19,7 +19,7 @@ Make sure the video's Google Drive sharing is set to "Anyone with the link".
 
 Dear Creative Group Marketing team,
 
-I am the inventor of Beyond Bibs, a patented baby product already proven in the market. I am looking for an agent to license it to a company in the juvenile and baby category, and your work with baby-product inventors made you my first choice.
+I am the inventor of Beyond Bibs, a patented baby product already proven in the market. I am looking for an agent to license it to a company in the juvenile and baby category, and your work with baby-product inventors makes you a natural fit.
 
 Beyond Bibs is a full-length bib for babies who are learning to crawl. It covers the chest, belly and legs, the parts that touch the floor. X-shaped elastic straps close at the back, not the neck, and three straps on each leg (thigh, knee and heel) keep it in place whether the baby is crawling, sitting, standing or lying down. There are no snaps or Velcro, so nothing wears out and the baby can't pull it off. A waterproof inner layer with soft cotton against the skin and a dark absorbent outer layer keep the baby and their clothes clean and dry, so it also works as a feeding and drool bib.
 
