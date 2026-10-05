@@ -29,10 +29,12 @@ You can see the bib in use in this short video: https://drive.google.com/file/d/
 
 Attached are the product sheet and photos. I can send samples to your office on request.
 
+My husband, Yehuda Wachmann, handles the business side on my behalf; please contact him directly at +1 929-377-2999.
+
 Thank you for your time. I look forward to hearing from you.
 
 Kind regards,
 
 Batya Wachmann
 Inventor and owner, Beyond Bibs
-+1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il
+Business contact: Yehuda Wachmann, +1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il

@@ -27,13 +27,13 @@ The US, online and social-media markets are untested. I invented the product, bu
 
 The IP is a granted US utility patent (11,986,026 B2, "Unitary Baby Bib", granted May 21, 2024, 14 claims, in force to about September 2042), which covers both the full-length crawling bib and a shorter torso-only version, an Israeli design registration (no. 67877), and Israeli patent application no. 286884. I also have about 200 finished units and 19 rolls of production fabric that can go with a deal.
 
-You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view. I would be glad to send samples and more photos. Thank you for considering Beyond Bibs.
+You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view. I would be glad to send samples and more photos. My husband, Yehuda Wachmann, handles the business side on my behalf; please contact him directly at +1 929-377-2999. Thank you for considering Beyond Bibs.
 
 Kind regards,
 
 Batya Wachmann
 Inventor and owner, Beyond Bibs
-+1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il
+Business contact: Yehuda Wachmann, +1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il
 
 ## Product sheet
 

@@ -43,10 +43,12 @@ You can see the bib in use in this short video: https://drive.google.com/file/d/
 
 Attached are your signed Declaration of Confidentiality, the completed Concept/Product Data Sheet, my product sheet and photos. I can send samples to your office on request, and I would welcome a call to discuss whether Beyond Bibs is a fit for your clients.
 
+My husband, Yehuda Wachmann, handles the business side on my behalf; please contact him directly at +1 929-377-2999.
+
 Thank you for your time.
 
 Kind regards,
 
 Batya Wachmann
 Inventor and owner, Beyond Bibs
-+1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il
+Business contact: Yehuda Wachmann, +1 929-377-2999 · batyaart1@gmail.com · beyondbibs.co.il
