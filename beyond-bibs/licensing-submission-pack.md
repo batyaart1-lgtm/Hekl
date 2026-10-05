@@ -12,7 +12,7 @@ Send this with the product sheet below. Replace [Agent name] for each agency.
 
 Dear [Agent name],
 
-I am the inventor and sole owner of Beyond Bibs, a patented full-length bib designed for babies who are learning to crawl. I am looking for an agent to license the product, or sell the full package, to a company in the infant and juvenile category.
+I am the inventor of Beyond Bibs and the sole owner of its patents. Beyond Bibs is a patented full-length bib designed for babies who are learning to crawl. I am looking for an agent to license the product, or sell the full package, to a company in the infant and juvenile category.
 
 The bib covers the chest, belly and legs, the parts of a crawling baby that touch the floor. A patented X-shaped elastic strap system keeps it in place without buttons, snaps or zippers. It has a waterproof inner layer and a soft absorbent outer layer, so it also works as a feeding and drool bib.
 

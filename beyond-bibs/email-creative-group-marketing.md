@@ -37,7 +37,7 @@ What a licensee would get:
 - **Ready assets:** about 200 finished units, 19 rolls of production fabric, packaging designs and a full supplier list.
 - **Customer response:** strong reviews; the most common comment is "why isn't this better known?"
 
-I am the sole owner of the patents and the brand. I am open to a license with an advance and royalties, or to a sale of the full package. I would be happy to stay involved as the inventor behind the brand story.
+I am the sole owner of the patents. I am open to a license with an advance and royalties, or to a sale of the full package. I would be happy to stay involved as the inventor behind the brand story.
 
 You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view
 

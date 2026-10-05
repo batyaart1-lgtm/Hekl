@@ -23,7 +23,7 @@ Why I think it is licensable:
 - **A second product:** a matching eating bib for ages 1–3 (Israeli patent pending) that closes at the back and can't be pulled off.
 - **Customer response:** strong reviews; the most common comment is "why isn't this better known?"
 
-I am the inventor and sole owner. I am looking for a license with an advance and royalties, or a sale of the full package: patents, designs, about 200 finished units, 19 rolls of production fabric and all supplier contacts. I would be happy to stay involved as the inventor behind the brand story.
+I am the inventor and the sole owner of the patents. I am looking for a license with an advance and royalties, or a sale of the full package: patents, designs, about 200 finished units, 19 rolls of production fabric and all supplier contacts. I would be happy to stay involved as the inventor behind the brand story.
 
 You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view
 
