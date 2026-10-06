@@ -91,7 +91,12 @@ Companies to approach directly instead (as a supplier or for a private label, no
 - **Motzetzim (מוצצים)**: a baby superstore chain founded in 1969.
 - **Agalis (עגליס)**: a baby and kids chain.
 
-- **Baby Dreams (בייבי דרימס)**: Bnei Brak (Bar Ilan 2). Makes baby textiles and sells wholesale to baby and clothing stores in the same community where the bib already sold. Best Israeli fit, because they can manufacture and distribute. Draft: email-babydreams.md
+- **Baby Dreams (בייבי דרימס)**, Bnei Brak: makes baby textiles and sells wholesale. Batya spoke with them. They offered paid services rather than buying or licensing, and left a bad impression. Not pursuing. (Draft kept: email-babydreams.md)
+- **NINO** (https://nino.co.il/): an Israeli brand that designs and makes functional baby textiles. Best Israeli licensing target, because it sells its own product line.
+- **Mamydo** (https://www.mamydo.com/): an Israeli baby brand selling bibs and swaddles. Possible licensing target.
+- **Cootna** (cootna.co.il): a textile manufacturer with 20 years' experience that sells wholesale only and develops a first sample free. A manufacturer to hire, not a buyer.
+
+Rule of thumb: a company that charges you for services is a supplier. A buyer or licensee pays you.
 
 Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier, no reply.
 
