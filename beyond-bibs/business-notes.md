@@ -91,7 +91,9 @@ Companies to approach directly instead (as a supplier or for a private label, no
 - **Motzetzim (מוצצים)**: a baby superstore chain founded in 1969.
 - **Agalis (עגליס)**: a baby and kids chain.
 
-Already declined: Minene (מיננה) and Simply Good.
+- **Baby Dreams (בייבי דרימס)**: Bnei Brak (Bar Ilan 2). Makes baby textiles and sells wholesale to baby and clothing stores in the same community where the bib already sold. Best Israeli fit, because they can manufacture and distribute. Draft: email-babydreams.md
+
+Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier, no reply.
 
 **Warning:** never pay an invention-promotion company thousands of dollars upfront. A small review fee, like Anjar's $195, is normal.
 
