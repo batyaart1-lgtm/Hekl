@@ -30,7 +30,7 @@ Their written forms are the main route. A short call helps the submission get no
 
 ## 2. NINO, Israel (Batya, in Hebrew)
 
-**Call:** find the phone number on https://nino.co.il/. Ask for the owner or the person responsible for new products (מנהלת פיתוח מוצרים).
+**Call:** 04-677-0700 (+972 4-677-0700) · email info@nino.co.il. Ask for the owner or the person responsible for new products (מנהלת פיתוח מוצרים).
 
 > שלום, מדברת בתיה וואכמן. אני ממציאה של מוצר לתינוקות, סינר זחילה עם פטנט אמריקאי, ואני חושבת שהוא מתאים מאוד לקו המוצרים שלכם. יש לך שתי דקות?
 >
