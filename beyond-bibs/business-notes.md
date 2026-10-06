@@ -97,6 +97,10 @@ Companies to approach directly instead (as a supplier or for a private label, no
 - **Mamo (מאמו)**, Kiryat Shmona: imports and manufactures baby products, since 1980. Possible target; contact page: https://www.mamo-israel.co.il/contact
 - **Cootna** (cootna.co.il): a textile manufacturer with 20 years' experience that sells wholesale only and develops a first sample free. A manufacturer to hire, not a buyer.
 
+**Religious / Haredi sector** (where the bib already sold):
+- **Kidichic (קידישיק)**: the leading children's clothing brand in the Haredi and religious sector. It designs, produces and markets clothing from newborn to age 13, has a baby collection and accessories, and sells through dozens of branches in Bnei Brak, Jerusalem, Beitar, Elad, Modiin Illit, Ashdod and elsewhere. Also owns the Melange and Pastel Blue brands. Owners (since 2010): Yehoshua Klein, Yaakov Binet, Meir Miltzki. Offices: Bar Kochva 4, Bnei Brak. office@kidichic.net. Store WhatsApp: 03-5181906. Pitch angle: the bib lets babies crawl in Shabbat and holiday clothes.
+- **Bazar Strauss (בזאר שטראוס)**, Jerusalem: has imported baby and adult clothing for 33 years. https://www.bazars.co.il/
+
 Rule of thumb: a company that charges you for services is a supplier. A buyer or licensee pays you.
 
 Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier, no reply.
@@ -121,4 +125,5 @@ Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier
 | — | Shilav | Batya | No reply | — |
 | 2026-10-06 | Creative Group Marketing | Batya | Email sent to InfoatCGM@aol.com with signed forms, photos and patent | Yehuda calls 1-800-678-8972 on Oct 8–9 to confirm it arrived |
 | | Anjar & Becker | Yehuda | | Submit online with $195 fee |
+| | Kidichic | Batya | | Call head office (Bnei Brak); ask for Yehoshua Klein or the buyer for baby accessories; then email office@kidichic.net |
 | | NINO | Batya | | Call +972 4-677-0700, then email info@nino.co.il |
