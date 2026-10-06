@@ -33,6 +33,9 @@ Background, numbers and the plan for selling or licensing Beyond Bibs. The submi
   - Term: 20 years from US filing, so to about Sep 29, 2042, as long as maintenance fees are paid.
 - Israeli design registration no. 67877
 - Israeli patent application no. 286884 (pending)
+  - Not granted yet, so it can't be enforced in Israel until it is. Check its status with the patent attorney (Rivka Friedman) or the Israel Patent Office. The US grant on the same invention is a good sign.
+  - Meanwhile, Israeli design registration 67877 protects the bib's appearance in Israel against close copies. Keep its renewals paid.
+  - In Israeli pitches say "בקשת פטנט בתהליך" (patent pending) plus the registered design. Never say "פטנט רשום בישראל" (registered Israeli patent).
 - US maintenance fees keep the patent alive, and it is the main asset in any deal:
   - 1st fee (3.5 years): pay between May 21 and Nov 21, 2027; late, with a surcharge, until May 21, 2028
   - 2nd fee (7.5 years): pay between May 21 and Nov 21, 2031
