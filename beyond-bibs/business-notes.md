@@ -82,6 +82,17 @@ Lessons for future pitches:
 3. **Bib makers** that already license products, such as Crown Crafts (one of the largest US producers of bibs). These are best reached through an agent.
 4. **An operating partner** (an Amazon seller, a mom-influencer or a small baby brand) runs the business for a royalty or equity share.
 
+### Israel
+
+Israel has no consumer-product licensing agents like Anjar or Creative Group Marketing. Israeli IP firms such as IPTrade mostly handle technology. A US agent licenses worldwide, so Israel can be included in a US deal.
+
+Companies to approach directly instead (as a supplier or for a private label, not a royalty licence):
+- **Shilav** (part of Fox Group): the largest baby chain in Israel, with 76 stores and its own product lines. https://www.foxgroup.co.il/brands/shilav
+- **Motzetzim (מוצצים)**: a baby superstore chain founded in 1969.
+- **Agalis (עגליס)**: a baby and kids chain.
+
+Already declined: Minene (מיננה) and Simply Good.
+
 **Warning:** never pay an invention-promotion company thousands of dollars upfront. A small review fee, like Anjar's $195, is normal.
 
 ## Next steps

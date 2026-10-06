@@ -11,7 +11,7 @@ They take juvenile and infant products and charge **no submission fee**. They of
 2. Their **Concept/Product Data Sheet**, filled in: https://creativegroupmarketing.com/wp-content/uploads/2026/01/CREA-REC2.pdf
 3. The product sheet, a copy of US Patent 11,986,026 B2 and 4–6 photos from the studio set
 
-Pre-filled copies of both forms are in `forms/`. Re-run `forms/fill_forms.py` after adding your address, citizenship, occupation and date of conception.
+Filled copies of both forms are in `forms/`. Print them, add the date and Batya's signature, and scan them.
 
 Make sure the video's Google Drive sharing is set to "Anyone with the link".
 
