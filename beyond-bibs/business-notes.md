@@ -119,5 +119,5 @@ Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier
 | 2026 | Simply Good (Eleanor) | Batya | Declined: margins too low to work with a third party | — |
 | — | Shilav | Batya | No reply | — |
 | | Creative Group Marketing | Yehuda | | Call 1-800-678-8972, then email |
-| | Anjar & Becker | Yehuda | | Call, then submit with $195 fee |
+| | Anjar & Becker | Yehuda | | Submit online with $195 fee |
 | | NINO | Batya | | Call, then email |

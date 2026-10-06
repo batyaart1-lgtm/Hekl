@@ -1,12 +1,14 @@
 # Phone call scripts
 
-Call first, then send the email the same day as a follow-up ("as we discussed…"). Keep each call to about 5 minutes. Have the patent number, the numbers below and a pen ready.
+For Israeli companies, call first; email only as a follow-up the same day ("as we discussed…"). Licensing agents such as Anjar work through their written submission process, so just submit there. Keep each call to about 5 minutes. Have the patent number, the numbers below and a pen ready.
 
 **Key numbers:** 500+ sold · retail about $33 (₪99) · cost about $8 (₪26) · US Patent 11,986,026, granted May 2024, in force to about 2042 · 200 finished bibs and 19 rolls of fabric · sold in 3 stores in Israel
 
 ---
 
-## 1. Creative Group Marketing (Yehuda, in English)
+## 1. Creative Group Marketing (Yehuda, in English; optional)
+
+Their written forms are the main route. A short call helps the submission get noticed.
 
 **Call:** 1-800-678-8972 (toll-free) or (203) 359-3500. Free consultation. Ask for Gary Ahlert, who signs their forms.
 
@@ -26,23 +28,7 @@ Call first, then send the email the same day as a follow-up ("as we discussed…
 
 ---
 
-## 2. Anjar Co. & Becker Associates (Yehuda, in English)
-
-**Call:** find the phone number on https://www.anjar.com/inventors or https://www.beckerassociates.com.
-
-> Hi, my name is Yehuda Wachmann. I'm calling about a new product submission for my wife's invention, a patented crawling bib for babies. Before we pay the review fee, I'd like to ask two quick questions.
-
-Then give the same 30-second description as above.
-
-**Ask:**
-- Is this a good fit for your infant category?
-- What does the $195 review include, and what happens if you like it?
-- If you represent it, what's your share of the royalties?
-- Who should I address the submission to?
-
----
-
-## 3. NINO, Israel (Batya, in Hebrew)
+## 2. NINO, Israel (Batya, in Hebrew)
 
 **Call:** find the phone number on https://nino.co.il/. Ask for the owner or the person responsible for new products (מנהלת פיתוח מוצרים).
 
