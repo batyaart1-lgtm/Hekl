@@ -109,3 +109,15 @@ Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier
 - [ ] Estimate how many bibs the 19 rolls of fabric will make
 - [ ] Check the UK Amazon listing
 - [ ] Prepare a Flippa or Acquire listing as a fallback
+
+## Contact log
+
+| Date | Company | Who | Result | Next step |
+| --- | --- | --- | --- | --- |
+| ~2024 | Baby Dreams | Batya | Offered to make and distribute for a percentage; terms too high | Fallback only |
+| 2026 | Minene | Batya | Declined | — |
+| 2026 | Simply Good (Eleanor) | Batya | Declined: margins too low to work with a third party | — |
+| — | Shilav | Batya | No reply | — |
+| | Creative Group Marketing | Yehuda | | Call 1-800-678-8972, then email |
+| | Anjar & Becker | Yehuda | | Call, then submit with $195 fee |
+| | NINO | Batya | | Call, then email |
