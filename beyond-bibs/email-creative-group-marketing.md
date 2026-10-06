@@ -41,7 +41,7 @@ I am the sole owner of the patents. I am open to a license with an advance and r
 
 You can see the bib in use in this short video: https://drive.google.com/file/d/1urOBLM5yUDk13d0Yr26_Q_bEkMO9QAlo/view
 
-Attached are your signed Declaration of Confidentiality, the completed Concept/Product Data Sheet, my product sheet and photos. I can send samples to your office on request, and I would welcome a call to discuss whether Beyond Bibs is a fit for your clients.
+Attached are your signed Declaration of Confidentiality, the completed Concept/Product Data Sheet, a copy of the patent and photos of the product. I can send samples to your office on request, and I would welcome a call to discuss whether Beyond Bibs is a fit for your clients.
 
 My husband, Yehuda Wachmann, handles the business side on my behalf; please contact him directly at +1 929-377-2999.
 
