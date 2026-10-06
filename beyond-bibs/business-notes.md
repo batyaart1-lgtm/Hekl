@@ -91,7 +91,7 @@ Companies to approach directly instead (as a supplier or for a private label, no
 - **Motzetzim (מוצצים)**: a baby superstore chain founded in 1969.
 - **Agalis (עגליס)**: a baby and kids chain.
 
-- **Baby Dreams (בייבי דרימס)**, Bnei Brak: makes baby textiles and sells wholesale. Batya spoke with them. They can also manufacture the bib, and offered to produce and distribute it for a percentage. If they pay for production, this is effectively a license, which is close to what Batya wants. Key question: who pays for production? They left a bad impression, so any deal needs a written contract with protections. (Draft kept: email-babydreams.md)
+- **Baby Dreams (בייבי דרימס)**, Bnei Brak: makes baby textiles and sells wholesale. Batya spoke with them. They can also manufacture the bib, and offered to produce and distribute it for a percentage. If they pay for production, this is effectively a license, which is close to what Batya wants. This was about two years ago (around 2024). They demanded percentages that Batya's financial advisor judged far too high, and the way they negotiated left a bad impression. Declined. Possible fallback only, with a written counter-offer. (Draft kept: email-babydreams.md)
 - **NINO** (https://nino.co.il/): an Israeli brand that designs and makes functional baby textiles. Best Israeli licensing target, because it sells its own product line.
 - **Mamydo** (https://www.mamydo.com/): an Israeli baby brand selling bibs and swaddles. Possible licensing target.
 - **Cootna** (cootna.co.il): a textile manufacturer with 20 years' experience that sells wholesale only and develops a first sample free. A manufacturer to hire, not a buyer.
