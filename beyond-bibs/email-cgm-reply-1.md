@@ -6,7 +6,9 @@ Dear Mr. Ahlert,
 
 Thank you for your reply, and no problem at all about the spam folder.
 
-A US-only license is not a problem; it is exactly what we are looking for. We are based in the US: our address is 105 5th Street, Lakewood, NJ 08701, I am a US citizen, and the patent is a US utility patent. My husband, Yehuda Wachmann, is our US contact and will handle all contracts and communications. You can reach him at +1 929-377-2999.
+A US-only license is not a problem; it is exactly what we are looking for. The patent is a US utility patent, and we have a US address: 105 5th Street, Lakewood, NJ 08701. My husband, Yehuda Wachmann, is a US citizen and will be your contact for all contracts and communications. You can reach him at +1 929-377-2999.
+
+One correction to my Concept/Product Data Sheet: I listed my citizenship as US, but that was a mistake. I am an Israeli citizen, and my husband is the US citizen. I spend much of my time in Israel, which is why Yehuda will handle the business side in the US.
 
 We can also send samples to your office in Stamford whenever they would help your review.
 
