@@ -10,7 +10,7 @@ A US-only license is not a problem; it is exactly what we are looking for. The p
 
 To be transparent: as you noted, we are based overseas. My husband, Yehuda Wachmann, is a US citizen and the owner of the LLC, and he will be your contact for all contracts and communications. He travels to the US several times a year and can be reached at his US number, +1 929-377-2999, and by email. Documents can be signed electronically, and he can meet in person when he is in the US.
 
-One correction to my Concept/Product Data Sheet: I listed my citizenship as US, but that was a mistake. I am not a US citizen; my husband is.
+One correction to my Concept/Product Data Sheet: I listed my citizenship as US, but that was a mistake. I am a French citizen; my husband is the US citizen.
 
 We can also send samples to your office in Stamford whenever they would help your review.
 

@@ -13,7 +13,7 @@ BLUE = (0, 0, 0.55)
 # Fill these in, then re-run.
 ADDRESS = "105 5th Street"
 CITY, STATE, ZIP, COUNTRY = "Lakewood", "NJ", "08701", "USA"
-CITIZENSHIP = "Israeli citizen"
+CITIZENSHIP = "French citizen"
 OCCUPATION = ""
 CONCEPTION = "Summer 2021"
 
