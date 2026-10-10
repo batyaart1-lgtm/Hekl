@@ -128,6 +128,7 @@ Already declined: Minene (מיננה) and Simply Good. Shilav: contacted earlier
 | 2026 | Simply Good (Eleanor) | Batya | Declined: margins too low to work with a third party | — |
 | — | Shilav | Batya | No reply | — |
 | 2026-10-06 | Creative Group Marketing | Batya | Email sent to InfoatCGM@aol.com with signed forms, photos and patent | Yehuda calls 1-800-678-8972 on Oct 8–9 to confirm it arrived |
+| 2026-10-09 | Creative Group Marketing | Gary Ahlert | Replied: email had gone to spam; reviewing now. They license for the US only | Reply: US-only is fine; family is US-based |
 | | Anjar & Becker | Yehuda | | Submit online with $195 fee |
 | | Kidichic | Batya | | Call head office (Bnei Brak); ask for Yehoshua Klein or the buyer for baby accessories; then email office@kidichic.net |
 | | Lil'bon | Batya | | Call 054-844-5778 |
