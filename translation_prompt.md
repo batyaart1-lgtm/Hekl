@@ -26,6 +26,8 @@ Translate the provided Hebrew text into English according to the following guide
 - Do not add sources for pesukim unless they appear in the original text.
 - Preserve parenthetical clarifications from the original, rendering them naturally in English parentheses.
 - Render abbreviations and acronyms in the original (e.g., ר"ת, ע"ז, וכו') as the full English term or name, not as a transliterated abbreviation.
+- Bold the names of people (e.g., **Rabbi Akiva**, **Rav Huna**, **Rashi**, **Rambam**). Bold the name every time it appears, not just on first mention.
+- Italicize each transliterated Hebrew or Aramaic word on its first use only (e.g., *chatas*, *demai*, *eiver min hachai*). After that, write it in plain text. Do not italicize Hebrew terms that have become standard English (e.g., Shabbos, Torah, Mishnah, Gemara) or names of tractates and books.
 - Render quoted pesukim and Chazal in a way that signals they are quotations, in line with how the original sets them off.
 
 ## Halachic Precision
