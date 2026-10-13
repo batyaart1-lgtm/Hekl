@@ -28,12 +28,22 @@ def cell(face, ch, w=250, h=300, sc=0.20):
     return d_im
 
 
+def stack_lines(ims, pad=10):
+    W = max(i.width for i in ims)
+    out = Image.new("L", (W, sum(i.height for i in ims) + pad * (len(ims) - 1)), 255)
+    y = 0
+    for i in ims:
+        out.paste(i, (0, y)); y += i.height + pad
+    return out
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--old", required=True); ap.add_argument("--new", required=True)
     ap.add_argument("--glyphs", default=""); ap.add_argument("--out", required=True)
     ap.add_argument("--words", default="")
     ap.add_argument("--latin", default="")
+    ap.add_argument("--running", default="", help="comma list of pt sizes: stack OLD over NEW running text")
     a = ap.parse_args()
     O, N = faces(a.old), faces(a.new)
     names = dict(zip(HEB_NAMES, HEB))
@@ -66,7 +76,17 @@ def main():
             im = Image.new("L", (W, max(p.height for p in pair)), 255)
             im.paste(pair[0], (0, 0)); im.paste(pair[1], (W // 2 + 5, 0))
             rows.append(im)
+    if a.running:
+        import audit_text as AT
+        for pt in [int(x) for x in a.running.split(",")]:
+            for w in ("Regular", "Bold"):
+                wpx = int(pt * 300 / 72 * 52)
+                for nm, F in (("OLD", O), ("NEW", N)):
+                    im = stack_lines([render_text(F[w], t, True, pt, 300, width_px=wpx) for t in AT.RUNNING[:2]])
+                    label(im, "%s %s %dpt" % (w, nm, pt), (2, 0))
+                    rows.append(im)
     H = sum(r.height for r in rows) + 6 * len(rows)
+    W = max([W] + [r.width for r in rows])
     out = Image.new("L", (W, H), 255)
     y = 0
     for r in rows:

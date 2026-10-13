@@ -10,6 +10,7 @@ Every function returns (Shape, info) where info carries the ink width and
 the mark anchors.  All coordinates: y=0 baseline, y=T top of letters.
 """
 from .geom import *
+from pathops import Path
 
 
 class HCtx:
@@ -44,13 +45,42 @@ class HCtx:
         return rect(x0, 0, x1, H)
 
     def stem(self, xl, y0, y1, flare=True):
+        """Vertical stem: slight entasis (thinner toward the foot) and, if ``flare``,
+        a small concave bracket at the foot (no wedge)."""
         V, H = self.V, self.H
+        ins = V * 0.06
+        p = Path()
+        p.moveTo(xl, y1)
+        p.lineTo(xl + V, y1)
         if flare:
-            f = V * 0.55 + 6
-            return poly([(xl, y1), (xl + V, y1), (xl + V, y0 + H * 0.42),
-                         (xl + V + f * 0.0, y0), (xl - f, y0),
-                         (xl, y0 + H * 0.55)])
-        return rect(xl, y0, xl + V, y1)
+            fo, fh = 10.0, 46.0
+            p.lineTo(xl + V - ins, y0 + fh)
+            p.quadTo(xl + V - ins, y0 + 6, xl + V + fo, y0)
+            p.lineTo(xl - fo, y0)
+            p.quadTo(xl + ins, y0 + 6, xl + ins, y0 + fh)
+        else:
+            p.lineTo(xl + V - ins, y0)
+            p.lineTo(xl + ins, y0)
+        p.close()
+        return p
+
+    def beak(self, xr, ytop=None, h=34.0):
+        """Small downward serif at the right end of a roof (family detail shared with vav/lamed)."""
+        V, H = self.V, self.H
+        yb = (self.T if ytop is None else ytop) - H
+        return poly([(xr - V * 0.80, yb + 2), (xr, yb + 2), (xr, yb - h), (xr - V * 0.40, yb - h * 0.85)])
+
+    def fillet(self, px, py, hx, vy, r=None):
+        """Fill the concave corner at (px, py): the horizontal edge runs in direction hx (+-1),
+        the vertical edge in direction vy (+-1)."""
+        r = r or 20.0
+        k = 0.5523 * r
+        p = Path()
+        p.moveTo(px, py)
+        p.lineTo(px + hx * r, py)
+        p.cubicTo(px + hx * r - hx * k, py, px, py + vy * r - vy * k, px, py + vy * r)
+        p.close()
+        return p
 
     def stemR(self, xr, y0, y1, flare=True):
         return self.stem(xr - self.V, y0, y1, flare)
@@ -82,7 +112,7 @@ def dalet(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(490)
     ov = 46
-    s = S(c.roof(0, w), c.stemR(w - ov, 0, T - H * 0.5))
+    s = S(c.roof(0, w), c.beak(w), c.stemR(w - ov, 0, T - H * 0.5), c.fillet(w - ov - V, T - H, -1, -1))
     return s, info(s, inside=(w * 0.5, T * 0.46))
 
 
@@ -107,8 +137,8 @@ def he(c):
     w = c.W(560)
     ov = 30
     gap = 135
-    s = S(c.roof(0, w),
-          c.stemR(w - ov, 0, T - H * 0.5),
+    s = S(c.roof(0, w), c.beak(w),
+          c.stemR(w - ov, 0, T - H * 0.5), c.fillet(w - ov - V, T - H, -1, -1),
           c.stem(w * 0.15, 0, T - H - gap))
     return s, info(s, inside=(w * 0.38, T * 0.34))
 
@@ -116,9 +146,9 @@ def he(c):
 def het(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(570)
-    s = S(c.roof(0, w),
-          c.stemR(w - 30, 0, T - H * 0.5),
-          c.stem(w * 0.10, 0, T - H * 0.5))
+    s = S(c.roof(0, w), c.beak(w),
+          c.stemR(w - 30, 0, T - H * 0.5), c.fillet(w - 30 - V, T - H, -1, -1),
+          c.stem(w * 0.10, 0, T - H * 0.5), c.fillet(w * 0.10 + V, T - H, 1, -1))
     return s, info(s, inside=(w * 0.5, T * 0.4))
 
 
@@ -138,14 +168,14 @@ def zayin(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(410)
     xs = w * 0.50 - V / 2
-    s = S(c.roof(0, w), c.stem(xs, 0, T - H * 0.5))
+    s = S(c.roof(0, w), c.stem(xs, 0, T - H * 0.5), c.fillet(xs, T - H, -1, -1), c.fillet(xs + V, T - H, 1, -1))
     return s, info(s, inside=(xs - 62, T * 0.38))
 
 
 def yod(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(190)
-    s = S(c.roof(0, w, T), c.stem(w * 0.16, T * 0.46, T - H * 0.5, flare=True))
+    s = S(c.roof(0, w, T), c.stem(w * 0.16, T * 0.36, T - H * 0.5, flare=True))
     return s, info(s, inside=(w * 0.16 + V + 62, T * 0.58))
 
 
@@ -156,7 +186,7 @@ def tet(c):
     xr = w - V / 2
     yt = T - H / 2
     p = Pth(xl, T - 0.5).L(xl, 0.34 * T + 20)
-    p.arc(w * 0.5, 0.36 * T + 4, w * 0.5 - V / 2, 0.36 * T - H / 2 + 4, 180, 360)
+    p.arc(w * 0.5, 0.36 * T + 4, w * 0.5 - V / 2, 0.36 * T - H / 2 + 14, 180, 360)
     p.L(xr, yt - 60)
     p.arc(xr - 90, yt - 60, 90, 60, 0, 90)
     s1 = c.pen(p)
@@ -218,15 +248,13 @@ def mem(c):
     # left body: shorter left stem (open at the top) hooking into the base
     left = Pth(xl, T * 0.54).L(xl, yb + R).arc(xl + R, yb + R, R, R, 180, 270).L(w * 0.5, yb)
     s = S(c.pen(right), c.pen(left), c.roof(w * 0.44, w * 0.6))
-    # chiselled cap on the open left stem
-    s.add(poly([(0, T * 0.54), (V * 1.7, T * 0.54), (V * 1.7, T * 0.54 - H * 0.75), (0, T * 0.54 - H * 0.30)]))
     return s, info(s, inside=(w * 0.62, T * 0.46))
 
 
 def mem_final(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(540)
-    R = 60
+    R = 74
     xl, xr = V / 2, w - V / 2
     yt, yb = T - H / 2, H / 2
     p = Pth(xl, yb + R).L(xl, yt - R).arc(xl + R, yt - R, R, R, 180, 90).L(xr - R, yt)
@@ -264,7 +292,8 @@ def nun_final(c):
 def samekh(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(520)
-    p = Pth(w - V / 2, T / 2).arc(w / 2, T / 2, w / 2 - V / 2, T / 2 - H / 2, 0, 360).close()
+    OS = 10   # optical overshoot of round letters
+    p = Pth(w - V / 2, T / 2).arc(w / 2, T / 2, w / 2 - V / 2, T / 2 + OS - H / 2, 0, 360).close()
     s = S(c.pen(p))
     return s, info(s, inside=(w * 0.5, T * 0.5))
 
@@ -274,7 +303,7 @@ def ayin(c):
     w = c.W(540)
     xr = w - V / 2
     yb = H / 2
-    p = Pth(xr, T - 0.5).L(xr, 0.42 * T).C(xr, 0.16 * T, w * 0.78, yb, w * 0.56, yb).L(w * 0.46, yb)
+    p = Pth(xr, T - 0.5).L(xr, 0.42 * T).C(xr, 0.14 * T, w * 0.78, yb - 10, w * 0.56, yb - 10).L(w * 0.46, yb - 10)
     arm = stroke(line(w * 0.07, T - H * 0.3, w * 0.46, 0.14 * T), V * 1.35, H * 0.72)
     s = S(c.pen(p), arm, c.roof(0, H * 1.9))
     s.clip(-5, -5, w + 5, T)
@@ -322,7 +351,7 @@ def tsadi(c, final=False):
     left = Pth(w * 0.12, T * 0.70).L(w * 0.12, 0.30 * T).C(w * 0.12, 0.08 * T, w * 0.26, yb, w * 0.46, yb)
     # right arm: vertical then one straight diagonal into the base (single polyline, round join)
     arm = Pth(xr, T - 0.5).L(xr, 0.52 * T)
-    diag = stroke(line(xr, 0.52 * T, w * 0.44, H * 0.7), V * 1.3, H * 0.72)
+    diag = stroke(line(xr, 0.52 * T, w * 0.44, H * 0.7), V * 1.15, H * 0.62)
     parts = [c.pen(left), c.pen(arm), diag, c.roof(0, w * 0.34, T)]
     if final:
         left.L(xr - V / 2, yb)
@@ -330,7 +359,7 @@ def tsadi(c, final=False):
                   poly([(xr - V / 2 - 26, c.DESC), (xr + V / 2, c.DESC),
                         (xr + V / 2, c.DESC + H * 0.5), (xr - V / 2, c.DESC + H * 0.55)])]
     else:
-        left.L(w * 0.86, yb)
+        left.L(w * 0.68, yb)
         parts.append(rect(w * 0.86 - 4, 0, w * 0.86 + V * 0.5, H + 20) if False else Shape().path)
     parts[0] = c.pen(left)
     s = S(*parts)
@@ -374,8 +403,8 @@ def shin(c):
     s = S(c.pen(p), c.pen(mid))
     # little roofs at each prong top (chiselled flags)
     for xc in (xl, w * 0.50, xr):
-        s.add(poly([(xc - V * 1.1, T), (xc + V / 2, T), (xc + V / 2, T - H * 0.9),
-                    (xc - V / 2, T - H * 0.9), (xc - V * 1.1, T - H * 0.35)]))
+        s.add(poly([(xc - V * 1.9, T), (xc + V / 2, T), (xc + V / 2, T - H * 0.9),
+                    (xc - V / 2, T - H * 0.9), (xc - V * 1.9, T - H * 0.40)]))
     return s, info(s, inside=(w * 0.26, T * 0.50), dot_r=(w * 0.80, T + 48),
                    dot_l=(xl + 10, T + 48), hol=(w * 0.50, T + 48))
 
@@ -385,8 +414,8 @@ def tav(c):
     w = c.W(590)
     ov = 30
     xl = w * 0.10
-    s = S(c.roof(0, w), c.stemR(w - ov, 0, T - H * 0.5), c.stem(xl, 0, T - H * 0.5, flare=False),
-          c.base(0, xl + V))
+    s = S(c.roof(0, w), c.beak(w), c.stemR(w - ov, 0, T - H * 0.5), c.fillet(w - ov - V, T - H, -1, -1),
+          c.stem(xl, 0, T - H * 0.5, flare=False), c.fillet(xl + V, T - H, 1, -1), c.base(0, xl + V))
     return s, info(s, inside=(w * 0.5, T * 0.42))
 
 

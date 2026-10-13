@@ -20,6 +20,7 @@ from . import hebrew, latin, misc
 from .hebrew import HCtx
 from .latin import LCtx
 from .kern import optical_kerns
+from . import spacing
 
 FAMILY = "SW Book Text — Benchmark Prototype"
 UPM = 1000
@@ -28,7 +29,7 @@ EPOCH = 1767225600  # 2026-01-01T00:00:00Z, fixed for reproducibility
 WEIGHTS = {
     # Hebrew pen (H = horizontal-stroke thickness, V = vertical-stem thickness,
     # wf = width factor), Latin pen (a = stem, b = hairline, wf)
-    "Regular": dict(heb=(80, 50, 1.00), lat=(84, 30, 1.00), wght=400),
+    "Regular": dict(heb=(84, 44, 1.00), lat=(84, 30, 1.00), wght=400),
     "Bold": dict(heb=(108, 94, 1.08), lat=(118, 42, 1.06), wght=700),
 }
 
@@ -55,6 +56,7 @@ LAT_SB.update({"a": (30, 22), "f": (10, -8), "t": (10, 22), "r": (20, 4), "j": (
                "z": (24, 24), "i": (26, 26), "l": (26, 26), "k": (22, 12), "b": (22, 34), "d": (34, 22),
                "p": (22, 34), "q": (34, 22), "u": (22, 22)})
 LAT_SB_DEFAULT_U, LAT_SB_DEFAULT_L = (34, 34), (22, 22)
+LAT_BASE_U, LAT_BASE_L = 30, 20
 
 NAMES_HEB = hebrew.GLYPHS
 MARK_NAMES = {
@@ -129,10 +131,11 @@ def build_weight(wname, outdir):
 
     # Hebrew letters
     T = hc.T
+    depth = {cp: spacing.depths(fn(hc)[0].path) for cp, (nm, fn) in NAMES_HEB.items()}
+    optsb = spacing.assign(depth, base=64 * sbscale)
     for cp, (nm, fn) in NAMES_HEB.items():
         shape, inf = fn(hc)
-        l, r = HEB_SB.get(cp, HEB_SB_DEFAULT)
-        l, r = l * sbscale, r * sbscale
+        l, r = optsb[cp]
         xmin = inf["xmin"]
         w = inf["xmax"] - xmin
         xc = xmin + w / 2

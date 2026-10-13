@@ -7,7 +7,7 @@
   "generator": {
    "function": "__main__.make_notdef",
    "file": "src/swbook/__main__.py",
-   "line": 88,
+   "line": 90,
    "source_sha256": "055b351e95f8fc03"
   },
   "third_party_outlines": false
@@ -82,7 +82,7 @@
   "generator": {
    "function": "hebrew.alef",
    "file": "src/swbook/hebrew.py",
-   "line": 393,
+   "line": 422,
    "source_sha256": "d4e52abea9efd717"
   },
   "third_party_outlines": false
@@ -97,7 +97,7 @@
   "generator": {
    "function": "hebrew.bet",
    "file": "src/swbook/hebrew.py",
-   "line": 406,
+   "line": 435,
    "source_sha256": "dbc95f2b9ffdd67a"
   },
   "third_party_outlines": false
@@ -112,7 +112,7 @@
   "generator": {
    "function": "hebrew.gimel",
    "file": "src/swbook/hebrew.py",
-   "line": 419,
+   "line": 448,
    "source_sha256": "c9711d3e7d55338d"
   },
   "third_party_outlines": false
@@ -127,8 +127,8 @@
   "generator": {
    "function": "hebrew.dalet",
    "file": "src/swbook/hebrew.py",
-   "line": 81,
-   "source_sha256": "e5cd26c7be2d1c30"
+   "line": 111,
+   "source_sha256": "f083630cd6fb3b51"
   },
   "third_party_outlines": false
  },
@@ -142,8 +142,8 @@
   "generator": {
    "function": "hebrew.he",
    "file": "src/swbook/hebrew.py",
-   "line": 105,
-   "source_sha256": "02922e27fd96ee3c"
+   "line": 135,
+   "source_sha256": "1cfd7669c6652f91"
   },
   "third_party_outlines": false
  },
@@ -157,7 +157,7 @@
   "generator": {
    "function": "hebrew.vav",
    "file": "src/swbook/hebrew.py",
-   "line": 125,
+   "line": 155,
    "source_sha256": "ff7099ff2d1b1638"
   },
   "third_party_outlines": false
@@ -172,8 +172,8 @@
   "generator": {
    "function": "hebrew.zayin",
    "file": "src/swbook/hebrew.py",
-   "line": 137,
-   "source_sha256": "74e8dbabc4f6431f"
+   "line": 167,
+   "source_sha256": "99f0821b0a9d93b8"
   },
   "third_party_outlines": false
  },
@@ -187,8 +187,8 @@
   "generator": {
    "function": "hebrew.het",
    "file": "src/swbook/hebrew.py",
-   "line": 116,
-   "source_sha256": "209d56d67e20082e"
+   "line": 146,
+   "source_sha256": "ae7299e5b9992a70"
   },
   "third_party_outlines": false
  },
@@ -202,8 +202,8 @@
   "generator": {
    "function": "hebrew.tet",
    "file": "src/swbook/hebrew.py",
-   "line": 152,
-   "source_sha256": "e9ec0d148b2a16cc"
+   "line": 182,
+   "source_sha256": "79c376775699b63d"
   },
   "third_party_outlines": false
  },
@@ -217,8 +217,8 @@
   "generator": {
    "function": "hebrew.yod",
    "file": "src/swbook/hebrew.py",
-   "line": 145,
-   "source_sha256": "356c04c93fd015cc"
+   "line": 175,
+   "source_sha256": "9e25f723396f56e9"
   },
   "third_party_outlines": false
  },
@@ -232,7 +232,7 @@
   "generator": {
    "function": "hebrew.kaf_final",
    "file": "src/swbook/hebrew.py",
-   "line": 182,
+   "line": 212,
    "source_sha256": "dc1de99b8d19bd2e"
   },
   "third_party_outlines": false
@@ -247,7 +247,7 @@
   "generator": {
    "function": "hebrew.kaf",
    "file": "src/swbook/hebrew.py",
-   "line": 169,
+   "line": 199,
    "source_sha256": "f7f90d9e53302d3c"
   },
   "third_party_outlines": false
@@ -262,7 +262,7 @@
   "generator": {
    "function": "hebrew.lamed",
    "file": "src/swbook/hebrew.py",
-   "line": 195,
+   "line": 225,
    "source_sha256": "057ad5d8f1ce4bfa"
   },
   "third_party_outlines": false
@@ -277,8 +277,8 @@
   "generator": {
    "function": "hebrew.mem_final",
    "file": "src/swbook/hebrew.py",
-   "line": 226,
-   "source_sha256": "538339822a47cb81"
+   "line": 254,
+   "source_sha256": "bc70ec6d3bfb57f7"
   },
   "third_party_outlines": false
  },
@@ -292,8 +292,8 @@
   "generator": {
    "function": "hebrew.mem",
    "file": "src/swbook/hebrew.py",
-   "line": 209,
-   "source_sha256": "b972d3ff90d36899"
+   "line": 239,
+   "source_sha256": "650a7cd29b0fad42"
   },
   "third_party_outlines": false
  },
@@ -307,7 +307,7 @@
   "generator": {
    "function": "hebrew.nun_final",
    "file": "src/swbook/hebrew.py",
-   "line": 251,
+   "line": 279,
    "source_sha256": "bd453e805f6405cc"
   },
   "third_party_outlines": false
@@ -322,7 +322,7 @@
   "generator": {
    "function": "hebrew.nun",
    "file": "src/swbook/hebrew.py",
-   "line": 239,
+   "line": 267,
    "source_sha256": "3a8f73b8a663ae3e"
   },
   "third_party_outlines": false
@@ -337,8 +337,8 @@
   "generator": {
    "function": "hebrew.samekh",
    "file": "src/swbook/hebrew.py",
-   "line": 264,
-   "source_sha256": "e37e4b107a58d787"
+   "line": 292,
+   "source_sha256": "a4f8a965ea8d0d17"
   },
   "third_party_outlines": false
  },
@@ -352,8 +352,8 @@
   "generator": {
    "function": "hebrew.ayin",
    "file": "src/swbook/hebrew.py",
-   "line": 272,
-   "source_sha256": "8673b3ab677eeb1c"
+   "line": 301,
+   "source_sha256": "962369165827c05a"
   },
   "third_party_outlines": false
  },
@@ -367,7 +367,7 @@
   "generator": {
    "function": "hebrew.pe_final",
    "file": "src/swbook/hebrew.py",
-   "line": 312,
+   "line": 341,
    "source_sha256": "6f6c078e901a9c77"
   },
   "third_party_outlines": false
@@ -382,7 +382,7 @@
   "generator": {
    "function": "hebrew.pe",
    "file": "src/swbook/hebrew.py",
-   "line": 284,
+   "line": 313,
    "source_sha256": "6573865f44a474c1"
   },
   "third_party_outlines": false
@@ -397,7 +397,7 @@
   "generator": {
    "function": "hebrew.tsadi_final",
    "file": "src/swbook/hebrew.py",
-   "line": 346,
+   "line": 375,
    "source_sha256": "6b320410c4c94ded"
   },
   "third_party_outlines": false
@@ -412,8 +412,8 @@
   "generator": {
    "function": "hebrew.tsadi",
    "file": "src/swbook/hebrew.py",
-   "line": 316,
-   "source_sha256": "f127bba6911a6478"
+   "line": 345,
+   "source_sha256": "ad547b2018325cdd"
   },
   "third_party_outlines": false
  },
@@ -427,7 +427,7 @@
   "generator": {
    "function": "hebrew.qof",
    "file": "src/swbook/hebrew.py",
-   "line": 350,
+   "line": 379,
    "source_sha256": "804842967ba7ff9c"
   },
   "third_party_outlines": false
@@ -442,7 +442,7 @@
   "generator": {
    "function": "hebrew.resh",
    "file": "src/swbook/hebrew.py",
-   "line": 89,
+   "line": 119,
    "source_sha256": "0e244dfc961dcbf1"
   },
   "third_party_outlines": false
@@ -457,8 +457,8 @@
   "generator": {
    "function": "hebrew.shin",
    "file": "src/swbook/hebrew.py",
-   "line": 364,
-   "source_sha256": "3f882e399110a7d1"
+   "line": 393,
+   "source_sha256": "adcb377c625da75b"
   },
   "third_party_outlines": false
  },
@@ -472,8 +472,8 @@
   "generator": {
    "function": "hebrew.tav",
    "file": "src/swbook/hebrew.py",
-   "line": 383,
-   "source_sha256": "25c3f248b0ab2658"
+   "line": 412,
+   "source_sha256": "51235ab4a22036d9"
   },
   "third_party_outlines": false
  },
@@ -2555,7 +2555,7 @@
   "generator": {
    "function": "__main__.make_notdef",
    "file": "src/swbook/__main__.py",
-   "line": 88,
+   "line": 90,
    "source_sha256": "055b351e95f8fc03"
   },
   "third_party_outlines": false
@@ -2630,7 +2630,7 @@
   "generator": {
    "function": "hebrew.alef",
    "file": "src/swbook/hebrew.py",
-   "line": 393,
+   "line": 422,
    "source_sha256": "d4e52abea9efd717"
   },
   "third_party_outlines": false
@@ -2645,7 +2645,7 @@
   "generator": {
    "function": "hebrew.bet",
    "file": "src/swbook/hebrew.py",
-   "line": 406,
+   "line": 435,
    "source_sha256": "dbc95f2b9ffdd67a"
   },
   "third_party_outlines": false
@@ -2660,7 +2660,7 @@
   "generator": {
    "function": "hebrew.gimel",
    "file": "src/swbook/hebrew.py",
-   "line": 419,
+   "line": 448,
    "source_sha256": "c9711d3e7d55338d"
   },
   "third_party_outlines": false
@@ -2675,8 +2675,8 @@
   "generator": {
    "function": "hebrew.dalet",
    "file": "src/swbook/hebrew.py",
-   "line": 81,
-   "source_sha256": "e5cd26c7be2d1c30"
+   "line": 111,
+   "source_sha256": "f083630cd6fb3b51"
   },
   "third_party_outlines": false
  },
@@ -2690,8 +2690,8 @@
   "generator": {
    "function": "hebrew.he",
    "file": "src/swbook/hebrew.py",
-   "line": 105,
-   "source_sha256": "02922e27fd96ee3c"
+   "line": 135,
+   "source_sha256": "1cfd7669c6652f91"
   },
   "third_party_outlines": false
  },
@@ -2705,7 +2705,7 @@
   "generator": {
    "function": "hebrew.vav",
    "file": "src/swbook/hebrew.py",
-   "line": 125,
+   "line": 155,
    "source_sha256": "ff7099ff2d1b1638"
   },
   "third_party_outlines": false
@@ -2720,8 +2720,8 @@
   "generator": {
    "function": "hebrew.zayin",
    "file": "src/swbook/hebrew.py",
-   "line": 137,
-   "source_sha256": "74e8dbabc4f6431f"
+   "line": 167,
+   "source_sha256": "99f0821b0a9d93b8"
   },
   "third_party_outlines": false
  },
@@ -2735,8 +2735,8 @@
   "generator": {
    "function": "hebrew.het",
    "file": "src/swbook/hebrew.py",
-   "line": 116,
-   "source_sha256": "209d56d67e20082e"
+   "line": 146,
+   "source_sha256": "ae7299e5b9992a70"
   },
   "third_party_outlines": false
  },
@@ -2750,8 +2750,8 @@
   "generator": {
    "function": "hebrew.tet",
    "file": "src/swbook/hebrew.py",
-   "line": 152,
-   "source_sha256": "e9ec0d148b2a16cc"
+   "line": 182,
+   "source_sha256": "79c376775699b63d"
   },
   "third_party_outlines": false
  },
@@ -2765,8 +2765,8 @@
   "generator": {
    "function": "hebrew.yod",
    "file": "src/swbook/hebrew.py",
-   "line": 145,
-   "source_sha256": "356c04c93fd015cc"
+   "line": 175,
+   "source_sha256": "9e25f723396f56e9"
   },
   "third_party_outlines": false
  },
@@ -2780,7 +2780,7 @@
   "generator": {
    "function": "hebrew.kaf_final",
    "file": "src/swbook/hebrew.py",
-   "line": 182,
+   "line": 212,
    "source_sha256": "dc1de99b8d19bd2e"
   },
   "third_party_outlines": false
@@ -2795,7 +2795,7 @@
   "generator": {
    "function": "hebrew.kaf",
    "file": "src/swbook/hebrew.py",
-   "line": 169,
+   "line": 199,
    "source_sha256": "f7f90d9e53302d3c"
   },
   "third_party_outlines": false
@@ -2810,7 +2810,7 @@
   "generator": {
    "function": "hebrew.lamed",
    "file": "src/swbook/hebrew.py",
-   "line": 195,
+   "line": 225,
    "source_sha256": "057ad5d8f1ce4bfa"
   },
   "third_party_outlines": false
@@ -2825,8 +2825,8 @@
   "generator": {
    "function": "hebrew.mem_final",
    "file": "src/swbook/hebrew.py",
-   "line": 226,
-   "source_sha256": "538339822a47cb81"
+   "line": 254,
+   "source_sha256": "bc70ec6d3bfb57f7"
   },
   "third_party_outlines": false
  },
@@ -2840,8 +2840,8 @@
   "generator": {
    "function": "hebrew.mem",
    "file": "src/swbook/hebrew.py",
-   "line": 209,
-   "source_sha256": "b972d3ff90d36899"
+   "line": 239,
+   "source_sha256": "650a7cd29b0fad42"
   },
   "third_party_outlines": false
  },
@@ -2855,7 +2855,7 @@
   "generator": {
    "function": "hebrew.nun_final",
    "file": "src/swbook/hebrew.py",
-   "line": 251,
+   "line": 279,
    "source_sha256": "bd453e805f6405cc"
   },
   "third_party_outlines": false
@@ -2870,7 +2870,7 @@
   "generator": {
    "function": "hebrew.nun",
    "file": "src/swbook/hebrew.py",
-   "line": 239,
+   "line": 267,
    "source_sha256": "3a8f73b8a663ae3e"
   },
   "third_party_outlines": false
@@ -2885,8 +2885,8 @@
   "generator": {
    "function": "hebrew.samekh",
    "file": "src/swbook/hebrew.py",
-   "line": 264,
-   "source_sha256": "e37e4b107a58d787"
+   "line": 292,
+   "source_sha256": "a4f8a965ea8d0d17"
   },
   "third_party_outlines": false
  },
@@ -2900,8 +2900,8 @@
   "generator": {
    "function": "hebrew.ayin",
    "file": "src/swbook/hebrew.py",
-   "line": 272,
-   "source_sha256": "8673b3ab677eeb1c"
+   "line": 301,
+   "source_sha256": "962369165827c05a"
   },
   "third_party_outlines": false
  },
@@ -2915,7 +2915,7 @@
   "generator": {
    "function": "hebrew.pe_final",
    "file": "src/swbook/hebrew.py",
-   "line": 312,
+   "line": 341,
    "source_sha256": "6f6c078e901a9c77"
   },
   "third_party_outlines": false
@@ -2930,7 +2930,7 @@
   "generator": {
    "function": "hebrew.pe",
    "file": "src/swbook/hebrew.py",
-   "line": 284,
+   "line": 313,
    "source_sha256": "6573865f44a474c1"
   },
   "third_party_outlines": false
@@ -2945,7 +2945,7 @@
   "generator": {
    "function": "hebrew.tsadi_final",
    "file": "src/swbook/hebrew.py",
-   "line": 346,
+   "line": 375,
    "source_sha256": "6b320410c4c94ded"
   },
   "third_party_outlines": false
@@ -2960,8 +2960,8 @@
   "generator": {
    "function": "hebrew.tsadi",
    "file": "src/swbook/hebrew.py",
-   "line": 316,
-   "source_sha256": "f127bba6911a6478"
+   "line": 345,
+   "source_sha256": "ad547b2018325cdd"
   },
   "third_party_outlines": false
  },
@@ -2975,7 +2975,7 @@
   "generator": {
    "function": "hebrew.qof",
    "file": "src/swbook/hebrew.py",
-   "line": 350,
+   "line": 379,
    "source_sha256": "804842967ba7ff9c"
   },
   "third_party_outlines": false
@@ -2990,7 +2990,7 @@
   "generator": {
    "function": "hebrew.resh",
    "file": "src/swbook/hebrew.py",
-   "line": 89,
+   "line": 119,
    "source_sha256": "0e244dfc961dcbf1"
   },
   "third_party_outlines": false
@@ -3005,8 +3005,8 @@
   "generator": {
    "function": "hebrew.shin",
    "file": "src/swbook/hebrew.py",
-   "line": 364,
-   "source_sha256": "3f882e399110a7d1"
+   "line": 393,
+   "source_sha256": "adcb377c625da75b"
   },
   "third_party_outlines": false
  },
@@ -3020,8 +3020,8 @@
   "generator": {
    "function": "hebrew.tav",
    "file": "src/swbook/hebrew.py",
-   "line": 383,
-   "source_sha256": "25c3f248b0ab2658"
+   "line": 412,
+   "source_sha256": "51235ab4a22036d9"
   },
   "third_party_outlines": false
  },
