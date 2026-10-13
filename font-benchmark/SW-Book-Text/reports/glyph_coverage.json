@@ -3,7 +3,7 @@
  "fonts": {
   "Regular": {
    "file": "fonts/SWBookText-Regular.ttf",
-   "sha256": "e654ea24d43036a0462d63179d3d190903e8846901048f96b701f86f47f3bb8d",
+   "sha256": "979df19c45219949809842ea1ec4709ffa3d68f9d79d4a08e80c5bf8a63787c3",
    "glyph_count": 172,
    "cmap_codepoints": 171,
    "groups": {
@@ -958,7 +958,7 @@
   },
   "Bold": {
    "file": "fonts/SWBookText-Bold.ttf",
-   "sha256": "7f2b82fba7023554dcbcbaacb88ecf5f204e4251acb247b5a0a1a1724da80d90",
+   "sha256": "f6b79e4a737373a60a95b3a4ef2858d8b2a57333ad0b37fb6b241ac4bcba9759",
    "glyph_count": 172,
    "cmap_codepoints": 171,
    "groups": {

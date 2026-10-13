@@ -1,19 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="het" format="2">
-  <advance width="709"/>
+  <advance width="710"/>
   <unicode hex="05D7"/>
   <outline>
     <contour>
       <point x="73" y="650" type="line"/>
       <point x="73" y="601" type="line"/>
       <point x="130" y="576" type="line"/>
-      <point x="132" y="46" type="line" smooth="yes"/>
-      <point x="132" y="6"/>
+      <point x="133" y="46" type="line" smooth="yes"/>
+      <point x="133" y="6"/>
       <point x="120" y="0" type="qcurve"/>
       <point x="184" y="0" type="line"/>
-      <point x="171" y="6"/>
-      <point x="171" y="46" type="qcurve" smooth="yes"/>
-      <point x="173" y="566" type="line"/>
+      <point x="172" y="6"/>
+      <point x="172" y="46" type="qcurve" smooth="yes"/>
       <point x="174" y="566" type="line"/>
       <point x="174" y="546" type="line"/>
       <point x="174" y="557"/>
@@ -24,14 +23,14 @@
       <point x="569" y="557"/>
       <point x="569" y="546" type="curve"/>
       <point x="569" y="566" type="line"/>
-      <point x="571" y="46" type="line" smooth="yes"/>
-      <point x="571" y="6"/>
+      <point x="572" y="46" type="line" smooth="yes"/>
+      <point x="572" y="6"/>
       <point x="559" y="0" type="qcurve"/>
       <point x="623" y="0" type="line"/>
-      <point x="610" y="6"/>
-      <point x="610" y="46" type="qcurve" smooth="yes"/>
-      <point x="612" y="559" type="line"/>
-      <point x="625" y="537" type="line"/>
+      <point x="611" y="6"/>
+      <point x="611" y="46" type="qcurve" smooth="yes"/>
+      <point x="613" y="559" type="line"/>
+      <point x="626" y="537" type="line"/>
       <point x="643" y="532" type="line"/>
       <point x="643" y="650" type="line"/>
     </contour>

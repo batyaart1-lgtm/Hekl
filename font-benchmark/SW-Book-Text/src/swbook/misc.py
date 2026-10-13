@@ -228,8 +228,10 @@ def punct(c, ch):
     elif ch == '°':
         s = S(c.ell(120, C * 0.78, 100 - a / 2, 100 - b / 2))
     elif ch == '§':
-        sg, i = U_S_small(c, 0.8)
-        s = S(sg)
+        sg, i = U_S_small(c)
+        top = Shape(); top.path = xform(sg.path, 0.80, 0.60, 0, C * 0.40)
+        bot = Shape(); bot.path = xform(sg.path, 0.80, 0.60, 0, -C * 0.02)
+        s = S(top, bot)
     elif ch == '¶':
         s = S(c.v(300, -80, C), c.v(440, -80, C), c.h(300, 600, C - b / 2),
               c.pen(Pth(300, C - b / 2).C(80, C - b / 2, 80, C * 0.50, 300, C * 0.46)))

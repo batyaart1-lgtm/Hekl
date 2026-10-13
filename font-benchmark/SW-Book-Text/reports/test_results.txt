@@ -1,5 +1,5 @@
 # SW Book Text benchmark prototype - full validation log
-# started: 2026-10-13T11:07:26Z   host: Linux 6.18.44-fc-v114 x86_64   python: Python 3.13.16
+# started: 2026-10-13T11:31:17Z   host: Linux 6.18.44-fc-v114 x86_64   python: Python 3.13.16
 
 $ bash -c cd src && python3 -m swbook.build
 built Regular
@@ -15,9 +15,9 @@ reports written to /home/user/Hekl/font-benchmark/SW-Book-Text/reports
 [exit code: 0]
 
 $ sha256sum fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf specimen/SWBookText-Specimen.pdf
-e654ea24d43036a0462d63179d3d190903e8846901048f96b701f86f47f3bb8d  fonts/SWBookText-Regular.ttf
-7f2b82fba7023554dcbcbaacb88ecf5f204e4251acb247b5a0a1a1724da80d90  fonts/SWBookText-Bold.ttf
-529e95023ac7f565e4de508dc6fb851adda8ba5eedc648d2ec00edff009d3c45  specimen/SWBookText-Specimen.pdf
+979df19c45219949809842ea1ec4709ffa3d68f9d79d4a08e80c5bf8a63787c3  fonts/SWBookText-Regular.ttf
+f6b79e4a737373a60a95b3a4ef2858d8b2a57333ad0b37fb6b241ac4bcba9759  fonts/SWBookText-Bold.ttf
+0c6fe76d26fbb570cb62b02ef7891b24fc337ea18a4869da583d550fb55bae39  specimen/SWBookText-Specimen.pdf
 [exit code: 0]
 
 $ python3 -m pytest tests -v -p no:cacheprovider
@@ -96,7 +96,7 @@ tests/test_pdf.py::test_text_inside_column_and_no_overlap_page3 PASSED   [ 97%]
 tests/test_pdf.py::test_pdf_build_reproducible PASSED                    [ 98%]
 tests/test_pdf.py::test_shared_specimen_text_hash_recorded PASSED        [100%]
 
-============================= 68 passed in 11.50s ==============================
+============================= 68 passed in 11.45s ==============================
 [exit code: 0]
 
 $ fontbakery check-universal --skip-network --succinct -n fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf
@@ -143,7 +143,7 @@ Pages:           6
 Encrypted:       no
 Page size:       595.276 x 841.89 pts (A4)
 Page rot:        0
-File size:       112498 bytes
+File size:       114016 bytes
 Optimized:       no
 PDF version:     1.7
 [exit code: 0]
@@ -156,16 +156,16 @@ SWBookText-Bold                      CID TrueType      Identity-H       yes no  
 [exit code: 0]
 
 $ python3 tools/shaping_demo.py
-Regular 'בָּ' qamats(adv=0,dx=346,dy=-22) dagesh(adv=0,dx=301,dy=325) bet(adv=692,dx=0,dy=0)
-Regular 'שֹׁ' holam(adv=0,dx=402,dy=698) shindot(adv=0,dx=594,dy=698) shin(adv=774,dx=0,dy=0)
-Regular 'ךָ' qamats(adv=0,dx=340,dy=-110) finalkaf(adv=562,dx=0,dy=0)
-Regular 'שָׁלוֹם' finalmem(adv=656,dx=0,dy=0) holam(adv=0,dx=150,dy=686) vav(adv=302,dx=0,dy=0) lamed(adv=554,dx=0,dy=0) qamats(adv=0,dx=387,dy=-22) shindot(adv=0,dx=594,dy=698) shin(adv=774,dx=0,dy=0)
+Regular 'בָּ' qamats(adv=0,dx=336,dy=-22) dagesh(adv=0,dx=291,dy=325) bet(adv=667,dx=0,dy=0)
+Regular 'שֹׁ' holam(adv=0,dx=447,dy=698) shindot(adv=0,dx=639,dy=698) shin(adv=843,dx=0,dy=0)
+Regular 'ךָ' qamats(adv=0,dx=319,dy=-110) finalkaf(adv=557,dx=0,dy=0)
+Regular 'שָׁלוֹם' finalmem(adv=710,dx=0,dy=0) holam(adv=0,dx=142,dy=686) vav(adv=259,dx=0,dy=0) lamed(adv=538,dx=0,dy=0) qamats(adv=0,dx=416,dy=-22) shindot(adv=0,dx=639,dy=698) shin(adv=843,dx=0,dy=0)
 Regular 'AV To' A(adv=692,dx=0,dy=0) V(adv=720,dx=0,dy=0) space(adv=250,dx=0,dy=0) T(adv=606,dx=0,dy=0) o(adv=570,dx=0,dy=0)
-Bold 'בָּ' qamats(adv=0,dx=363,dy=-22) dagesh(adv=0,dx=314,dy=325) bet(adv=726,dx=0,dy=0)
-Bold 'שֹׁ' holam(adv=0,dx=449,dy=698) shindot(adv=0,dx=657,dy=698) shin(adv=843,dx=0,dy=0)
-Bold 'ךָ' qamats(adv=0,dx=298,dy=-110) finalkaf(adv=586,dx=0,dy=0)
-Bold 'שָׁלוֹם' finalmem(adv=690,dx=0,dy=0) holam(adv=0,dx=181,dy=686) vav(adv=363,dx=0,dy=0) lamed(adv=577,dx=0,dy=0) qamats(adv=0,dx=421,dy=-22) shindot(adv=0,dx=657,dy=698) shin(adv=843,dx=0,dy=0)
+Bold 'בָּ' qamats(adv=0,dx=356,dy=-22) dagesh(adv=0,dx=308,dy=325) bet(adv=706,dx=0,dy=0)
+Bold 'שֹׁ' holam(adv=0,dx=519,dy=698) shindot(adv=0,dx=727,dy=698) shin(adv=935,dx=0,dy=0)
+Bold 'ךָ' qamats(adv=0,dx=273,dy=-110) finalkaf(adv=582,dx=0,dy=0)
+Bold 'שָׁלוֹם' finalmem(adv=746,dx=0,dy=0) holam(adv=0,dx=164,dy=686) vav(adv=313,dx=0,dy=0) lamed(adv=564,dx=0,dy=0) qamats(adv=0,dx=454,dy=-22) shindot(adv=0,dx=727,dy=698) shin(adv=935,dx=0,dy=0)
 Bold 'AV To' A(adv=750,dx=0,dy=0) V(adv=760,dx=0,dy=0) space(adv=250,dx=0,dy=0) T(adv=642,dx=0,dy=0) o(adv=594,dx=0,dy=0)
 [exit code: 0]
 
-# finished in 20 s
+# finished in 21 s

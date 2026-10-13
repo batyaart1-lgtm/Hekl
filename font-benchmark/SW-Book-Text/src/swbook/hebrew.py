@@ -420,7 +420,7 @@ def tav(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(590)
     ov = 30
-    xl = w * 0.10
+    xl = w * 0.17
     s = S(c.roof(0, w), c.beak(w), c.stemR(w - ov, 0, T - H * 0.5), c.fillet(w - ov - V, T - H, -1, -1),
           c.stem(xl, 0, T - H * 0.5, flare=False), c.fillet(xl + V, T - H, 1, -1), c.base(0, xl + V))
     return s, info(s, inside=(w * 0.5, T * 0.42))
@@ -429,11 +429,11 @@ def tav(c):
 def alef(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(600)
-    a_d, a_a = 60 + 0.55 * V, 50 + 0.48 * V      # diagonal / arm pen widths (Bold must not clog the counters)
-    diag = stroke(line(w * 0.22, T, w * 0.78, 0), a_d, H * 0.85)
+    a_d, a_a = 46 + 0.50 * V, 40 + 0.42 * V      # diagonal / arm pen widths (Bold must not clog the counters)
+    diag = stroke(line(w * 0.22, T, w * 0.78, 0), a_d, H * 0.80)
     # arms are yod-like: a short slant off the diagonal, then a vertical stem ending in a head / foot
-    ur = stroke(Pth(w * 0.60, 0.46 * T).L(w * 0.82, 0.66 * T).L(w * 0.82, T - H * 0.5), a_a, H * 0.75)
-    ll = stroke(Pth(w * 0.40, 0.54 * T).L(w * 0.18, 0.34 * T).L(w * 0.18, H * 0.5), a_a, H * 0.75)
+    ur = stroke(Pth(w * 0.60, 0.46 * T).L(w * 0.82, 0.66 * T).L(w * 0.82, T - H * 0.5), a_a, H * 0.70)
+    ll = stroke(Pth(w * 0.40, 0.54 * T).L(w * 0.18, 0.34 * T).L(w * 0.18, H * 0.5), a_a, H * 0.70)
     s = S(diag, ur, ll, c.roof(w * 0.68, w, T), c.base(0, w * 0.34))
     s.clip(-5, 0, w + 5, T)
     return s, info(s, inside=(w * 0.17, T * 0.74))

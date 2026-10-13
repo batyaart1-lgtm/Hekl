@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="samekh" format="2">
-  <advance width="684"/>
+  <advance width="685"/>
   <unicode hex="05E1"/>
   <outline>
     <contour>
@@ -18,8 +18,8 @@
       <point x="153" y="561" type="qcurve" smooth="yes"/>
       <point x="114" y="515"/>
       <point x="93" y="455" type="qcurve" smooth="yes"/>
-      <point x="71" y="393"/>
-      <point x="71" y="257"/>
+      <point x="72" y="393"/>
+      <point x="72" y="257"/>
       <point x="93" y="195" type="qcurve" smooth="yes"/>
       <point x="114" y="135"/>
       <point x="153" y="89" type="qcurve" smooth="yes"/>
@@ -49,8 +49,8 @@
       <point x="221" y="164" type="qcurve" smooth="yes"/>
       <point x="195" y="195"/>
       <point x="180" y="236" type="qcurve" smooth="yes"/>
-      <point x="165" y="278"/>
-      <point x="165" y="372"/>
+      <point x="166" y="278"/>
+      <point x="166" y="372"/>
       <point x="180" y="414" type="qcurve" smooth="yes"/>
       <point x="195" y="455"/>
       <point x="221" y="486" type="qcurve" smooth="yes"/>
