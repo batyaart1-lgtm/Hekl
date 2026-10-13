@@ -85,8 +85,12 @@ class HCtx:
     def stemR(self, xr, y0, y1, flare=True):
         return self.stem(xr - self.V, y0, y1, flare)
 
+    @property
+    def mark_r(self):
+        return 42 if self.bold else 32
+
     def below_off(self, wide=False):
-        r = 38 if self.bold else 28
+        r = self.mark_r
         return (5.3 if wide else 2.7) * r + 30
 
     def W(self, w):
@@ -190,9 +194,12 @@ def tet(c):
     p.L(xr, yt - 60)
     p.arc(xr - 90, yt - 60, 90, 60, 0, 90)
     s1 = c.pen(p)
-    # inner hook: the roof runs left and curls down well into the bowl
-    q = Pth(xr - 90, yt).L(w * 0.50, yt).C(w * 0.33, yt, w * 0.27, yt - 50, w * 0.27, yt - 170)
-    s = S(s1, c.pen(q), rect(0, T - H * 0.6, V * 1.6, T))
+    # inner hook: the roof runs left and curls down into the bowl; in Bold it is shorter so the counter stays open
+    k = 0.62 if c.bold else 1.0
+    q = Pth(xr - 90, yt).L(w * (0.56 if c.bold else 0.50), yt).C(w * 0.40, yt, w * 0.34, yt - 40 * k, w * 0.34, yt - 170 * k)
+    s = S(s1, c.pen(q))
+    if not c.bold:
+        s.add(rect(0, T - H * 0.6, V * 1.6, T))
     return s, info(s, inside=(w * 0.52, T * 0.26))
 
 

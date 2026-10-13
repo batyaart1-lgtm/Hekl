@@ -287,7 +287,7 @@ def heb_punct(c, cp):
 # ============================ combining marks ===========================
 class MarkCtx:
     def __init__(self, hc):
-        self.r = 28 if not hc.bold else 38
+        self.r = hc.mark_r
         self.t = hc.H * 0.62
         self.V = hc.V
 
