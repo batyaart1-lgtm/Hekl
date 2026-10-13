@@ -36,12 +36,17 @@ Builds are deterministic (fixed timestamps, no randomness); `tests` rebuild twic
 * Hebrew: horizontal-stress serif. Horizontals are thick, verticals thin, produced by an *elliptical
   pen* (`geom.stroke`): the centre-line is stroked with a Skia stroker in an x-scaled space and
   scaled back, so contrast is identical across all letters. Roofs have a chiselled left terminal,
-  free stems a flared foot. Regular pen 80/50 units (H/V), Bold 108/94.
-* Latin: vertical-stress serif, slab-like unbracketed serifs, same pen idea (84/30 and 118/42).
-* Metrics: UPM 1000, Hebrew letter height 650, lamed 800, finals −230; Latin x-height 440, cap 650.
+  free stems a flared foot. Regular pen 98/57 units (H/V), Bold 124/108 (Round 2 values).
+* Latin: vertical-stress serif, slab-like unbracketed serifs, same pen idea (92/32 and 126/44).
+* Metrics: UPM 1000, Hebrew letter height 715, lamed 880, finals −250; Latin x-height 470, cap 700.
   Digits are tabular, lining, height matched to Hebrew.
 * OpenType: GPOS `mark` (mark-to-base: below, dagesh/inside, holam, shin dot, sin dot, rafe; extra anchors for
   descender finals and wide hataf marks), GPOS `kern` (script-generated optical pairs), GDEF classes.
 * The shaped specimen uses HarfBuzz for all positioning; bidi is a documented UAX#9 subset (`pdflib.bidi_levels`).
 
 See `reports/KNOWN_DEFECTS.md` and `reports/WORK_STATUS.md` for honest limitations.
+
+## Round 2 (iterative refinement)
+See `round2/ROUND2_REPORT.md` (summary, validation, unresolved defects, candid assessment), `round2/CHANGELOG.md`, `round2/GLYPH_AUDIT.md`,
+`round2/compare_glyphs/`, `round2/compare_pages/`, `round2/specimen_before.pdf` / `specimen_after.pdf`; frozen baseline in `baseline_round1/`.
+Audit tools: `tools/snapshot.py`, `tools/cmp.py`, `tools/auditlib.py`, `tools/latin_sheet.py`.

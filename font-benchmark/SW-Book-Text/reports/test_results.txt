@@ -1,5 +1,5 @@
 # SW Book Text benchmark prototype - full validation log
-# started: 2026-10-13T11:31:17Z   host: Linux 6.18.44-fc-v114 x86_64   python: Python 3.13.16
+# started: 2026-10-13T11:52:00Z   host: Linux 6.18.44-fc-v114 x86_64   python: Python 3.13.16
 
 $ bash -c cd src && python3 -m swbook.build
 built Regular
@@ -15,9 +15,9 @@ reports written to /home/user/Hekl/font-benchmark/SW-Book-Text/reports
 [exit code: 0]
 
 $ sha256sum fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf specimen/SWBookText-Specimen.pdf
-979df19c45219949809842ea1ec4709ffa3d68f9d79d4a08e80c5bf8a63787c3  fonts/SWBookText-Regular.ttf
-f6b79e4a737373a60a95b3a4ef2858d8b2a57333ad0b37fb6b241ac4bcba9759  fonts/SWBookText-Bold.ttf
-0c6fe76d26fbb570cb62b02ef7891b24fc337ea18a4869da583d550fb55bae39  specimen/SWBookText-Specimen.pdf
+79ddccf523dd0fab6eb3e45545ad090cfbafa4c40a1ed76552be2f76475cda17  fonts/SWBookText-Regular.ttf
+5dd941cec5e2ade961819dbbba14cc2615e99834ad928369f2ea99ec35802dbc  fonts/SWBookText-Bold.ttf
+9e8bc0f6eef4f3345fba97c362ff9d3e4510e8116914360df6cec84f42c193fa  specimen/SWBookText-Specimen.pdf
 [exit code: 0]
 
 $ python3 -m pytest tests -v -p no:cacheprovider
@@ -41,7 +41,7 @@ tests/test_font.py::test_contours_valid[Regular] PASSED                  [ 16%]
 tests/test_font.py::test_extreme_bboxes[Regular] PASSED                  [ 17%]
 tests/test_font.py::test_outer_contours_clockwise_truetype[Regular] PASSED [ 19%]
 tests/test_font.py::test_horizontal_metrics[Regular] PASSED              [ 20%]
-tests/test_font.py::test_sidebearing_consistency_hebrew[Regular] PASSED  [ 22%]
+tests/test_font.py::test_optical_sidebearing_consistency_hebrew[Regular] PASSED [ 22%]
 tests/test_font.py::test_gpos_features_present[Regular] PASSED           [ 23%]
 tests/test_font.py::test_mark_positioning_attaches_all_marks[Regular] PASSED [ 25%]
 tests/test_font.py::test_marks_do_not_collide_with_base[Regular] PASSED  [ 26%]
@@ -65,7 +65,7 @@ tests/test_font.py::test_contours_valid[Bold] PASSED                     [ 51%]
 tests/test_font.py::test_extreme_bboxes[Bold] PASSED                     [ 52%]
 tests/test_font.py::test_outer_contours_clockwise_truetype[Bold] PASSED  [ 54%]
 tests/test_font.py::test_horizontal_metrics[Bold] PASSED                 [ 55%]
-tests/test_font.py::test_sidebearing_consistency_hebrew[Bold] PASSED     [ 57%]
+tests/test_font.py::test_optical_sidebearing_consistency_hebrew[Bold] PASSED [ 57%]
 tests/test_font.py::test_gpos_features_present[Bold] PASSED              [ 58%]
 tests/test_font.py::test_mark_positioning_attaches_all_marks[Bold] PASSED [ 60%]
 tests/test_font.py::test_marks_do_not_collide_with_base[Bold] PASSED     [ 61%]
@@ -96,7 +96,7 @@ tests/test_pdf.py::test_text_inside_column_and_no_overlap_page3 PASSED   [ 97%]
 tests/test_pdf.py::test_pdf_build_reproducible PASSED                    [ 98%]
 tests/test_pdf.py::test_shared_specimen_text_hash_recorded PASSED        [100%]
 
-============================= 68 passed in 11.45s ==============================
+============================= 68 passed in 12.52s ==============================
 [exit code: 0]
 
 $ fontbakery check-universal --skip-network --succinct -n fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf
@@ -105,7 +105,7 @@ $ fontbakery check-universal --skip-network --succinct -n fonts/SWBookText-Regul
 Start ... running 242 individual check executions.
 SWBookText-Regular.ttf: contour_count: WARN [contour-count]
 SWBookText-Bold.ttf: contour_count: WARN [contour-count]
-SWBookText-Regular.ttf: overlapping_path_segments: WARN [overlapping-path-segments]
+SWBookText-Bold.ttf: overlapping_path_segments: WARN [overlapping-path-segments]
 
  ERROR: 0 FATAL: 0 FAIL: 0 WARN: 3 INFO: 8 SKIP: 82 PASS: 149
 [exit code: 0]
@@ -143,7 +143,7 @@ Pages:           6
 Encrypted:       no
 Page size:       595.276 x 841.89 pts (A4)
 Page rot:        0
-File size:       114016 bytes
+File size:       114261 bytes
 Optimized:       no
 PDF version:     1.7
 [exit code: 0]
@@ -156,16 +156,16 @@ SWBookText-Bold                      CID TrueType      Identity-H       yes no  
 [exit code: 0]
 
 $ python3 tools/shaping_demo.py
-Regular 'בָּ' qamats(adv=0,dx=336,dy=-22) dagesh(adv=0,dx=291,dy=325) bet(adv=667,dx=0,dy=0)
-Regular 'שֹׁ' holam(adv=0,dx=447,dy=698) shindot(adv=0,dx=639,dy=698) shin(adv=843,dx=0,dy=0)
-Regular 'ךָ' qamats(adv=0,dx=319,dy=-110) finalkaf(adv=557,dx=0,dy=0)
-Regular 'שָׁלוֹם' finalmem(adv=710,dx=0,dy=0) holam(adv=0,dx=142,dy=686) vav(adv=259,dx=0,dy=0) lamed(adv=538,dx=0,dy=0) qamats(adv=0,dx=416,dy=-22) shindot(adv=0,dx=639,dy=698) shin(adv=843,dx=0,dy=0)
-Regular 'AV To' A(adv=692,dx=0,dy=0) V(adv=720,dx=0,dy=0) space(adv=250,dx=0,dy=0) T(adv=606,dx=0,dy=0) o(adv=570,dx=0,dy=0)
-Bold 'בָּ' qamats(adv=0,dx=356,dy=-22) dagesh(adv=0,dx=308,dy=325) bet(adv=706,dx=0,dy=0)
-Bold 'שֹׁ' holam(adv=0,dx=519,dy=698) shindot(adv=0,dx=727,dy=698) shin(adv=935,dx=0,dy=0)
-Bold 'ךָ' qamats(adv=0,dx=273,dy=-110) finalkaf(adv=582,dx=0,dy=0)
-Bold 'שָׁלוֹם' finalmem(adv=746,dx=0,dy=0) holam(adv=0,dx=164,dy=686) vav(adv=313,dx=0,dy=0) lamed(adv=564,dx=0,dy=0) qamats(adv=0,dx=454,dy=-22) shindot(adv=0,dx=727,dy=698) shin(adv=935,dx=0,dy=0)
-Bold 'AV To' A(adv=750,dx=0,dy=0) V(adv=760,dx=0,dy=0) space(adv=250,dx=0,dy=0) T(adv=642,dx=0,dy=0) o(adv=594,dx=0,dy=0)
+Regular 'בָּ' qamats(adv=0,dx=325,dy=-22) dagesh(adv=0,dx=279,dy=357) bet(adv=645,dx=0,dy=0)
+Regular 'שֹׁ' holam(adv=0,dx=448,dy=763) shindot(adv=0,dx=644,dy=763) shin(adv=844,dx=0,dy=0)
+Regular 'ךָ' qamats(adv=0,dx=295,dy=-110) finalkaf(adv=540,dx=0,dy=0)
+Regular 'שָׁלוֹם' finalmem(adv=713,dx=0,dy=0) holam(adv=0,dx=126,dy=751) vav(adv=263,dx=0,dy=0) lamed(adv=462,dx=0,dy=0) qamats(adv=0,dx=408,dy=-22) shindot(adv=0,dx=644,dy=763) shin(adv=844,dx=0,dy=0)
+Regular 'AV To' A(adv=708,dx=0,dy=0) V(adv=720,dx=0,dy=0) space(adv=215,dx=0,dy=0) T(adv=606,dx=0,dy=0) o(adv=570,dx=0,dy=0)
+Bold 'בָּ' qamats(adv=0,dx=341,dy=-22) dagesh(adv=0,dx=293,dy=357) bet(adv=676,dx=0,dy=0)
+Bold 'שֹׁ' holam(adv=0,dx=519,dy=763) shindot(adv=0,dx=727,dy=763) shin(adv=931,dx=0,dy=0)
+Bold 'ךָ' qamats(adv=0,dx=241,dy=-110) finalkaf(adv=558,dx=0,dy=0)
+Bold 'שָׁלוֹם' finalmem(adv=737,dx=0,dy=0) holam(adv=0,dx=147,dy=751) vav(adv=306,dx=0,dy=0) lamed(adv=476,dx=0,dy=0) qamats(adv=0,dx=444,dy=-22) shindot(adv=0,dx=727,dy=763) shin(adv=931,dx=0,dy=0)
+Bold 'AV To' A(adv=750,dx=0,dy=0) V(adv=760,dx=0,dy=0) space(adv=215,dx=0,dy=0) T(adv=642,dx=0,dy=0) o(adv=594,dx=0,dy=0)
 [exit code: 0]
 
-# finished in 21 s
+# finished in 22 s

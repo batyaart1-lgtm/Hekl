@@ -1,3 +1,5 @@
+> **Round-1 list.** Round 2 superseded parts of it (letter anatomy, weights, spacing, marks). Current status: `round2/ROUND2_REPORT.md` and `round2/GLYPH_AUDIT.md`.
+
 # Known defects, limitations and items needing human visual review
 
 Honest status: this is a **working but unpolished prototype**, not a professional-quality typeface. Passing the

@@ -39,3 +39,6 @@ Wall-clock: approx. 30 minutes of agent session (10:39 → ~11:10 UTC, 2026-10-1
 * Per the brief ("do not commit, push … without explicit authorization") **nothing was committed or pushed**; the
   working tree on branch `claude/practical-keller-o8kn3j` holds the uncommitted new directory.
 * Packages were installed with `pip` into the container (fonttools, ufo2ft, uharfbuzz, fontbakery, …); no paid service used.
+
+## Round 2
+See `round2/ROUND2_REPORT.md`. Fonts/PDF/tests were regenerated: pytest 68 passed, FontBakery universal 0 FAIL/3 WARN, opentype 0 FAIL/0 WARN, OTS ok, builds reproducible. Not committed/pushed beyond local commits per the Round-2 instruction.

@@ -38,3 +38,6 @@ edition** and needs proofreading before publication.
 ## Licence status
 `OS/2.fsType = 2` (restricted-licence embedding) and name table ID 13 state that no production licence is assigned.
 The font is not added to any production catalog.
+
+## Round 2 addendum (reference material)
+During Round 2 the user supplied two PDF pages of Hebrew text as examples of professional typography (and named a font, "Livorna", that was not available and was never viewed). Their renders and enlarged letter crops were looked at to correct letter anatomy, proportions, weight and spacing; the crops stayed in the session scratch directory and are not in the repository. No outline, bitmap or measurement from them was imported into the build, and the build still opens no font file (automated test). Nevertheless the letter structure of several glyphs (ו ל מ פ ף ע צ ץ ק ג ן י) was revised after seeing that reference, so the clean-room statement above no longer holds for Round 2 and a human originality/legal review is required.
