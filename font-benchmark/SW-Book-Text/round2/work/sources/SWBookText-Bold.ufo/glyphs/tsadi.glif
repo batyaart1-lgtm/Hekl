@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tsadi" format="2">
+  <advance width="669"/>
+  <unicode hex="05E6"/>
+  <outline>
+    <contour>
+      <point x="72" y="455" type="line"/>
+      <point x="72" y="195" type="line" smooth="yes"/>
+      <point x="72" y="65"/>
+      <point x="151" y="23" type="qcurve" smooth="yes"/>
+      <point x="181" y="7"/>
+      <point x="226" y="2" type="qcurve" smooth="yes"/>
+      <point x="250" y="0"/>
+      <point x="305" y="0" type="qcurve" smooth="yes"/>
+      <point x="308" y="0"/>
+      <point x="310" y="0" type="qcurve" smooth="yes"/>
+      <point x="534" y="0" type="line"/>
+      <point x="534" y="108" type="line"/>
+      <point x="404" y="108" type="line"/>
+      <point x="617" y="317" type="line"/>
+      <point x="566" y="338" type="line"/>
+      <point x="613" y="338" type="line"/>
+      <point x="613" y="650" type="line"/>
+      <point x="462" y="650" type="line"/>
+      <point x="462" y="587" type="line"/>
+      <point x="519" y="562" type="line"/>
+      <point x="519" y="357" type="line"/>
+      <point x="515" y="359" type="line"/>
+      <point x="259" y="109" type="line"/>
+      <point x="243" y="109"/>
+      <point x="234" y="110" type="qcurve" smooth="yes"/>
+      <point x="205" y="113"/>
+      <point x="191" y="121" type="qcurve" smooth="yes"/>
+      <point x="180" y="127"/>
+      <point x="174" y="138" type="qcurve" smooth="yes"/>
+      <point x="166" y="157"/>
+      <point x="166" y="195" type="qcurve" smooth="yes"/>
+      <point x="166" y="455" type="line"/>
+    </contour>
+    <contour>
+      <point x="52" y="650" type="line"/>
+      <point x="52" y="587" type="line"/>
+      <point x="154" y="542" type="line"/>
+      <point x="242" y="542" type="line"/>
+      <point x="242" y="650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

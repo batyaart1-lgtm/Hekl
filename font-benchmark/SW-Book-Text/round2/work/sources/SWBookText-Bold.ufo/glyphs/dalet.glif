@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dalet" format="2">
+  <advance width="651"/>
+  <unicode hex="05D3"/>
+  <outline>
+    <contour>
+      <point x="61" y="650" type="line"/>
+      <point x="61" y="587" type="line"/>
+      <point x="163" y="542" type="line"/>
+      <point x="450" y="542" type="line"/>
+      <point x="450" y="59" type="line"/>
+      <point x="392" y="0" type="line"/>
+      <point x="544" y="0" type="line"/>
+      <point x="544" y="542" type="line"/>
+      <point x="590" y="542" type="line"/>
+      <point x="590" y="650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gershayim" format="2">
+  <advance width="321"/>
+  <unicode hex="05F4"/>
+  <outline>
+    <contour>
+      <point x="46" y="650" type="line"/>
+      <point x="56" y="460" type="line"/>
+      <point x="91" y="460" type="line"/>
+      <point x="121" y="650" type="line"/>
+    </contour>
+    <contour>
+      <point x="216" y="650" type="line"/>
+      <point x="226" y="460" type="line"/>
+      <point x="261" y="460" type="line"/>
+      <point x="291" y="650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

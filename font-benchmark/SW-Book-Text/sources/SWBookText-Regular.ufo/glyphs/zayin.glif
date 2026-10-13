@@ -1,19 +1,19 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zayin" format="2">
-  <advance width="454"/>
+  <advance width="534"/>
   <unicode hex="05D6"/>
   <outline>
     <contour>
       <point x="62" y="650" type="line"/>
       <point x="62" y="604" type="line"/>
       <point x="138" y="570" type="line"/>
-      <point x="222" y="570" type="line"/>
-      <point x="222" y="44" type="line"/>
-      <point x="188" y="0" type="line"/>
-      <point x="272" y="0" type="line"/>
-      <point x="272" y="570" type="line"/>
-      <point x="392" y="570" type="line"/>
-      <point x="392" y="650" type="line"/>
+      <point x="242" y="570" type="line"/>
+      <point x="242" y="44" type="line"/>
+      <point x="208" y="0" type="line"/>
+      <point x="292" y="0" type="line"/>
+      <point x="292" y="570" type="line"/>
+      <point x="472" y="570" type="line"/>
+      <point x="472" y="650" type="line"/>
     </contour>
   </outline>
 </glyph>

@@ -80,8 +80,8 @@ def info(s, **kw):
 # ---------------------------------------------------------------------
 def dalet(c):
     T, H, V = c.T, c.H, c.V
-    w = c.W(480)
-    ov = 30
+    w = c.W(490)
+    ov = 46
     s = S(c.roof(0, w), c.stemR(w - ov, 0, T - H * 0.5))
     return s, info(s, inside=(w * 0.5, T * 0.46))
 
@@ -89,7 +89,7 @@ def dalet(c):
 def resh(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(470)
-    R = 130
+    R = 170
     yc = T - H / 2
     xc = w - V / 2
     p = Pth(H * 0.9, yc).L(xc - R, yc).C(xc - R * 0.45, yc, xc, yc - R * 0.35, xc, yc - R)
@@ -106,10 +106,10 @@ def he(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(560)
     ov = 30
-    gap = 120
+    gap = 135
     s = S(c.roof(0, w),
           c.stemR(w - ov, 0, T - H * 0.5),
-          c.stem(w * 0.10, 0, T - H - gap))
+          c.stem(w * 0.15, 0, T - H - gap))
     return s, info(s, inside=(w * 0.38, T * 0.34))
 
 
@@ -125,21 +125,21 @@ def het(c):
 def vav(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(250)
-    xs = w * 0.52 - V / 2
-    head = poly([(xs - V * 0.6, T), (xs + V + c.W(70), T),
-                 (xs + V + c.W(70), T - H), (xs + V, T - H),
-                 (xs + V, T - H), (xs - V * 0.6, T - H)])
-    head = c.roof(xs - V * 0.6, xs + V + c.W(70))
-    s = S(head, c.stem(xs, 0, T - H * 0.5))
+    xs = w * 0.50 - V / 2
+    tab = c.W(40)
+    head = c.roof(xs - V * 0.5, xs + V + tab)
+    beak = poly([(xs + V + tab - V * 0.85, T - H + 2), (xs + V + tab, T - H + 2),
+                 (xs + V + tab, T - H - 46), (xs + V + tab - V * 0.45, T - H - 40)])
+    s = S(head, beak, c.stem(xs, 0, T - H * 0.5))
     return s, info(s, inside=(xs - 48, T * 0.40), below_x=xs + V / 2)
 
 
 def zayin(c):
     T, H, V = c.T, c.H, c.V
-    w = c.W(330)
-    xs = w * 0.56 - V / 2
+    w = c.W(410)
+    xs = w * 0.50 - V / 2
     s = S(c.roof(0, w), c.stem(xs, 0, T - H * 0.5))
-    return s, info(s, inside=(xs - 52, T * 0.38))
+    return s, info(s, inside=(xs - 62, T * 0.38))
 
 
 def yod(c):
@@ -154,25 +154,22 @@ def tet(c):
     w = c.W(560)
     xl = V / 2
     xr = w - V / 2
-    yb = H / 2
     yt = T - H / 2
-    p = Pth(xl + V * 0.2, T - H * 0.2).L(xl, yt - 30).L(xl, 0.34 * T + 20)
+    p = Pth(xl, T - 0.5).L(xl, 0.34 * T + 20)
     p.arc(w * 0.5, 0.36 * T + 4, w * 0.5 - V / 2, 0.36 * T - H / 2 + 4, 180, 360)
     p.L(xr, yt - 60)
     p.arc(xr - 90, yt - 60, 90, 60, 0, 90)
     s1 = c.pen(p)
-    # inner hook from the top roof curling down into the bowl
-    q = Pth(xr - 90, yt).L(w * 0.42, yt).C(w * 0.33, yt, w * 0.30, yt - 40, w * 0.30, yt - 120)
-    hook = c.pen(q)
-    left_cap = poly([(0, T), (V * 2.2, T), (V * 2.2, T - H), (0, T - H * 0.45)])
-    s = S(s1, hook, left_cap)
-    return s, info(s, inside=(w * 0.52, T * 0.30))
+    # inner hook: the roof runs left and curls down well into the bowl
+    q = Pth(xr - 90, yt).L(w * 0.50, yt).C(w * 0.33, yt, w * 0.27, yt - 50, w * 0.27, yt - 170)
+    s = S(s1, c.pen(q), rect(0, T - H * 0.6, V * 1.6, T))
+    return s, info(s, inside=(w * 0.52, T * 0.26))
 
 
 def kaf(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(480)
-    R = 120
+    R = 160
     xr = w - V / 2
     yt = T - H / 2
     yb = H / 2
@@ -201,17 +198,11 @@ def lamed(c):
     A = c.ASC
     xs = w * 0.30
     yt = A - H / 2
-    # ascender with a hook/roof to the right
-    asc = Pth(xs, T * 0.42).L(xs, A - 150).C(xs, yt - 40, xs + 20, yt, xs + 70, yt)
-    asc.L(w * 0.62, yt)
-    roof = c.pen(asc)
-    cut = c.roof(xs - V / 2 - 6, w * 0.62, A)
-    # lower body: a bowl hanging from the stem, opening to the left
+    asc = Pth(xs, T * 0.40).L(xs, A - 150).C(xs, yt - 40, xs + 20, yt, xs + 70, yt).L(w * 0.62, yt)
+    beak = poly([(w * 0.62 - V * 0.85, A - H + 2), (w * 0.62, A - H + 2), (w * 0.62, A - H - 46), (w * 0.62 - V * 0.45, A - H - 40)])
     p = Pth(xs, T * 0.46).C(xs + 60, T * 0.50, w - V / 2 - 30, T * 0.50, w - V / 2, T * 0.34)
-    p.C(w - V / 2, T * 0.14, w * 0.80, H / 2, w * 0.58, H / 2).L(w * 0.12, H / 2)
-    body = c.pen(p)
-    s = S(roof, c.stem(xs - V / 2, T * 0.42, A - 150), body,
-          c.base(0, H * 1.0))
+    p.C(w - V / 2, T * 0.14, w * 0.80, H / 2, w * 0.58, H / 2).L(w * 0.10, H / 2)
+    s = S(c.pen(asc), c.stem(xs - V / 2, T * 0.34, A - 150, flare=False), beak, c.pen(p), c.base(0, H * 1.6))
     return s, info(s, inside=(w * 0.60, T * 0.28), above=(xs, A + 20))
 
 
@@ -283,15 +274,11 @@ def ayin(c):
     w = c.W(540)
     xr = w - V / 2
     yb = H / 2
-    # right arm + bottom bowl
-    p = Pth(xr, T - H * 0.2).L(xr, 0.42 * T).C(xr, 0.16 * T, w * 0.78, yb, w * 0.52, yb)
-    p.C(w * 0.34, yb, w * 0.26, 0.12 * T, w * 0.22, 0.30 * T)
-    # left arm rising to the top-left
-    q = Pth(w * 0.22, 0.30 * T).C(w * 0.16, 0.50 * T, V / 2 + 14, 0.62 * T, V / 2 + 10, T - H * 0.2)
-    s = S(c.pen(p), c.pen(q), c.roof(0, H * 1.8))
-    s.clip(-5, -5, w + 5, T + 5)
-    s.add(poly([(xr - V / 2 - 0, T), (xr + V / 2, T), (xr + V / 2, T - H), (xr - V / 2, T - H)]))
-    return s, info(s, inside=(w * 0.5, T * 0.5))
+    p = Pth(xr, T - 0.5).L(xr, 0.42 * T).C(xr, 0.16 * T, w * 0.78, yb, w * 0.56, yb).L(w * 0.46, yb)
+    arm = stroke(line(w * 0.07, T - H * 0.3, w * 0.46, 0.14 * T), V * 1.35, H * 0.72)
+    s = S(c.pen(p), arm, c.roof(0, H * 1.9))
+    s.clip(-5, -5, w + 5, T)
+    return s, info(s, inside=(w * 0.60, T * 0.50))
 
 
 def pe(c, final=False):
@@ -309,7 +296,7 @@ def pe(c, final=False):
         p.arc(xl + R, yb + R, R, R, -90, -150)
     # left top: rounded corner turning down then inward tongue
     q = Pth(xl + R, yt).arc(xl + R, yt - R, R, R, 90, 180).L(xl, 0.5 * T)
-    tongue = Pth(xl + R + 20, yt - H * 0.1).C(xl + R + 20, yt - 20, w * 0.38, yt - 30, w * 0.38, yt - 140)
+    tongue = Pth(xl + R + 20, yt - H * 0.1).C(xl + R + 20, yt - 20, w * 0.38, yt - 30, w * 0.38, yt - 215)
     parts = [c.pen(p), c.pen(q), c.pen(tongue)]
     if final:
         parts.append(poly([(xr - V / 2 - 26, c.DESC), (xr + V / 2, c.DESC),
@@ -331,25 +318,25 @@ def tsadi(c, final=False):
     w = c.W(520)
     xr = w - V / 2
     yb = H / 2
-    R = 100
-    # right arm: from top right down, bowl to left
-    arm = Pth(xr, T - H * 0.2).L(xr, 0.52 * T).C(xr, 0.26 * T, w * 0.66, 0.14 * T, w * 0.46, yb + 8)
-    # left stem with yod-like head
+    # left: yod-like head, stem curving into the base
     left = Pth(w * 0.12, T * 0.70).L(w * 0.12, 0.30 * T).C(w * 0.12, 0.08 * T, w * 0.26, yb, w * 0.46, yb)
+    # right arm: vertical then one straight diagonal into the base (single polyline, round join)
+    arm = Pth(xr, T - 0.5).L(xr, 0.52 * T)
+    diag = stroke(line(xr, 0.52 * T, w * 0.44, H * 0.7), V * 1.3, H * 0.72)
+    parts = [c.pen(left), c.pen(arm), diag, c.roof(0, w * 0.34, T)]
     if final:
-        left.L(w * 0.66, yb)
-        tail = Pth(xr, 0.40 * T).L(xr, c.DESC)
-        tail = c.pen(tail)
-        fl = poly([(xr - V / 2 - 26, c.DESC), (xr + V / 2, c.DESC),
-                   (xr + V / 2, c.DESC + H * 0.5), (xr - V / 2, c.DESC + H * 0.55)])
-        parts = [tail, fl]
+        left.L(xr - V / 2, yb)
+        parts += [c.pen(Pth(xr, 0.52 * T).L(xr, c.DESC)),
+                  poly([(xr - V / 2 - 26, c.DESC), (xr + V / 2, c.DESC),
+                        (xr + V / 2, c.DESC + H * 0.5), (xr - V / 2, c.DESC + H * 0.55)])]
     else:
         left.L(w * 0.86, yb)
-        parts = []
-    head = c.roof(0, w * 0.34, T - 0)  # yod-like head at upper left
-    s = S(c.pen(arm), c.pen(left), head, c.roof(w - H * 1.4, w, T), *parts)
+        parts.append(rect(w * 0.86 - 4, 0, w * 0.86 + V * 0.5, H + 20) if False else Shape().path)
+    parts[0] = c.pen(left)
+    s = S(*parts)
+    s.add(c.roof(w - H * 1.4, w, T))
     s.clip(-5, c.DESC - 5, w + 5, T + 5)
-    kw = dict(inside=(w * 0.5, T * 0.5))
+    kw = dict(inside=(w * 0.5, T * 0.58))
     if final:
         kw['below'] = (xr - V / 2 - c.below_off(), -110)
         kw['belowW'] = (xr - V / 2 - c.below_off(True), -110)
@@ -398,33 +385,29 @@ def tav(c):
     w = c.W(590)
     ov = 30
     xl = w * 0.10
-    s = S(c.roof(0, w), c.stemR(w - ov, 0, T - H * 0.5), c.stem(xl, H, T - H * 0.5),
-          c.base(0, xl + V + 10))
+    s = S(c.roof(0, w), c.stemR(w - ov, 0, T - H * 0.5), c.stem(xl, 0, T - H * 0.5, flare=False),
+          c.base(0, xl + V))
     return s, info(s, inside=(w * 0.5, T * 0.42))
 
 
 def alef(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(600)
-    # main diagonal (thin pen, so it stays light like a joined hairline-stem)
-    dpen = (V * 1.25, H * 0.68)
-    diag = stroke(line(w * 0.22, T - 40, w * 0.78, 40), *dpen)
-    # upper-right arm: stem rising from the diagonal ending in a small roof
-    ur = Pth(w * 0.66, 0.50 * T).L(w * 0.86, 0.80 * T).L(w * 0.86 - 4, T - H * 0.6)
-    ul_roof = c.roof(w - H * 1.5, w, T)
-    # lower-left arm
-    ll = Pth(w * 0.32, 0.46 * T).L(w * 0.12, 0.22 * T).L(w * 0.12, H * 0.5)
-    ll_base = c.base(0, H * 1.5)
-    s = S(diag, stroke(ur, V * 1.1, H * 0.75), ul_roof, stroke(ll, V * 1.1, H * 0.75), ll_base)
-    s.clip(-5, -5, w + 5, T + 5)
+    a_d, a_a = 60 + 0.55 * V, 50 + 0.48 * V      # diagonal / arm pen widths (Bold must not clog the counters)
+    diag = stroke(line(w * 0.22, T, w * 0.78, 0), a_d, H * 0.85)
+    # arms are yod-like: a short slant off the diagonal, then a vertical stem ending in a head / foot
+    ur = stroke(Pth(w * 0.60, 0.46 * T).L(w * 0.82, 0.66 * T).L(w * 0.82, T - H * 0.5), a_a, H * 0.75)
+    ll = stroke(Pth(w * 0.40, 0.54 * T).L(w * 0.18, 0.34 * T).L(w * 0.18, H * 0.5), a_a, H * 0.75)
+    s = S(diag, ur, ll, c.roof(w * 0.68, w, T), c.base(0, w * 0.34))
+    s.clip(-5, 0, w + 5, T)
     return s, info(s, inside=(w * 0.17, T * 0.74))
 
 
 def bet(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(560)
-    R = 70
-    xr = w - 60 - V / 2
+    R = 34
+    xr = w - 64 - V / 2
     yt = T - H / 2
     yb = H / 2
     p = Pth(0, yt).L(xr - R, yt).arc(xr - R, yt - R, R, R, 90, 0).L(xr, yb)
@@ -436,13 +419,13 @@ def bet(c):
 def gimel(c):
     T, H, V = c.T, c.H, c.V
     w = c.W(500)
-    xr = w * 0.78
+    xr = w * 0.80
     yt = T - H / 2
     R = 90
-    st = Pth(w * 0.26, yt).L(xr - R * 0.7, yt).arc(xr - R * 0.7, yt - R * 0.7, R * 0.7, R * 0.7, 90, 0).L(xr, 0.42 * T)
-    leg = stroke(Pth(xr, 0.44 * T).L(w * 0.30, H / 2), V * 1.15, H * 0.8)
-    s = S(c.pen(st), c.roof(w * 0.16, w * 0.46), leg, c.base(0, w * 0.58))
-    s.clip(-5, -5, w + 5, T + 5)
+    xb = w * 0.30
+    st = Pth(w * 0.26, yt).L(xr - R * 0.7, yt).arc(xr - R * 0.7, yt - R * 0.7, R * 0.7, R * 0.7, 90, 0).L(xr, 0.46 * T)
+    leg = poly([(xr - V * 0.95, 0.52 * T), (xr + V * 0.05, 0.52 * T), (xb + V * 1.05, H - 2), (xb - V * 0.2, H - 2)])
+    s = S(c.pen(st), c.roof(w * 0.16, w * 0.46), leg, c.base(w * 0.04, xb + V * 1.6))
     return s, info(s, inside=(w * 0.5, T * 0.5))
 
 

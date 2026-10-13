@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="het" format="2">
+  <advance width="737"/>
+  <unicode hex="05D7"/>
+  <outline>
+    <contour>
+      <point x="61" y="650" type="line"/>
+      <point x="61" y="587" type="line"/>
+      <point x="122" y="560" type="line"/>
+      <point x="122" y="59" type="line"/>
+      <point x="65" y="0" type="line"/>
+      <point x="216" y="0" type="line"/>
+      <point x="216" y="542" type="line"/>
+      <point x="552" y="542" type="line"/>
+      <point x="552" y="59" type="line"/>
+      <point x="495" y="0" type="line"/>
+      <point x="646" y="0" type="line"/>
+      <point x="646" y="542" type="line"/>
+      <point x="676" y="542" type="line"/>
+      <point x="676" y="650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

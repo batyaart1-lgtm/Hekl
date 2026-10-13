@@ -1,0 +1,866 @@
+{
+ "tag": "pass1",
+ "fonts": "fonts",
+ "metrics_Regular": {
+  "alef": {
+   "char": "א",
+   "adv": 692,
+   "lsb": 46,
+   "rsb": 46,
+   "xMin": 46,
+   "xMax": 646,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 135380,
+   "density": 0.347,
+   "centroid_offset": 0.8
+  },
+  "bet": {
+   "char": "ב",
+   "adv": 692,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 626,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 106775,
+   "density": 0.293,
+   "centroid_offset": 33.3
+  },
+  "gimel": {
+   "char": "ג",
+   "adv": 521,
+   "lsb": 60,
+   "rsb": 56,
+   "xMin": 60,
+   "xMax": 465,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 67899,
+   "density": 0.258,
+   "centroid_offset": 35.6
+  },
+  "dalet": {
+   "char": "ד",
+   "adv": 622,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 556,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 67156,
+   "density": 0.211,
+   "centroid_offset": 79.6
+  },
+  "he": {
+   "char": "ה",
+   "adv": 692,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 626,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 95254,
+   "density": 0.262,
+   "centroid_offset": 31.6
+  },
+  "vav": {
+   "char": "ו",
+   "adv": 272,
+   "lsb": 74,
+   "rsb": 74,
+   "xMin": 74,
+   "xMax": 198,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 39142,
+   "density": 0.486,
+   "centroid_offset": 0.4
+  },
+  "zayin": {
+   "char": "ז",
+   "adv": 534,
+   "lsb": 62,
+   "rsb": 62,
+   "xMin": 62,
+   "xMax": 472,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 60756,
+   "density": 0.228,
+   "centroid_offset": 3.4
+  },
+  "het": {
+   "char": "ח",
+   "adv": 702,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 636,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 102877,
+   "density": 0.278,
+   "centroid_offset": 10.3
+  },
+  "tet": {
+   "char": "ט",
+   "adv": 672,
+   "lsb": 56,
+   "rsb": 56,
+   "xMin": 56,
+   "xMax": 616,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 123881,
+   "density": 0.34,
+   "centroid_offset": -0.0
+  },
+  "yod": {
+   "char": "י",
+   "adv": 345,
+   "lsb": 76,
+   "rsb": 76,
+   "xMin": 76,
+   "xMax": 269,
+   "yMin": 299,
+   "yMax": 650,
+   "ink_area": 28661,
+   "density": 0.423,
+   "centroid_offset": -16.5
+  },
+  "finalkaf": {
+   "char": "ך",
+   "adv": 562,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 496,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 71493,
+   "density": 0.189,
+   "centroid_offset": 97.6
+  },
+  "kaf": {
+   "char": "כ",
+   "adv": 612,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 546,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 92709,
+   "density": 0.297,
+   "centroid_offset": 35.4
+  },
+  "lamed": {
+   "char": "ל",
+   "adv": 584,
+   "lsb": 58,
+   "rsb": 56,
+   "xMin": 58,
+   "xMax": 528,
+   "yMin": 0,
+   "yMax": 800,
+   "ink_area": 101123,
+   "density": 0.269,
+   "centroid_offset": 1.8
+  },
+  "finalmem": {
+   "char": "ם",
+   "adv": 656,
+   "lsb": 58,
+   "rsb": 58,
+   "xMin": 58,
+   "xMax": 598,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 128997,
+   "density": 0.368,
+   "centroid_offset": 0.0
+  },
+  "mem": {
+   "char": "מ",
+   "adv": 712,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 646,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 104255,
+   "density": 0.277,
+   "centroid_offset": 50.9
+  },
+  "finalnun": {
+   "char": "ן",
+   "adv": 482,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 416,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 66704,
+   "density": 0.217,
+   "centroid_offset": 86.4
+  },
+  "nun": {
+   "char": "נ",
+   "adv": 532,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 466,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 72505,
+   "density": 0.279,
+   "centroid_offset": 69.3
+  },
+  "samekh": {
+   "char": "ס",
+   "adv": 628,
+   "lsb": 54,
+   "rsb": 54,
+   "xMin": 54,
+   "xMax": 574,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 103906,
+   "density": 0.307,
+   "centroid_offset": 0.0
+  },
+  "ayin": {
+   "char": "ע",
+   "adv": 644,
+   "lsb": 52,
+   "rsb": 52,
+   "xMin": 52,
+   "xMax": 592,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 92093,
+   "density": 0.262,
+   "centroid_offset": 24.6
+  },
+  "finalpe": {
+   "char": "ף",
+   "adv": 652,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 586,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 96980,
+   "density": 0.212,
+   "centroid_offset": 62.2
+  },
+  "pe": {
+   "char": "פ",
+   "adv": 652,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 586,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 116762,
+   "density": 0.345,
+   "centroid_offset": 18.1
+  },
+  "finaltsadi": {
+   "char": "ץ",
+   "adv": 652,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 586,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 130713,
+   "density": 0.286,
+   "centroid_offset": 59.1
+  },
+  "tsadi": {
+   "char": "צ",
+   "adv": 632,
+   "lsb": 56,
+   "rsb": 56,
+   "xMin": 56,
+   "xMax": 576,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 101912,
+   "density": 0.302,
+   "centroid_offset": 10.1
+  },
+  "qof": {
+   "char": "ק",
+   "adv": 652,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 586,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 98689,
+   "density": 0.216,
+   "centroid_offset": -15.9
+  },
+  "resh": {
+   "char": "ר",
+   "adv": 602,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 536,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 61101,
+   "density": 0.2,
+   "centroid_offset": 88.2
+  },
+  "shin": {
+   "char": "ש",
+   "adv": 774,
+   "lsb": 52,
+   "rsb": 52,
+   "xMin": 52,
+   "xMax": 722,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 132562,
+   "density": 0.304,
+   "centroid_offset": 15.0
+  },
+  "tav": {
+   "char": "ת",
+   "adv": 722,
+   "lsb": 66,
+   "rsb": 66,
+   "xMin": 66,
+   "xMax": 656,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 107190,
+   "density": 0.28,
+   "centroid_offset": 3.7
+  }
+ },
+ "confusion_Regular": [
+  [
+   0.213,
+   "ח",
+   "ת"
+  ],
+  [
+   0.261,
+   "ץ",
+   "צ"
+  ],
+  [
+   0.316,
+   "ב",
+   "כ"
+  ],
+  [
+   0.33,
+   "ך",
+   "ר"
+  ],
+  [
+   0.337,
+   "ד",
+   "ר"
+  ],
+  [
+   0.34,
+   "ך",
+   "ן"
+  ],
+  [
+   0.375,
+   "כ",
+   "פ"
+  ],
+  [
+   0.389,
+   "ב",
+   "נ"
+  ],
+  [
+   0.393,
+   "ד",
+   "ך"
+  ],
+  [
+   0.405,
+   "ה",
+   "ח"
+  ],
+  [
+   0.416,
+   "ם",
+   "מ"
+  ],
+  [
+   0.463,
+   "ד",
+   "ן"
+  ],
+  [
+   0.477,
+   "כ",
+   "נ"
+  ],
+  [
+   0.481,
+   "ף",
+   "פ"
+  ]
+ ],
+ "pairs_Regular": {
+  "mean_clearance_mean": 198.0,
+  "mean_clearance_stdev": 20.5,
+  "pairs_min_clearance_below_20": [],
+  "n_pairs_below_20": 0
+ },
+ "metrics_Bold": {
+  "alef": {
+   "char": "א",
+   "adv": 733,
+   "lsb": 42,
+   "rsb": 43,
+   "xMin": 42,
+   "xMax": 690,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 175036,
+   "density": 0.416,
+   "centroid_offset": 0.9
+  },
+  "bet": {
+   "char": "ב",
+   "adv": 726,
+   "lsb": 61,
+   "rsb": 60,
+   "xMin": 61,
+   "xMax": 666,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 160708,
+   "density": 0.409,
+   "centroid_offset": 39.2
+  },
+  "gimel": {
+   "char": "ג",
+   "adv": 564,
+   "lsb": 55,
+   "rsb": 51,
+   "xMin": 55,
+   "xMax": 513,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 112766,
+   "density": 0.379,
+   "centroid_offset": 36.4
+  },
+  "dalet": {
+   "char": "ד",
+   "adv": 651,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 590,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 107496,
+   "density": 0.313,
+   "centroid_offset": 87.9
+  },
+  "he": {
+   "char": "ה",
+   "adv": 726,
+   "lsb": 61,
+   "rsb": 60,
+   "xMin": 61,
+   "xMax": 666,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 155644,
+   "density": 0.396,
+   "centroid_offset": 36.8
+  },
+  "vav": {
+   "char": "ו",
+   "adv": 331,
+   "lsb": 68,
+   "rsb": 68,
+   "xMin": 68,
+   "xMax": 263,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 72732,
+   "density": 0.574,
+   "centroid_offset": 8.8
+  },
+  "zayin": {
+   "char": "ז",
+   "adv": 557,
+   "lsb": 57,
+   "rsb": 57,
+   "xMin": 57,
+   "xMax": 500,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 98156,
+   "density": 0.341,
+   "centroid_offset": 3.0
+  },
+  "het": {
+   "char": "ח",
+   "adv": 737,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 676,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 169758,
+   "density": 0.425,
+   "centroid_offset": 11.5
+  },
+  "tet": {
+   "char": "ט",
+   "adv": 708,
+   "lsb": 52,
+   "rsb": 52,
+   "xMin": 52,
+   "xMax": 656,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 197577,
+   "density": 0.503,
+   "centroid_offset": -8.4
+  },
+  "yod": {
+   "char": "י",
+   "adv": 370,
+   "lsb": 70,
+   "rsb": 70,
+   "xMin": 70,
+   "xMax": 300,
+   "yMin": 299,
+   "yMax": 650,
+   "ink_area": 45439,
+   "density": 0.563,
+   "centroid_offset": 0.2
+  },
+  "finalkaf": {
+   "char": "ך",
+   "adv": 586,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 525,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 117825,
+   "density": 0.289,
+   "centroid_offset": 104.8
+  },
+  "kaf": {
+   "char": "כ",
+   "adv": 640,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 579,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 138931,
+   "density": 0.413,
+   "centroid_offset": 38.5
+  },
+  "lamed": {
+   "char": "ל",
+   "adv": 612,
+   "lsb": 53,
+   "rsb": 51,
+   "xMin": 53,
+   "xMax": 561,
+   "yMin": 0,
+   "yMax": 800,
+   "ink_area": 155253,
+   "density": 0.382,
+   "centroid_offset": -5.3
+  },
+  "finalmem": {
+   "char": "ם",
+   "adv": 690,
+   "lsb": 53,
+   "rsb": 53,
+   "xMin": 53,
+   "xMax": 637,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 197218,
+   "density": 0.52,
+   "centroid_offset": 0.0
+  },
+  "mem": {
+   "char": "מ",
+   "adv": 748,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 687,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 160820,
+   "density": 0.395,
+   "centroid_offset": 51.5
+  },
+  "finalnun": {
+   "char": "ן",
+   "adv": 499,
+   "lsb": 61,
+   "rsb": 60,
+   "xMin": 61,
+   "xMax": 439,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 111082,
+   "density": 0.334,
+   "centroid_offset": 89.3
+  },
+  "nun": {
+   "char": "נ",
+   "adv": 553,
+   "lsb": 61,
+   "rsb": 60,
+   "xMin": 61,
+   "xMax": 493,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 109960,
+   "density": 0.392,
+   "centroid_offset": 73.1
+  },
+  "samekh": {
+   "char": "ס",
+   "adv": 661,
+   "lsb": 50,
+   "rsb": 50,
+   "xMin": 50,
+   "xMax": 611,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 159040,
+   "density": 0.436,
+   "centroid_offset": 0.0
+  },
+  "ayin": {
+   "char": "ע",
+   "adv": 684,
+   "lsb": 48,
+   "rsb": 48,
+   "xMin": 48,
+   "xMax": 636,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 157289,
+   "density": 0.412,
+   "centroid_offset": 24.0
+  },
+  "finalpe": {
+   "char": "ף",
+   "adv": 683,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 622,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 159274,
+   "density": 0.323,
+   "centroid_offset": 70.6
+  },
+  "pe": {
+   "char": "פ",
+   "adv": 683,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 622,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 177202,
+   "density": 0.486,
+   "centroid_offset": 20.6
+  },
+  "finaltsadi": {
+   "char": "ץ",
+   "adv": 687,
+   "lsb": 61,
+   "rsb": 60,
+   "xMin": 61,
+   "xMax": 627,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 208766,
+   "density": 0.419,
+   "centroid_offset": 54.0
+  },
+  "tsadi": {
+   "char": "צ",
+   "adv": 669,
+   "lsb": 52,
+   "rsb": 52,
+   "xMin": 52,
+   "xMax": 617,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 162336,
+   "density": 0.442,
+   "centroid_offset": 2.8
+  },
+  "qof": {
+   "char": "ק",
+   "adv": 683,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 622,
+   "yMin": -230,
+   "yMax": 650,
+   "ink_area": 163755,
+   "density": 0.332,
+   "centroid_offset": -15.4
+  },
+  "resh": {
+   "char": "ר",
+   "adv": 629,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 568,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 97198,
+   "density": 0.295,
+   "centroid_offset": 97.7
+  },
+  "shin": {
+   "char": "ש",
+   "adv": 843,
+   "lsb": 48,
+   "rsb": 48,
+   "xMin": 48,
+   "xMax": 795,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 226336,
+   "density": 0.466,
+   "centroid_offset": 25.1
+  },
+  "tav": {
+   "char": "ת",
+   "adv": 759,
+   "lsb": 61,
+   "rsb": 61,
+   "xMin": 61,
+   "xMax": 698,
+   "yMin": 0,
+   "yMax": 650,
+   "ink_area": 175301,
+   "density": 0.423,
+   "centroid_offset": 6.7
+  }
+ },
+ "confusion_Bold": [
+  [
+   0.153,
+   "ח",
+   "ת"
+  ],
+  [
+   0.222,
+   "ד",
+   "ר"
+  ],
+  [
+   0.235,
+   "ב",
+   "כ"
+  ],
+  [
+   0.246,
+   "ך",
+   "ן"
+  ],
+  [
+   0.252,
+   "ץ",
+   "צ"
+  ],
+  [
+   0.291,
+   "ה",
+   "ח"
+  ],
+  [
+   0.32,
+   "ך",
+   "ר"
+  ],
+  [
+   0.325,
+   "ט",
+   "ם"
+  ],
+  [
+   0.34,
+   "כ",
+   "פ"
+  ],
+  [
+   0.367,
+   "ד",
+   "ך"
+  ],
+  [
+   0.368,
+   "ם",
+   "מ"
+  ],
+  [
+   0.37,
+   "ד",
+   "ן"
+  ],
+  [
+   0.393,
+   "ם",
+   "פ"
+  ],
+  [
+   0.411,
+   "ה",
+   "ת"
+  ]
+ ],
+ "pairs_Bold": {
+  "mean_clearance_mean": 194.0,
+  "mean_clearance_stdev": 20.9,
+  "pairs_min_clearance_below_20": [],
+  "n_pairs_below_20": 0
+ }
+}
