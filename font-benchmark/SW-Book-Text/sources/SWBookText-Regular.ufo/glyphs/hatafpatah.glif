@@ -3,8 +3,8 @@
   <unicode hex="05B2"/>
   <outline>
     <contour>
-      <point x="16" y="-58" type="line"/>
-      <point x="150" y="-58" type="line"/>
+      <point x="16" y="-67" type="line"/>
+      <point x="150" y="-67" type="line"/>
       <point x="150" y="-6" type="line"/>
       <point x="16" y="-6" type="line"/>
     </contour>

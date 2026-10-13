@@ -1,22 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="vav" format="2">
-  <advance width="314"/>
+  <advance width="310"/>
   <unicode hex="05D5"/>
   <outline>
     <contour>
-      <point x="73" y="650" type="line"/>
-      <point x="73" y="587" type="line"/>
-      <point x="120" y="566" type="line"/>
-      <point x="125" y="46" type="line" smooth="yes"/>
-      <point x="125" y="6"/>
-      <point x="110" y="0" type="qcurve"/>
-      <point x="224" y="0" type="line"/>
-      <point x="208" y="6"/>
-      <point x="208" y="46" type="qcurve" smooth="yes"/>
-      <point x="213" y="504" type="line"/>
-      <point x="215" y="502" type="line"/>
-      <point x="257" y="496" type="line"/>
-      <point x="257" y="650" type="line"/>
+      <point x="61" y="715" type="line"/>
+      <point x="61" y="643" type="line"/>
+      <point x="115" y="619" type="line"/>
+      <point x="121" y="46" type="line" smooth="yes"/>
+      <point x="121" y="6"/>
+      <point x="105" y="0" type="qcurve"/>
+      <point x="233" y="0" type="line"/>
+      <point x="216" y="6"/>
+      <point x="216" y="46" type="qcurve" smooth="yes"/>
+      <point x="222" y="550" type="line"/>
+      <point x="266" y="545" type="line"/>
+      <point x="266" y="715" type="line"/>
     </contour>
   </outline>
 </glyph>

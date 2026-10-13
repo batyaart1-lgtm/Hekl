@@ -3,12 +3,12 @@
   <unicode hex="05B3"/>
   <outline>
     <contour>
-      <point x="13" y="-73" type="line"/>
-      <point x="58" y="-73" type="line"/>
-      <point x="58" y="-199" type="line"/>
-      <point x="161" y="-199" type="line"/>
-      <point x="161" y="-73" type="line"/>
-      <point x="206" y="-73" type="line"/>
+      <point x="13" y="-83" type="line"/>
+      <point x="50" y="-83" type="line"/>
+      <point x="50" y="-209" type="line"/>
+      <point x="169" y="-209" type="line"/>
+      <point x="169" y="-83" type="line"/>
+      <point x="206" y="-83" type="line"/>
       <point x="206" y="-6" type="line"/>
       <point x="13" y="-6" type="line"/>
     </contour>

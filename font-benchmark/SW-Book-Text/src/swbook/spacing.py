@@ -11,7 +11,7 @@ import numpy as np
 from .kern import _Flat, YS
 
 D = 110.0
-BAND = (0.0, 650.0)
+BAND = (0.0, 715.0)
 
 
 def depths(path, band=BAND, D=D):

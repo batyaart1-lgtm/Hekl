@@ -5,7 +5,7 @@
     <key>ascender</key>
     <integer>880</integer>
     <key>capHeight</key>
-    <integer>650</integer>
+    <integer>700</integer>
     <key>copyright</key>
     <string>Benchmark prototype for SeferWorks. No license assigned; legal review required.</string>
     <key>descender</key>
@@ -90,6 +90,6 @@
     <key>versionMinor</key>
     <integer>100</integer>
     <key>xHeight</key>
-    <integer>440</integer>
+    <integer>470</integer>
   </dict>
 </plist>

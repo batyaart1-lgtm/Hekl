@@ -88,9 +88,9 @@ def optical_kerns(ufo, bases):
     upp = [names[c] for c in range(ord('A'), ord('Z') + 1) if c in names]
     weight_scale = 1.0
     res = []
-    res += _pairs(ufo, heb, 112, 0, 650, 1)
+    res += _pairs(ufo, heb, 100, 0, 715, 1)
     res += _pairs(ufo, low, 66, 0, 720, 1)
-    res += _pairs(ufo, upp, 70, 0, 650, 1)
+    res += _pairs(ufo, upp, 70, 0, 700, 1)
     res += _pairs(ufo, upp + low, 70, 0, 650, 1) if False else []
     # upper->lower (e.g. "Te", "Wa")
     res += [p for p in _pairs(ufo, upp + low, 68, 0, 440, 1) if p[0][0] in upp and p[0][1] in low]

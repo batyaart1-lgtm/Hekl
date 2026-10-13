@@ -20,14 +20,14 @@ def glyph_sheet(face, out, cols=7, ppem_px=230):
     sc = ppem_px / 1000.0
     for i, (ch, nm) in enumerate(zip(HEB, HEB_NAMES)):
         cx, cy = (i % cols) * cell_w, (i // cols) * cell_h
-        base = cy + 60 + int(800 * sc)       # baseline y inside cell
+        base = cy + 40 + int(880 * sc)       # baseline y inside cell
         g = face.cmap[ord(ch)]
         adv = face.tt["hmtx"][g][0]
         ox = cx + (cell_w - adv * sc) / 2
         # guides: baseline, letter top, advance box
-        for y, v in ((0, 170), (650, 215), (-230, 230), (800, 235)):
+        for y, v in ((0, 170), (715, 215), (-250, 230), (880, 235)):
             d.line([(cx + 5, base - y * sc), (cx + cell_w - 5, base - y * sc)], fill=v)
-        d.rectangle([ox, base - 800 * sc, ox + adv * sc, base + 230 * sc], outline=225)
+        d.rectangle([ox, base - 880 * sc, ox + adv * sc, base + 250 * sc], outline=225)
         big = Image.new("L", (cell_w * SS, cell_h * SS), 255)
         _draw_glyph(big, face, g, (ox - cx) * SS, (base - cy) * SS, sc * SS)
         small = big.resize((cell_w, cell_h), Image.BOX)

@@ -29,8 +29,8 @@ EPOCH = 1767225600  # 2026-01-01T00:00:00Z, fixed for reproducibility
 WEIGHTS = {
     # Hebrew pen (H = horizontal-stroke thickness, V = vertical-stem thickness,
     # wf = width factor), Latin pen (a = stem, b = hairline, wf)
-    "Regular": dict(heb=(84, 44, 1.00), lat=(84, 30, 1.00), wght=400),
-    "Bold": dict(heb=(108, 94, 1.08), lat=(118, 42, 1.06), wght=700),
+    "Regular": dict(heb=(98, 57, 1.02), lat=(92, 32, 1.00), wght=400),
+    "Bold": dict(heb=(124, 108, 1.08), lat=(126, 44, 1.06), wght=700),
 }
 
 HEB_SB = {  # (lsb, rsb) overrides, Regular values; Bold shrinks by 8 %
@@ -52,7 +52,7 @@ for ch in "oces":
     LAT_SB[ch] = (36, 34)
 for ch in "vwxy":
     LAT_SB[ch] = (10, 10)
-LAT_SB.update({"a": (30, 22), "f": (10, -8), "t": (10, 22), "r": (20, 4), "j": (14, 24), "g": (28, 20),
+LAT_SB.update({"a": (30, 22), "f": (10, 14), "t": (10, 22), "r": (20, 4), "j": (14, 24), "g": (28, 20),
                "z": (24, 24), "i": (26, 26), "l": (26, 26), "k": (22, 12), "b": (22, 34), "d": (34, 22),
                "p": (22, 34), "q": (34, 22), "u": (22, 22)})
 LAT_SB_DEFAULT_U, LAT_SB_DEFAULT_L = (34, 34), (22, 22)
@@ -124,15 +124,15 @@ def build_weight(wname, outdir):
     # .notdef, space-like
     add(".notdef", [], "base", make_notdef(hc), adv=600, lsb=0, rsb=0,
         fn=make_notdef, method="rectangle frame (polygon difference)")
-    add("space", [0x20], "space", Shape(), adv=250)
-    add("uni00A0", [0xA0], "space", Shape(), adv=250)
+    add("space", [0x20], "space", Shape(), adv=215)
+    add("uni00A0", [0xA0], "space", Shape(), adv=215)
     for cp, nm in ((0x200C, "uni200C"), (0x200D, "uni200D"), (0x200E, "uni200E"), (0x200F, "uni200F")):
         add(nm, [cp], "space", Shape(), adv=0)
 
     # Hebrew letters
     T = hc.T
     depth = {cp: spacing.depths(fn(hc)[0].path) for cp, (nm, fn) in NAMES_HEB.items()}
-    optsb = spacing.assign(depth, base=64 * sbscale)
+    optsb = spacing.assign(depth, base=50 * sbscale, alpha=0.75, lo=16.0, hi=90.0)
     for cp, (nm, fn) in NAMES_HEB.items():
         shape, inf = fn(hc)
         l, r = optsb[cp]
@@ -270,7 +270,7 @@ def build_weight(wname, outdir):
     i.styleMapStyleName = "regular" if wname == "Regular" else "bold"
     i.unitsPerEm = UPM
     i.ascender, i.descender = 880, -300
-    i.capHeight, i.xHeight = 650, 440
+    i.capHeight, i.xHeight = 700, 470
     i.versionMajor, i.versionMinor = 0, 100
     i.copyright = "Benchmark prototype for SeferWorks. No license assigned; legal review required."
     i.openTypeNameLicense = ("No production license has been assigned to this benchmark prototype. "

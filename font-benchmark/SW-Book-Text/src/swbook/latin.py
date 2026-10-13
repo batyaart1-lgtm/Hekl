@@ -8,9 +8,9 @@ from .geom import *
 
 
 class LCtx:
-    C = 650      # cap height / lining digit height (matches Hebrew height)
-    X = 440      # x-height
-    A = 700      # ascender
+    C = 700      # cap height / lining digit height (matches Hebrew height)
+    X = 470      # x-height
+    A = 745      # ascender
     D = -215     # descender
 
     def __init__(self, a, b, wf, name):

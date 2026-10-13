@@ -113,7 +113,7 @@
    "function": "hebrew.gimel",
    "file": "src/swbook/hebrew.py",
    "line": 455,
-   "source_sha256": "c9711d3e7d55338d"
+   "source_sha256": "1e52ed4777f106a7"
   },
   "third_party_outlines": false
  },
@@ -143,7 +143,7 @@
    "function": "hebrew.he",
    "file": "src/swbook/hebrew.py",
    "line": 139,
-   "source_sha256": "1cfd7669c6652f91"
+   "source_sha256": "0915dc4b0271fe8f"
   },
   "third_party_outlines": false
  },
@@ -473,7 +473,7 @@
    "function": "hebrew.tav",
    "file": "src/swbook/hebrew.py",
    "line": 419,
-   "source_sha256": "51235ab4a22036d9"
+   "source_sha256": "50ceb4811477c83a"
   },
   "third_party_outlines": false
  },
@@ -2661,7 +2661,7 @@
    "function": "hebrew.gimel",
    "file": "src/swbook/hebrew.py",
    "line": 455,
-   "source_sha256": "c9711d3e7d55338d"
+   "source_sha256": "1e52ed4777f106a7"
   },
   "third_party_outlines": false
  },
@@ -2691,7 +2691,7 @@
    "function": "hebrew.he",
    "file": "src/swbook/hebrew.py",
    "line": 139,
-   "source_sha256": "1cfd7669c6652f91"
+   "source_sha256": "0915dc4b0271fe8f"
   },
   "third_party_outlines": false
  },
@@ -3021,7 +3021,7 @@
    "function": "hebrew.tav",
    "file": "src/swbook/hebrew.py",
    "line": 419,
-   "source_sha256": "51235ab4a22036d9"
+   "source_sha256": "50ceb4811477c83a"
   },
   "third_party_outlines": false
  },

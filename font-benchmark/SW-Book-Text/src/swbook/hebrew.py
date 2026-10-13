@@ -14,9 +14,9 @@ from pathops import Path
 
 
 class HCtx:
-    T = 650          # letter height
-    ASC = 800        # lamed ascender
-    DESC = -230      # final-letter descender
+    T = 715          # letter height
+    ASC = 880        # lamed ascender
+    DESC = -250      # final-letter descender
 
     def __init__(self, H, V, wf, name):
         self.H, self.V, self.wf, self.name = H, V, wf, name
@@ -144,7 +144,7 @@ def he(c):
     s = S(c.roof(0, w), c.beak(w),
           c.stemR(w - ov, 0, T - H * 0.5), c.fillet(w - ov - V, T - H, -1, -1),
           c.stem(w * 0.15, 0, T - H - gap))
-    return s, info(s, inside=(w * 0.38, T * 0.34))
+    return s, info(s, inside=(((w * 0.15 + V) + (w - 30 - V)) / 2, T * 0.30))
 
 
 def het(c):
@@ -462,7 +462,7 @@ def gimel(c):
     st = Pth(w * 0.26, yt).L(xr - R * 0.7, yt).arc(xr - R * 0.7, yt - R * 0.7, R * 0.7, R * 0.7, 90, 0).L(xr, 0.46 * T)
     leg = poly([(xr - V * 0.95, 0.52 * T), (xr + V * 0.05, 0.52 * T), (xb + V * 1.05, H - 2), (xb - V * 0.2, H - 2)])
     s = S(c.pen(st), c.roof(w * 0.16, w * 0.46), leg, c.base(w * 0.04, xb + V * 1.6))
-    return s, info(s, inside=(w * 0.5, T * 0.5))
+    return s, info(s, inside=(w * 0.26, T * 0.56))
 
 
 GLYPHS = {
