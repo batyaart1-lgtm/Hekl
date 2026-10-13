@@ -1,21 +1,21 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="vav" format="2">
-  <advance width="310"/>
+  <advance width="306"/>
   <unicode hex="05D5"/>
   <outline>
     <contour>
-      <point x="61" y="715" type="line"/>
-      <point x="61" y="643" type="line"/>
-      <point x="115" y="619" type="line"/>
-      <point x="121" y="46" type="line" smooth="yes"/>
-      <point x="121" y="6"/>
-      <point x="105" y="0" type="qcurve"/>
-      <point x="233" y="0" type="line"/>
-      <point x="216" y="6"/>
-      <point x="216" y="46" type="qcurve" smooth="yes"/>
-      <point x="222" y="550" type="line"/>
-      <point x="266" y="545" type="line"/>
-      <point x="266" y="715" type="line"/>
+      <point x="53" y="557" type="line"/>
+      <point x="96" y="562" type="line"/>
+      <point x="125" y="583" type="line"/>
+      <point x="131" y="46" type="line" smooth="yes"/>
+      <point x="131" y="6"/>
+      <point x="114" y="0" type="qcurve"/>
+      <point x="242" y="0" type="line"/>
+      <point x="226" y="6"/>
+      <point x="226" y="46" type="qcurve" smooth="yes"/>
+      <point x="232" y="591" type="line"/>
+      <point x="232" y="715" type="line"/>
+      <point x="53" y="715" type="line"/>
     </contour>
   </outline>
 </glyph>

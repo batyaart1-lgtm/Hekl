@@ -199,15 +199,21 @@ def test_horizontal_metrics(font):
     assert hmtx[cmap[0x20]][0] > 150
 
 
-def test_sidebearing_consistency_hebrew(font):
-    """Flat-sided letters should have comparable side-bearings (+-35 units)."""
+def test_optical_sidebearing_consistency_hebrew(font):
+    """Hebrew spacing is *optical* (Round 2): sidebearing + clipped optical depth of each side
+    (src/swbook/spacing.py) must be near-constant across the 27 letters.  Measured sigma at
+    delivery: ~7-9 units (left) / ~8-9 (right); the test allows 14."""
+    import numpy as np
+    from swbook.spacing import depths
     hmtx, glyf, cmap = font["hmtx"], font["glyf"], font.getBestCmap()
-    sbs = []
-    for ch in "דהחרתבכמנ":
-        g = glyf[cmap[ord(ch)]]
-        adv, lsb = hmtx[cmap[ord(ch)]]
-        sbs += [lsb, adv - g.xMax]
-    assert max(sbs) - min(sbs) <= 50, sbs
+    L, R = [], []
+    for ch in HEB_LETTERS:
+        g = cmap[ord(ch)]
+        d = depths(glyph_path(font, g), (0, 715), 110)
+        gl = glyf[g]
+        L.append(gl.xMin + d[0])
+        R.append(hmtx[g][0] - gl.xMax + d[1])
+    assert np.std(L) <= 14 and np.std(R) <= 14, (np.std(L), np.std(R))
 
 
 # --------------------------------------------------- shaping/GPOS marks
