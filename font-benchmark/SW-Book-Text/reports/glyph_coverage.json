@@ -1,0 +1,1915 @@
+{
+ "generated_by": "tools/make_reports.py",
+ "fonts": {
+  "Regular": {
+   "file": "fonts/SWBookText-Regular.ttf",
+   "sha256": "e654ea24d43036a0462d63179d3d190903e8846901048f96b701f86f47f3bb8d",
+   "glyph_count": 172,
+   "cmap_codepoints": 171,
+   "groups": {
+    "hebrew_base_letters_22": {
+     "required": 22,
+     "present": 22,
+     "missing": [],
+     "glyphs": {
+      "U+05D0": {
+       "char": "א",
+       "name": "HEBREW LETTER ALEF",
+       "glyph": "alef"
+      },
+      "U+05D1": {
+       "char": "ב",
+       "name": "HEBREW LETTER BET",
+       "glyph": "bet"
+      },
+      "U+05D2": {
+       "char": "ג",
+       "name": "HEBREW LETTER GIMEL",
+       "glyph": "gimel"
+      },
+      "U+05D3": {
+       "char": "ד",
+       "name": "HEBREW LETTER DALET",
+       "glyph": "dalet"
+      },
+      "U+05D4": {
+       "char": "ה",
+       "name": "HEBREW LETTER HE",
+       "glyph": "he"
+      },
+      "U+05D5": {
+       "char": "ו",
+       "name": "HEBREW LETTER VAV",
+       "glyph": "vav"
+      },
+      "U+05D6": {
+       "char": "ז",
+       "name": "HEBREW LETTER ZAYIN",
+       "glyph": "zayin"
+      },
+      "U+05D7": {
+       "char": "ח",
+       "name": "HEBREW LETTER HET",
+       "glyph": "het"
+      },
+      "U+05D8": {
+       "char": "ט",
+       "name": "HEBREW LETTER TET",
+       "glyph": "tet"
+      },
+      "U+05D9": {
+       "char": "י",
+       "name": "HEBREW LETTER YOD",
+       "glyph": "yod"
+      },
+      "U+05DB": {
+       "char": "כ",
+       "name": "HEBREW LETTER KAF",
+       "glyph": "kaf"
+      },
+      "U+05DC": {
+       "char": "ל",
+       "name": "HEBREW LETTER LAMED",
+       "glyph": "lamed"
+      },
+      "U+05DE": {
+       "char": "מ",
+       "name": "HEBREW LETTER MEM",
+       "glyph": "mem"
+      },
+      "U+05E0": {
+       "char": "נ",
+       "name": "HEBREW LETTER NUN",
+       "glyph": "nun"
+      },
+      "U+05E1": {
+       "char": "ס",
+       "name": "HEBREW LETTER SAMEKH",
+       "glyph": "samekh"
+      },
+      "U+05E2": {
+       "char": "ע",
+       "name": "HEBREW LETTER AYIN",
+       "glyph": "ayin"
+      },
+      "U+05E4": {
+       "char": "פ",
+       "name": "HEBREW LETTER PE",
+       "glyph": "pe"
+      },
+      "U+05E6": {
+       "char": "צ",
+       "name": "HEBREW LETTER TSADI",
+       "glyph": "tsadi"
+      },
+      "U+05E7": {
+       "char": "ק",
+       "name": "HEBREW LETTER QOF",
+       "glyph": "qof"
+      },
+      "U+05E8": {
+       "char": "ר",
+       "name": "HEBREW LETTER RESH",
+       "glyph": "resh"
+      },
+      "U+05E9": {
+       "char": "ש",
+       "name": "HEBREW LETTER SHIN",
+       "glyph": "shin"
+      },
+      "U+05EA": {
+       "char": "ת",
+       "name": "HEBREW LETTER TAV",
+       "glyph": "tav"
+      }
+     }
+    },
+    "hebrew_final_forms_5": {
+     "required": 5,
+     "present": 5,
+     "missing": [],
+     "glyphs": {
+      "U+05DA": {
+       "char": "ך",
+       "name": "HEBREW LETTER FINAL KAF",
+       "glyph": "finalkaf"
+      },
+      "U+05DD": {
+       "char": "ם",
+       "name": "HEBREW LETTER FINAL MEM",
+       "glyph": "finalmem"
+      },
+      "U+05DF": {
+       "char": "ן",
+       "name": "HEBREW LETTER FINAL NUN",
+       "glyph": "finalnun"
+      },
+      "U+05E3": {
+       "char": "ף",
+       "name": "HEBREW LETTER FINAL PE",
+       "glyph": "finalpe"
+      },
+      "U+05E5": {
+       "char": "ץ",
+       "name": "HEBREW LETTER FINAL TSADI",
+       "glyph": "finaltsadi"
+      }
+     }
+    },
+    "hebrew_punctuation": {
+     "required": 5,
+     "present": 5,
+     "missing": [],
+     "glyphs": {
+      "U+05BE": {
+       "char": "־",
+       "name": "HEBREW PUNCTUATION MAQAF",
+       "glyph": "maqaf"
+      },
+      "U+05F3": {
+       "char": "׳",
+       "name": "HEBREW PUNCTUATION GERESH",
+       "glyph": "geresh"
+      },
+      "U+05F4": {
+       "char": "״",
+       "name": "HEBREW PUNCTUATION GERSHAYIM",
+       "glyph": "gershayim"
+      },
+      "U+05C0": {
+       "char": "׀",
+       "name": "HEBREW PUNCTUATION PASEQ",
+       "glyph": "paseq"
+      },
+      "U+05C3": {
+       "char": "׃",
+       "name": "HEBREW PUNCTUATION SOF PASUQ",
+       "glyph": "sofpasuq"
+      }
+     }
+    },
+    "hebrew_points_and_dagesh": {
+     "required": 18,
+     "present": 18,
+     "missing": [],
+     "glyphs": {
+      "U+05B0": {
+       "char": "ְ",
+       "name": "HEBREW POINT SHEVA",
+       "glyph": "sheva"
+      },
+      "U+05B1": {
+       "char": "ֱ",
+       "name": "HEBREW POINT HATAF SEGOL",
+       "glyph": "hatafsegol"
+      },
+      "U+05B2": {
+       "char": "ֲ",
+       "name": "HEBREW POINT HATAF PATAH",
+       "glyph": "hatafpatah"
+      },
+      "U+05B3": {
+       "char": "ֳ",
+       "name": "HEBREW POINT HATAF QAMATS",
+       "glyph": "hatafqamats"
+      },
+      "U+05B4": {
+       "char": "ִ",
+       "name": "HEBREW POINT HIRIQ",
+       "glyph": "hiriq"
+      },
+      "U+05B5": {
+       "char": "ֵ",
+       "name": "HEBREW POINT TSERE",
+       "glyph": "tsere"
+      },
+      "U+05B6": {
+       "char": "ֶ",
+       "name": "HEBREW POINT SEGOL",
+       "glyph": "segol"
+      },
+      "U+05B7": {
+       "char": "ַ",
+       "name": "HEBREW POINT PATAH",
+       "glyph": "patah"
+      },
+      "U+05B8": {
+       "char": "ָ",
+       "name": "HEBREW POINT QAMATS",
+       "glyph": "qamats"
+      },
+      "U+05B9": {
+       "char": "ֹ",
+       "name": "HEBREW POINT HOLAM",
+       "glyph": "holam"
+      },
+      "U+05BA": {
+       "char": "ֺ",
+       "name": "HEBREW POINT HOLAM HASER FOR VAV",
+       "glyph": "holamhaser"
+      },
+      "U+05BB": {
+       "char": "ֻ",
+       "name": "HEBREW POINT QUBUTS",
+       "glyph": "qubuts"
+      },
+      "U+05BC": {
+       "char": "ּ",
+       "name": "HEBREW POINT DAGESH OR MAPIQ",
+       "glyph": "dagesh"
+      },
+      "U+05BD": {
+       "char": "ֽ",
+       "name": "HEBREW POINT METEG",
+       "glyph": "meteg"
+      },
+      "U+05BF": {
+       "char": "ֿ",
+       "name": "HEBREW POINT RAFE",
+       "glyph": "rafe"
+      },
+      "U+05C1": {
+       "char": "ׁ",
+       "name": "HEBREW POINT SHIN DOT",
+       "glyph": "shindot"
+      },
+      "U+05C2": {
+       "char": "ׂ",
+       "name": "HEBREW POINT SIN DOT",
+       "glyph": "sindot"
+      },
+      "U+05C7": {
+       "char": "ׇ",
+       "name": "HEBREW POINT QAMATS QATAN",
+       "glyph": "qamatsqatan"
+      }
+     }
+    },
+    "digits_0_9": {
+     "required": 10,
+     "present": 10,
+     "missing": [],
+     "glyphs": {
+      "U+0030": {
+       "char": "0",
+       "name": "DIGIT ZERO",
+       "glyph": "zero"
+      },
+      "U+0031": {
+       "char": "1",
+       "name": "DIGIT ONE",
+       "glyph": "one"
+      },
+      "U+0032": {
+       "char": "2",
+       "name": "DIGIT TWO",
+       "glyph": "two"
+      },
+      "U+0033": {
+       "char": "3",
+       "name": "DIGIT THREE",
+       "glyph": "three"
+      },
+      "U+0034": {
+       "char": "4",
+       "name": "DIGIT FOUR",
+       "glyph": "four"
+      },
+      "U+0035": {
+       "char": "5",
+       "name": "DIGIT FIVE",
+       "glyph": "five"
+      },
+      "U+0036": {
+       "char": "6",
+       "name": "DIGIT SIX",
+       "glyph": "six"
+      },
+      "U+0037": {
+       "char": "7",
+       "name": "DIGIT SEVEN",
+       "glyph": "seven"
+      },
+      "U+0038": {
+       "char": "8",
+       "name": "DIGIT EIGHT",
+       "glyph": "eight"
+      },
+      "U+0039": {
+       "char": "9",
+       "name": "DIGIT NINE",
+       "glyph": "nine"
+      }
+     }
+    },
+    "latin_uppercase": {
+     "required": 26,
+     "present": 26,
+     "missing": [],
+     "glyphs": {
+      "U+0041": {
+       "char": "A",
+       "name": "LATIN CAPITAL LETTER A",
+       "glyph": "A"
+      },
+      "U+0042": {
+       "char": "B",
+       "name": "LATIN CAPITAL LETTER B",
+       "glyph": "B"
+      },
+      "U+0043": {
+       "char": "C",
+       "name": "LATIN CAPITAL LETTER C",
+       "glyph": "C"
+      },
+      "U+0044": {
+       "char": "D",
+       "name": "LATIN CAPITAL LETTER D",
+       "glyph": "D"
+      },
+      "U+0045": {
+       "char": "E",
+       "name": "LATIN CAPITAL LETTER E",
+       "glyph": "E"
+      },
+      "U+0046": {
+       "char": "F",
+       "name": "LATIN CAPITAL LETTER F",
+       "glyph": "F"
+      },
+      "U+0047": {
+       "char": "G",
+       "name": "LATIN CAPITAL LETTER G",
+       "glyph": "G"
+      },
+      "U+0048": {
+       "char": "H",
+       "name": "LATIN CAPITAL LETTER H",
+       "glyph": "H"
+      },
+      "U+0049": {
+       "char": "I",
+       "name": "LATIN CAPITAL LETTER I",
+       "glyph": "I"
+      },
+      "U+004A": {
+       "char": "J",
+       "name": "LATIN CAPITAL LETTER J",
+       "glyph": "J"
+      },
+      "U+004B": {
+       "char": "K",
+       "name": "LATIN CAPITAL LETTER K",
+       "glyph": "K"
+      },
+      "U+004C": {
+       "char": "L",
+       "name": "LATIN CAPITAL LETTER L",
+       "glyph": "L"
+      },
+      "U+004D": {
+       "char": "M",
+       "name": "LATIN CAPITAL LETTER M",
+       "glyph": "M"
+      },
+      "U+004E": {
+       "char": "N",
+       "name": "LATIN CAPITAL LETTER N",
+       "glyph": "N"
+      },
+      "U+004F": {
+       "char": "O",
+       "name": "LATIN CAPITAL LETTER O",
+       "glyph": "O"
+      },
+      "U+0050": {
+       "char": "P",
+       "name": "LATIN CAPITAL LETTER P",
+       "glyph": "P"
+      },
+      "U+0051": {
+       "char": "Q",
+       "name": "LATIN CAPITAL LETTER Q",
+       "glyph": "Q"
+      },
+      "U+0052": {
+       "char": "R",
+       "name": "LATIN CAPITAL LETTER R",
+       "glyph": "R"
+      },
+      "U+0053": {
+       "char": "S",
+       "name": "LATIN CAPITAL LETTER S",
+       "glyph": "S"
+      },
+      "U+0054": {
+       "char": "T",
+       "name": "LATIN CAPITAL LETTER T",
+       "glyph": "T"
+      },
+      "U+0055": {
+       "char": "U",
+       "name": "LATIN CAPITAL LETTER U",
+       "glyph": "U"
+      },
+      "U+0056": {
+       "char": "V",
+       "name": "LATIN CAPITAL LETTER V",
+       "glyph": "V"
+      },
+      "U+0057": {
+       "char": "W",
+       "name": "LATIN CAPITAL LETTER W",
+       "glyph": "W"
+      },
+      "U+0058": {
+       "char": "X",
+       "name": "LATIN CAPITAL LETTER X",
+       "glyph": "X"
+      },
+      "U+0059": {
+       "char": "Y",
+       "name": "LATIN CAPITAL LETTER Y",
+       "glyph": "Y"
+      },
+      "U+005A": {
+       "char": "Z",
+       "name": "LATIN CAPITAL LETTER Z",
+       "glyph": "Z"
+      }
+     }
+    },
+    "latin_lowercase": {
+     "required": 26,
+     "present": 26,
+     "missing": [],
+     "glyphs": {
+      "U+0061": {
+       "char": "a",
+       "name": "LATIN SMALL LETTER A",
+       "glyph": "a"
+      },
+      "U+0062": {
+       "char": "b",
+       "name": "LATIN SMALL LETTER B",
+       "glyph": "b"
+      },
+      "U+0063": {
+       "char": "c",
+       "name": "LATIN SMALL LETTER C",
+       "glyph": "c"
+      },
+      "U+0064": {
+       "char": "d",
+       "name": "LATIN SMALL LETTER D",
+       "glyph": "d"
+      },
+      "U+0065": {
+       "char": "e",
+       "name": "LATIN SMALL LETTER E",
+       "glyph": "e"
+      },
+      "U+0066": {
+       "char": "f",
+       "name": "LATIN SMALL LETTER F",
+       "glyph": "f"
+      },
+      "U+0067": {
+       "char": "g",
+       "name": "LATIN SMALL LETTER G",
+       "glyph": "g"
+      },
+      "U+0068": {
+       "char": "h",
+       "name": "LATIN SMALL LETTER H",
+       "glyph": "h"
+      },
+      "U+0069": {
+       "char": "i",
+       "name": "LATIN SMALL LETTER I",
+       "glyph": "i"
+      },
+      "U+006A": {
+       "char": "j",
+       "name": "LATIN SMALL LETTER J",
+       "glyph": "j"
+      },
+      "U+006B": {
+       "char": "k",
+       "name": "LATIN SMALL LETTER K",
+       "glyph": "k"
+      },
+      "U+006C": {
+       "char": "l",
+       "name": "LATIN SMALL LETTER L",
+       "glyph": "l"
+      },
+      "U+006D": {
+       "char": "m",
+       "name": "LATIN SMALL LETTER M",
+       "glyph": "m"
+      },
+      "U+006E": {
+       "char": "n",
+       "name": "LATIN SMALL LETTER N",
+       "glyph": "n"
+      },
+      "U+006F": {
+       "char": "o",
+       "name": "LATIN SMALL LETTER O",
+       "glyph": "o"
+      },
+      "U+0070": {
+       "char": "p",
+       "name": "LATIN SMALL LETTER P",
+       "glyph": "p"
+      },
+      "U+0071": {
+       "char": "q",
+       "name": "LATIN SMALL LETTER Q",
+       "glyph": "q"
+      },
+      "U+0072": {
+       "char": "r",
+       "name": "LATIN SMALL LETTER R",
+       "glyph": "r"
+      },
+      "U+0073": {
+       "char": "s",
+       "name": "LATIN SMALL LETTER S",
+       "glyph": "s"
+      },
+      "U+0074": {
+       "char": "t",
+       "name": "LATIN SMALL LETTER T",
+       "glyph": "t"
+      },
+      "U+0075": {
+       "char": "u",
+       "name": "LATIN SMALL LETTER U",
+       "glyph": "u"
+      },
+      "U+0076": {
+       "char": "v",
+       "name": "LATIN SMALL LETTER V",
+       "glyph": "v"
+      },
+      "U+0077": {
+       "char": "w",
+       "name": "LATIN SMALL LETTER W",
+       "glyph": "w"
+      },
+      "U+0078": {
+       "char": "x",
+       "name": "LATIN SMALL LETTER X",
+       "glyph": "x"
+      },
+      "U+0079": {
+       "char": "y",
+       "name": "LATIN SMALL LETTER Y",
+       "glyph": "y"
+      },
+      "U+007A": {
+       "char": "z",
+       "name": "LATIN SMALL LETTER Z",
+       "glyph": "z"
+      }
+     }
+    },
+    "ascii_punctuation_symbols": {
+     "required": 32,
+     "present": 32,
+     "missing": [],
+     "glyphs": {
+      "U+0021": {
+       "char": "!",
+       "name": "EXCLAMATION MARK",
+       "glyph": "exclam"
+      },
+      "U+0022": {
+       "char": "\"",
+       "name": "QUOTATION MARK",
+       "glyph": "quotedbl"
+      },
+      "U+0023": {
+       "char": "#",
+       "name": "NUMBER SIGN",
+       "glyph": "numbersign"
+      },
+      "U+0024": {
+       "char": "$",
+       "name": "DOLLAR SIGN",
+       "glyph": "dollar"
+      },
+      "U+0025": {
+       "char": "%",
+       "name": "PERCENT SIGN",
+       "glyph": "percent"
+      },
+      "U+0026": {
+       "char": "&",
+       "name": "AMPERSAND",
+       "glyph": "ampersand"
+      },
+      "U+0027": {
+       "char": "'",
+       "name": "APOSTROPHE",
+       "glyph": "quotesingle"
+      },
+      "U+0028": {
+       "char": "(",
+       "name": "LEFT PARENTHESIS",
+       "glyph": "parenleft"
+      },
+      "U+0029": {
+       "char": ")",
+       "name": "RIGHT PARENTHESIS",
+       "glyph": "parenright"
+      },
+      "U+002A": {
+       "char": "*",
+       "name": "ASTERISK",
+       "glyph": "asterisk"
+      },
+      "U+002B": {
+       "char": "+",
+       "name": "PLUS SIGN",
+       "glyph": "plus"
+      },
+      "U+002C": {
+       "char": ",",
+       "name": "COMMA",
+       "glyph": "comma"
+      },
+      "U+002D": {
+       "char": "-",
+       "name": "HYPHEN-MINUS",
+       "glyph": "hyphen"
+      },
+      "U+002E": {
+       "char": ".",
+       "name": "FULL STOP",
+       "glyph": "period"
+      },
+      "U+002F": {
+       "char": "/",
+       "name": "SOLIDUS",
+       "glyph": "slash"
+      },
+      "U+003A": {
+       "char": ":",
+       "name": "COLON",
+       "glyph": "colon"
+      },
+      "U+003B": {
+       "char": ";",
+       "name": "SEMICOLON",
+       "glyph": "semicolon"
+      },
+      "U+003C": {
+       "char": "<",
+       "name": "LESS-THAN SIGN",
+       "glyph": "less"
+      },
+      "U+003D": {
+       "char": "=",
+       "name": "EQUALS SIGN",
+       "glyph": "equal"
+      },
+      "U+003E": {
+       "char": ">",
+       "name": "GREATER-THAN SIGN",
+       "glyph": "greater"
+      },
+      "U+003F": {
+       "char": "?",
+       "name": "QUESTION MARK",
+       "glyph": "question"
+      },
+      "U+0040": {
+       "char": "@",
+       "name": "COMMERCIAL AT",
+       "glyph": "at"
+      },
+      "U+005B": {
+       "char": "[",
+       "name": "LEFT SQUARE BRACKET",
+       "glyph": "bracketleft"
+      },
+      "U+005C": {
+       "char": "\\",
+       "name": "REVERSE SOLIDUS",
+       "glyph": "backslash"
+      },
+      "U+005D": {
+       "char": "]",
+       "name": "RIGHT SQUARE BRACKET",
+       "glyph": "bracketright"
+      },
+      "U+005E": {
+       "char": "^",
+       "name": "CIRCUMFLEX ACCENT",
+       "glyph": "asciicircum"
+      },
+      "U+005F": {
+       "char": "_",
+       "name": "LOW LINE",
+       "glyph": "underscore"
+      },
+      "U+0060": {
+       "char": "`",
+       "name": "GRAVE ACCENT",
+       "glyph": "grave"
+      },
+      "U+007B": {
+       "char": "{",
+       "name": "LEFT CURLY BRACKET",
+       "glyph": "braceleft"
+      },
+      "U+007C": {
+       "char": "|",
+       "name": "VERTICAL LINE",
+       "glyph": "bar"
+      },
+      "U+007D": {
+       "char": "}",
+       "name": "RIGHT CURLY BRACKET",
+       "glyph": "braceright"
+      },
+      "U+007E": {
+       "char": "~",
+       "name": "TILDE",
+       "glyph": "asciitilde"
+      }
+     }
+    },
+    "extended_punctuation_symbols": {
+     "required": 21,
+     "present": 21,
+     "missing": [],
+     "glyphs": {
+      "U+2013": {
+       "char": "–",
+       "name": "EN DASH",
+       "glyph": "endash"
+      },
+      "U+2014": {
+       "char": "—",
+       "name": "EM DASH",
+       "glyph": "emdash"
+      },
+      "U+2018": {
+       "char": "‘",
+       "name": "LEFT SINGLE QUOTATION MARK",
+       "glyph": "quoteleft"
+      },
+      "U+2019": {
+       "char": "’",
+       "name": "RIGHT SINGLE QUOTATION MARK",
+       "glyph": "quoteright"
+      },
+      "U+201C": {
+       "char": "“",
+       "name": "LEFT DOUBLE QUOTATION MARK",
+       "glyph": "quotedblleft"
+      },
+      "U+201D": {
+       "char": "”",
+       "name": "RIGHT DOUBLE QUOTATION MARK",
+       "glyph": "quotedblright"
+      },
+      "U+201E": {
+       "char": "„",
+       "name": "DOUBLE LOW-9 QUOTATION MARK",
+       "glyph": "quotedblbase"
+      },
+      "U+2026": {
+       "char": "…",
+       "name": "HORIZONTAL ELLIPSIS",
+       "glyph": "ellipsis"
+      },
+      "U+2022": {
+       "char": "•",
+       "name": "BULLET",
+       "glyph": "bullet"
+      },
+      "U+00AB": {
+       "char": "«",
+       "name": "LEFT-POINTING DOUBLE ANGLE QUOTATION MARK",
+       "glyph": "guillemotleft"
+      },
+      "U+00BB": {
+       "char": "»",
+       "name": "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK",
+       "glyph": "guillemotright"
+      },
+      "U+00B7": {
+       "char": "·",
+       "name": "MIDDLE DOT",
+       "glyph": "periodcentered"
+      },
+      "U+00A7": {
+       "char": "§",
+       "name": "SECTION SIGN",
+       "glyph": "section"
+      },
+      "U+00B6": {
+       "char": "¶",
+       "name": "PILCROW SIGN",
+       "glyph": "paragraph"
+      },
+      "U+00B0": {
+       "char": "°",
+       "name": "DEGREE SIGN",
+       "glyph": "degree"
+      },
+      "U+00A9": {
+       "char": "©",
+       "name": "COPYRIGHT SIGN",
+       "glyph": "copyright"
+      },
+      "U+00B1": {
+       "char": "±",
+       "name": "PLUS-MINUS SIGN",
+       "glyph": "plusminus"
+      },
+      "U+00D7": {
+       "char": "×",
+       "name": "MULTIPLICATION SIGN",
+       "glyph": "multiply"
+      },
+      "U+00F7": {
+       "char": "÷",
+       "name": "DIVISION SIGN",
+       "glyph": "divide"
+      },
+      "U+2212": {
+       "char": "−",
+       "name": "MINUS SIGN",
+       "glyph": "uni2212"
+      },
+      "U+20AA": {
+       "char": "₪",
+       "name": "NEW SHEQEL SIGN",
+       "glyph": "uni20AA"
+      }
+     }
+    },
+    "spaces_and_controls": {
+     "required": 6,
+     "present": 6,
+     "missing": [],
+     "glyphs": {
+      "U+0020": {
+       "char": " ",
+       "name": "SPACE",
+       "glyph": "space"
+      },
+      "U+00A0": {
+       "char": " ",
+       "name": "NO-BREAK SPACE",
+       "glyph": "uni00A0"
+      },
+      "U+200C": {
+       "char": "‌",
+       "name": "ZERO WIDTH NON-JOINER",
+       "glyph": "uni200C"
+      },
+      "U+200D": {
+       "char": "‍",
+       "name": "ZERO WIDTH JOINER",
+       "glyph": "uni200D"
+      },
+      "U+200E": {
+       "char": "‎",
+       "name": "LEFT-TO-RIGHT MARK",
+       "glyph": "uni200E"
+      },
+      "U+200F": {
+       "char": "‏",
+       "name": "RIGHT-TO-LEFT MARK",
+       "glyph": "uni200F"
+      }
+     }
+    }
+   },
+   "all_required_present": true,
+   "hebrew_letterforms_total": 27,
+   "gpos_features": [
+    "kern",
+    "mark"
+   ],
+   "tables": [
+    "GDEF",
+    "GPOS",
+    "OS/2",
+    "cmap",
+    "gasp",
+    "glyf",
+    "head",
+    "hhea",
+    "hmtx",
+    "loca",
+    "maxp",
+    "name",
+    "post",
+    "prep"
+   ]
+  },
+  "Bold": {
+   "file": "fonts/SWBookText-Bold.ttf",
+   "sha256": "7f2b82fba7023554dcbcbaacb88ecf5f204e4251acb247b5a0a1a1724da80d90",
+   "glyph_count": 172,
+   "cmap_codepoints": 171,
+   "groups": {
+    "hebrew_base_letters_22": {
+     "required": 22,
+     "present": 22,
+     "missing": [],
+     "glyphs": {
+      "U+05D0": {
+       "char": "א",
+       "name": "HEBREW LETTER ALEF",
+       "glyph": "alef"
+      },
+      "U+05D1": {
+       "char": "ב",
+       "name": "HEBREW LETTER BET",
+       "glyph": "bet"
+      },
+      "U+05D2": {
+       "char": "ג",
+       "name": "HEBREW LETTER GIMEL",
+       "glyph": "gimel"
+      },
+      "U+05D3": {
+       "char": "ד",
+       "name": "HEBREW LETTER DALET",
+       "glyph": "dalet"
+      },
+      "U+05D4": {
+       "char": "ה",
+       "name": "HEBREW LETTER HE",
+       "glyph": "he"
+      },
+      "U+05D5": {
+       "char": "ו",
+       "name": "HEBREW LETTER VAV",
+       "glyph": "vav"
+      },
+      "U+05D6": {
+       "char": "ז",
+       "name": "HEBREW LETTER ZAYIN",
+       "glyph": "zayin"
+      },
+      "U+05D7": {
+       "char": "ח",
+       "name": "HEBREW LETTER HET",
+       "glyph": "het"
+      },
+      "U+05D8": {
+       "char": "ט",
+       "name": "HEBREW LETTER TET",
+       "glyph": "tet"
+      },
+      "U+05D9": {
+       "char": "י",
+       "name": "HEBREW LETTER YOD",
+       "glyph": "yod"
+      },
+      "U+05DB": {
+       "char": "כ",
+       "name": "HEBREW LETTER KAF",
+       "glyph": "kaf"
+      },
+      "U+05DC": {
+       "char": "ל",
+       "name": "HEBREW LETTER LAMED",
+       "glyph": "lamed"
+      },
+      "U+05DE": {
+       "char": "מ",
+       "name": "HEBREW LETTER MEM",
+       "glyph": "mem"
+      },
+      "U+05E0": {
+       "char": "נ",
+       "name": "HEBREW LETTER NUN",
+       "glyph": "nun"
+      },
+      "U+05E1": {
+       "char": "ס",
+       "name": "HEBREW LETTER SAMEKH",
+       "glyph": "samekh"
+      },
+      "U+05E2": {
+       "char": "ע",
+       "name": "HEBREW LETTER AYIN",
+       "glyph": "ayin"
+      },
+      "U+05E4": {
+       "char": "פ",
+       "name": "HEBREW LETTER PE",
+       "glyph": "pe"
+      },
+      "U+05E6": {
+       "char": "צ",
+       "name": "HEBREW LETTER TSADI",
+       "glyph": "tsadi"
+      },
+      "U+05E7": {
+       "char": "ק",
+       "name": "HEBREW LETTER QOF",
+       "glyph": "qof"
+      },
+      "U+05E8": {
+       "char": "ר",
+       "name": "HEBREW LETTER RESH",
+       "glyph": "resh"
+      },
+      "U+05E9": {
+       "char": "ש",
+       "name": "HEBREW LETTER SHIN",
+       "glyph": "shin"
+      },
+      "U+05EA": {
+       "char": "ת",
+       "name": "HEBREW LETTER TAV",
+       "glyph": "tav"
+      }
+     }
+    },
+    "hebrew_final_forms_5": {
+     "required": 5,
+     "present": 5,
+     "missing": [],
+     "glyphs": {
+      "U+05DA": {
+       "char": "ך",
+       "name": "HEBREW LETTER FINAL KAF",
+       "glyph": "finalkaf"
+      },
+      "U+05DD": {
+       "char": "ם",
+       "name": "HEBREW LETTER FINAL MEM",
+       "glyph": "finalmem"
+      },
+      "U+05DF": {
+       "char": "ן",
+       "name": "HEBREW LETTER FINAL NUN",
+       "glyph": "finalnun"
+      },
+      "U+05E3": {
+       "char": "ף",
+       "name": "HEBREW LETTER FINAL PE",
+       "glyph": "finalpe"
+      },
+      "U+05E5": {
+       "char": "ץ",
+       "name": "HEBREW LETTER FINAL TSADI",
+       "glyph": "finaltsadi"
+      }
+     }
+    },
+    "hebrew_punctuation": {
+     "required": 5,
+     "present": 5,
+     "missing": [],
+     "glyphs": {
+      "U+05BE": {
+       "char": "־",
+       "name": "HEBREW PUNCTUATION MAQAF",
+       "glyph": "maqaf"
+      },
+      "U+05F3": {
+       "char": "׳",
+       "name": "HEBREW PUNCTUATION GERESH",
+       "glyph": "geresh"
+      },
+      "U+05F4": {
+       "char": "״",
+       "name": "HEBREW PUNCTUATION GERSHAYIM",
+       "glyph": "gershayim"
+      },
+      "U+05C0": {
+       "char": "׀",
+       "name": "HEBREW PUNCTUATION PASEQ",
+       "glyph": "paseq"
+      },
+      "U+05C3": {
+       "char": "׃",
+       "name": "HEBREW PUNCTUATION SOF PASUQ",
+       "glyph": "sofpasuq"
+      }
+     }
+    },
+    "hebrew_points_and_dagesh": {
+     "required": 18,
+     "present": 18,
+     "missing": [],
+     "glyphs": {
+      "U+05B0": {
+       "char": "ְ",
+       "name": "HEBREW POINT SHEVA",
+       "glyph": "sheva"
+      },
+      "U+05B1": {
+       "char": "ֱ",
+       "name": "HEBREW POINT HATAF SEGOL",
+       "glyph": "hatafsegol"
+      },
+      "U+05B2": {
+       "char": "ֲ",
+       "name": "HEBREW POINT HATAF PATAH",
+       "glyph": "hatafpatah"
+      },
+      "U+05B3": {
+       "char": "ֳ",
+       "name": "HEBREW POINT HATAF QAMATS",
+       "glyph": "hatafqamats"
+      },
+      "U+05B4": {
+       "char": "ִ",
+       "name": "HEBREW POINT HIRIQ",
+       "glyph": "hiriq"
+      },
+      "U+05B5": {
+       "char": "ֵ",
+       "name": "HEBREW POINT TSERE",
+       "glyph": "tsere"
+      },
+      "U+05B6": {
+       "char": "ֶ",
+       "name": "HEBREW POINT SEGOL",
+       "glyph": "segol"
+      },
+      "U+05B7": {
+       "char": "ַ",
+       "name": "HEBREW POINT PATAH",
+       "glyph": "patah"
+      },
+      "U+05B8": {
+       "char": "ָ",
+       "name": "HEBREW POINT QAMATS",
+       "glyph": "qamats"
+      },
+      "U+05B9": {
+       "char": "ֹ",
+       "name": "HEBREW POINT HOLAM",
+       "glyph": "holam"
+      },
+      "U+05BA": {
+       "char": "ֺ",
+       "name": "HEBREW POINT HOLAM HASER FOR VAV",
+       "glyph": "holamhaser"
+      },
+      "U+05BB": {
+       "char": "ֻ",
+       "name": "HEBREW POINT QUBUTS",
+       "glyph": "qubuts"
+      },
+      "U+05BC": {
+       "char": "ּ",
+       "name": "HEBREW POINT DAGESH OR MAPIQ",
+       "glyph": "dagesh"
+      },
+      "U+05BD": {
+       "char": "ֽ",
+       "name": "HEBREW POINT METEG",
+       "glyph": "meteg"
+      },
+      "U+05BF": {
+       "char": "ֿ",
+       "name": "HEBREW POINT RAFE",
+       "glyph": "rafe"
+      },
+      "U+05C1": {
+       "char": "ׁ",
+       "name": "HEBREW POINT SHIN DOT",
+       "glyph": "shindot"
+      },
+      "U+05C2": {
+       "char": "ׂ",
+       "name": "HEBREW POINT SIN DOT",
+       "glyph": "sindot"
+      },
+      "U+05C7": {
+       "char": "ׇ",
+       "name": "HEBREW POINT QAMATS QATAN",
+       "glyph": "qamatsqatan"
+      }
+     }
+    },
+    "digits_0_9": {
+     "required": 10,
+     "present": 10,
+     "missing": [],
+     "glyphs": {
+      "U+0030": {
+       "char": "0",
+       "name": "DIGIT ZERO",
+       "glyph": "zero"
+      },
+      "U+0031": {
+       "char": "1",
+       "name": "DIGIT ONE",
+       "glyph": "one"
+      },
+      "U+0032": {
+       "char": "2",
+       "name": "DIGIT TWO",
+       "glyph": "two"
+      },
+      "U+0033": {
+       "char": "3",
+       "name": "DIGIT THREE",
+       "glyph": "three"
+      },
+      "U+0034": {
+       "char": "4",
+       "name": "DIGIT FOUR",
+       "glyph": "four"
+      },
+      "U+0035": {
+       "char": "5",
+       "name": "DIGIT FIVE",
+       "glyph": "five"
+      },
+      "U+0036": {
+       "char": "6",
+       "name": "DIGIT SIX",
+       "glyph": "six"
+      },
+      "U+0037": {
+       "char": "7",
+       "name": "DIGIT SEVEN",
+       "glyph": "seven"
+      },
+      "U+0038": {
+       "char": "8",
+       "name": "DIGIT EIGHT",
+       "glyph": "eight"
+      },
+      "U+0039": {
+       "char": "9",
+       "name": "DIGIT NINE",
+       "glyph": "nine"
+      }
+     }
+    },
+    "latin_uppercase": {
+     "required": 26,
+     "present": 26,
+     "missing": [],
+     "glyphs": {
+      "U+0041": {
+       "char": "A",
+       "name": "LATIN CAPITAL LETTER A",
+       "glyph": "A"
+      },
+      "U+0042": {
+       "char": "B",
+       "name": "LATIN CAPITAL LETTER B",
+       "glyph": "B"
+      },
+      "U+0043": {
+       "char": "C",
+       "name": "LATIN CAPITAL LETTER C",
+       "glyph": "C"
+      },
+      "U+0044": {
+       "char": "D",
+       "name": "LATIN CAPITAL LETTER D",
+       "glyph": "D"
+      },
+      "U+0045": {
+       "char": "E",
+       "name": "LATIN CAPITAL LETTER E",
+       "glyph": "E"
+      },
+      "U+0046": {
+       "char": "F",
+       "name": "LATIN CAPITAL LETTER F",
+       "glyph": "F"
+      },
+      "U+0047": {
+       "char": "G",
+       "name": "LATIN CAPITAL LETTER G",
+       "glyph": "G"
+      },
+      "U+0048": {
+       "char": "H",
+       "name": "LATIN CAPITAL LETTER H",
+       "glyph": "H"
+      },
+      "U+0049": {
+       "char": "I",
+       "name": "LATIN CAPITAL LETTER I",
+       "glyph": "I"
+      },
+      "U+004A": {
+       "char": "J",
+       "name": "LATIN CAPITAL LETTER J",
+       "glyph": "J"
+      },
+      "U+004B": {
+       "char": "K",
+       "name": "LATIN CAPITAL LETTER K",
+       "glyph": "K"
+      },
+      "U+004C": {
+       "char": "L",
+       "name": "LATIN CAPITAL LETTER L",
+       "glyph": "L"
+      },
+      "U+004D": {
+       "char": "M",
+       "name": "LATIN CAPITAL LETTER M",
+       "glyph": "M"
+      },
+      "U+004E": {
+       "char": "N",
+       "name": "LATIN CAPITAL LETTER N",
+       "glyph": "N"
+      },
+      "U+004F": {
+       "char": "O",
+       "name": "LATIN CAPITAL LETTER O",
+       "glyph": "O"
+      },
+      "U+0050": {
+       "char": "P",
+       "name": "LATIN CAPITAL LETTER P",
+       "glyph": "P"
+      },
+      "U+0051": {
+       "char": "Q",
+       "name": "LATIN CAPITAL LETTER Q",
+       "glyph": "Q"
+      },
+      "U+0052": {
+       "char": "R",
+       "name": "LATIN CAPITAL LETTER R",
+       "glyph": "R"
+      },
+      "U+0053": {
+       "char": "S",
+       "name": "LATIN CAPITAL LETTER S",
+       "glyph": "S"
+      },
+      "U+0054": {
+       "char": "T",
+       "name": "LATIN CAPITAL LETTER T",
+       "glyph": "T"
+      },
+      "U+0055": {
+       "char": "U",
+       "name": "LATIN CAPITAL LETTER U",
+       "glyph": "U"
+      },
+      "U+0056": {
+       "char": "V",
+       "name": "LATIN CAPITAL LETTER V",
+       "glyph": "V"
+      },
+      "U+0057": {
+       "char": "W",
+       "name": "LATIN CAPITAL LETTER W",
+       "glyph": "W"
+      },
+      "U+0058": {
+       "char": "X",
+       "name": "LATIN CAPITAL LETTER X",
+       "glyph": "X"
+      },
+      "U+0059": {
+       "char": "Y",
+       "name": "LATIN CAPITAL LETTER Y",
+       "glyph": "Y"
+      },
+      "U+005A": {
+       "char": "Z",
+       "name": "LATIN CAPITAL LETTER Z",
+       "glyph": "Z"
+      }
+     }
+    },
+    "latin_lowercase": {
+     "required": 26,
+     "present": 26,
+     "missing": [],
+     "glyphs": {
+      "U+0061": {
+       "char": "a",
+       "name": "LATIN SMALL LETTER A",
+       "glyph": "a"
+      },
+      "U+0062": {
+       "char": "b",
+       "name": "LATIN SMALL LETTER B",
+       "glyph": "b"
+      },
+      "U+0063": {
+       "char": "c",
+       "name": "LATIN SMALL LETTER C",
+       "glyph": "c"
+      },
+      "U+0064": {
+       "char": "d",
+       "name": "LATIN SMALL LETTER D",
+       "glyph": "d"
+      },
+      "U+0065": {
+       "char": "e",
+       "name": "LATIN SMALL LETTER E",
+       "glyph": "e"
+      },
+      "U+0066": {
+       "char": "f",
+       "name": "LATIN SMALL LETTER F",
+       "glyph": "f"
+      },
+      "U+0067": {
+       "char": "g",
+       "name": "LATIN SMALL LETTER G",
+       "glyph": "g"
+      },
+      "U+0068": {
+       "char": "h",
+       "name": "LATIN SMALL LETTER H",
+       "glyph": "h"
+      },
+      "U+0069": {
+       "char": "i",
+       "name": "LATIN SMALL LETTER I",
+       "glyph": "i"
+      },
+      "U+006A": {
+       "char": "j",
+       "name": "LATIN SMALL LETTER J",
+       "glyph": "j"
+      },
+      "U+006B": {
+       "char": "k",
+       "name": "LATIN SMALL LETTER K",
+       "glyph": "k"
+      },
+      "U+006C": {
+       "char": "l",
+       "name": "LATIN SMALL LETTER L",
+       "glyph": "l"
+      },
+      "U+006D": {
+       "char": "m",
+       "name": "LATIN SMALL LETTER M",
+       "glyph": "m"
+      },
+      "U+006E": {
+       "char": "n",
+       "name": "LATIN SMALL LETTER N",
+       "glyph": "n"
+      },
+      "U+006F": {
+       "char": "o",
+       "name": "LATIN SMALL LETTER O",
+       "glyph": "o"
+      },
+      "U+0070": {
+       "char": "p",
+       "name": "LATIN SMALL LETTER P",
+       "glyph": "p"
+      },
+      "U+0071": {
+       "char": "q",
+       "name": "LATIN SMALL LETTER Q",
+       "glyph": "q"
+      },
+      "U+0072": {
+       "char": "r",
+       "name": "LATIN SMALL LETTER R",
+       "glyph": "r"
+      },
+      "U+0073": {
+       "char": "s",
+       "name": "LATIN SMALL LETTER S",
+       "glyph": "s"
+      },
+      "U+0074": {
+       "char": "t",
+       "name": "LATIN SMALL LETTER T",
+       "glyph": "t"
+      },
+      "U+0075": {
+       "char": "u",
+       "name": "LATIN SMALL LETTER U",
+       "glyph": "u"
+      },
+      "U+0076": {
+       "char": "v",
+       "name": "LATIN SMALL LETTER V",
+       "glyph": "v"
+      },
+      "U+0077": {
+       "char": "w",
+       "name": "LATIN SMALL LETTER W",
+       "glyph": "w"
+      },
+      "U+0078": {
+       "char": "x",
+       "name": "LATIN SMALL LETTER X",
+       "glyph": "x"
+      },
+      "U+0079": {
+       "char": "y",
+       "name": "LATIN SMALL LETTER Y",
+       "glyph": "y"
+      },
+      "U+007A": {
+       "char": "z",
+       "name": "LATIN SMALL LETTER Z",
+       "glyph": "z"
+      }
+     }
+    },
+    "ascii_punctuation_symbols": {
+     "required": 32,
+     "present": 32,
+     "missing": [],
+     "glyphs": {
+      "U+0021": {
+       "char": "!",
+       "name": "EXCLAMATION MARK",
+       "glyph": "exclam"
+      },
+      "U+0022": {
+       "char": "\"",
+       "name": "QUOTATION MARK",
+       "glyph": "quotedbl"
+      },
+      "U+0023": {
+       "char": "#",
+       "name": "NUMBER SIGN",
+       "glyph": "numbersign"
+      },
+      "U+0024": {
+       "char": "$",
+       "name": "DOLLAR SIGN",
+       "glyph": "dollar"
+      },
+      "U+0025": {
+       "char": "%",
+       "name": "PERCENT SIGN",
+       "glyph": "percent"
+      },
+      "U+0026": {
+       "char": "&",
+       "name": "AMPERSAND",
+       "glyph": "ampersand"
+      },
+      "U+0027": {
+       "char": "'",
+       "name": "APOSTROPHE",
+       "glyph": "quotesingle"
+      },
+      "U+0028": {
+       "char": "(",
+       "name": "LEFT PARENTHESIS",
+       "glyph": "parenleft"
+      },
+      "U+0029": {
+       "char": ")",
+       "name": "RIGHT PARENTHESIS",
+       "glyph": "parenright"
+      },
+      "U+002A": {
+       "char": "*",
+       "name": "ASTERISK",
+       "glyph": "asterisk"
+      },
+      "U+002B": {
+       "char": "+",
+       "name": "PLUS SIGN",
+       "glyph": "plus"
+      },
+      "U+002C": {
+       "char": ",",
+       "name": "COMMA",
+       "glyph": "comma"
+      },
+      "U+002D": {
+       "char": "-",
+       "name": "HYPHEN-MINUS",
+       "glyph": "hyphen"
+      },
+      "U+002E": {
+       "char": ".",
+       "name": "FULL STOP",
+       "glyph": "period"
+      },
+      "U+002F": {
+       "char": "/",
+       "name": "SOLIDUS",
+       "glyph": "slash"
+      },
+      "U+003A": {
+       "char": ":",
+       "name": "COLON",
+       "glyph": "colon"
+      },
+      "U+003B": {
+       "char": ";",
+       "name": "SEMICOLON",
+       "glyph": "semicolon"
+      },
+      "U+003C": {
+       "char": "<",
+       "name": "LESS-THAN SIGN",
+       "glyph": "less"
+      },
+      "U+003D": {
+       "char": "=",
+       "name": "EQUALS SIGN",
+       "glyph": "equal"
+      },
+      "U+003E": {
+       "char": ">",
+       "name": "GREATER-THAN SIGN",
+       "glyph": "greater"
+      },
+      "U+003F": {
+       "char": "?",
+       "name": "QUESTION MARK",
+       "glyph": "question"
+      },
+      "U+0040": {
+       "char": "@",
+       "name": "COMMERCIAL AT",
+       "glyph": "at"
+      },
+      "U+005B": {
+       "char": "[",
+       "name": "LEFT SQUARE BRACKET",
+       "glyph": "bracketleft"
+      },
+      "U+005C": {
+       "char": "\\",
+       "name": "REVERSE SOLIDUS",
+       "glyph": "backslash"
+      },
+      "U+005D": {
+       "char": "]",
+       "name": "RIGHT SQUARE BRACKET",
+       "glyph": "bracketright"
+      },
+      "U+005E": {
+       "char": "^",
+       "name": "CIRCUMFLEX ACCENT",
+       "glyph": "asciicircum"
+      },
+      "U+005F": {
+       "char": "_",
+       "name": "LOW LINE",
+       "glyph": "underscore"
+      },
+      "U+0060": {
+       "char": "`",
+       "name": "GRAVE ACCENT",
+       "glyph": "grave"
+      },
+      "U+007B": {
+       "char": "{",
+       "name": "LEFT CURLY BRACKET",
+       "glyph": "braceleft"
+      },
+      "U+007C": {
+       "char": "|",
+       "name": "VERTICAL LINE",
+       "glyph": "bar"
+      },
+      "U+007D": {
+       "char": "}",
+       "name": "RIGHT CURLY BRACKET",
+       "glyph": "braceright"
+      },
+      "U+007E": {
+       "char": "~",
+       "name": "TILDE",
+       "glyph": "asciitilde"
+      }
+     }
+    },
+    "extended_punctuation_symbols": {
+     "required": 21,
+     "present": 21,
+     "missing": [],
+     "glyphs": {
+      "U+2013": {
+       "char": "–",
+       "name": "EN DASH",
+       "glyph": "endash"
+      },
+      "U+2014": {
+       "char": "—",
+       "name": "EM DASH",
+       "glyph": "emdash"
+      },
+      "U+2018": {
+       "char": "‘",
+       "name": "LEFT SINGLE QUOTATION MARK",
+       "glyph": "quoteleft"
+      },
+      "U+2019": {
+       "char": "’",
+       "name": "RIGHT SINGLE QUOTATION MARK",
+       "glyph": "quoteright"
+      },
+      "U+201C": {
+       "char": "“",
+       "name": "LEFT DOUBLE QUOTATION MARK",
+       "glyph": "quotedblleft"
+      },
+      "U+201D": {
+       "char": "”",
+       "name": "RIGHT DOUBLE QUOTATION MARK",
+       "glyph": "quotedblright"
+      },
+      "U+201E": {
+       "char": "„",
+       "name": "DOUBLE LOW-9 QUOTATION MARK",
+       "glyph": "quotedblbase"
+      },
+      "U+2026": {
+       "char": "…",
+       "name": "HORIZONTAL ELLIPSIS",
+       "glyph": "ellipsis"
+      },
+      "U+2022": {
+       "char": "•",
+       "name": "BULLET",
+       "glyph": "bullet"
+      },
+      "U+00AB": {
+       "char": "«",
+       "name": "LEFT-POINTING DOUBLE ANGLE QUOTATION MARK",
+       "glyph": "guillemotleft"
+      },
+      "U+00BB": {
+       "char": "»",
+       "name": "RIGHT-POINTING DOUBLE ANGLE QUOTATION MARK",
+       "glyph": "guillemotright"
+      },
+      "U+00B7": {
+       "char": "·",
+       "name": "MIDDLE DOT",
+       "glyph": "periodcentered"
+      },
+      "U+00A7": {
+       "char": "§",
+       "name": "SECTION SIGN",
+       "glyph": "section"
+      },
+      "U+00B6": {
+       "char": "¶",
+       "name": "PILCROW SIGN",
+       "glyph": "paragraph"
+      },
+      "U+00B0": {
+       "char": "°",
+       "name": "DEGREE SIGN",
+       "glyph": "degree"
+      },
+      "U+00A9": {
+       "char": "©",
+       "name": "COPYRIGHT SIGN",
+       "glyph": "copyright"
+      },
+      "U+00B1": {
+       "char": "±",
+       "name": "PLUS-MINUS SIGN",
+       "glyph": "plusminus"
+      },
+      "U+00D7": {
+       "char": "×",
+       "name": "MULTIPLICATION SIGN",
+       "glyph": "multiply"
+      },
+      "U+00F7": {
+       "char": "÷",
+       "name": "DIVISION SIGN",
+       "glyph": "divide"
+      },
+      "U+2212": {
+       "char": "−",
+       "name": "MINUS SIGN",
+       "glyph": "uni2212"
+      },
+      "U+20AA": {
+       "char": "₪",
+       "name": "NEW SHEQEL SIGN",
+       "glyph": "uni20AA"
+      }
+     }
+    },
+    "spaces_and_controls": {
+     "required": 6,
+     "present": 6,
+     "missing": [],
+     "glyphs": {
+      "U+0020": {
+       "char": " ",
+       "name": "SPACE",
+       "glyph": "space"
+      },
+      "U+00A0": {
+       "char": " ",
+       "name": "NO-BREAK SPACE",
+       "glyph": "uni00A0"
+      },
+      "U+200C": {
+       "char": "‌",
+       "name": "ZERO WIDTH NON-JOINER",
+       "glyph": "uni200C"
+      },
+      "U+200D": {
+       "char": "‍",
+       "name": "ZERO WIDTH JOINER",
+       "glyph": "uni200D"
+      },
+      "U+200E": {
+       "char": "‎",
+       "name": "LEFT-TO-RIGHT MARK",
+       "glyph": "uni200E"
+      },
+      "U+200F": {
+       "char": "‏",
+       "name": "RIGHT-TO-LEFT MARK",
+       "glyph": "uni200F"
+      }
+     }
+    }
+   },
+   "all_required_present": true,
+   "hebrew_letterforms_total": 27,
+   "gpos_features": [
+    "kern",
+    "mark"
+   ],
+   "tables": [
+    "GDEF",
+    "GPOS",
+    "OS/2",
+    "cmap",
+    "gasp",
+    "glyf",
+    "head",
+    "hhea",
+    "hmtx",
+    "loca",
+    "maxp",
+    "name",
+    "post",
+    "prep"
+   ]
+  }
+ }
+}

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="resh" format="2">
+  <advance width="629"/>
+  <unicode hex="05E8"/>
+  <outline>
+    <contour>
+      <point x="158" y="542" type="line"/>
+      <point x="391" y="542" type="line" smooth="yes"/>
+      <point x="431" y="542"/>
+      <point x="454" y="521" type="qcurve" smooth="yes"/>
+      <point x="474" y="501"/>
+      <point x="474" y="466" type="qcurve" smooth="yes"/>
+      <point x="474" y="60" type="line"/>
+      <point x="450" y="0" type="line"/>
+      <point x="568" y="0" type="line"/>
+      <point x="568" y="466" type="line" smooth="yes"/>
+      <point x="568" y="509"/>
+      <point x="554" y="545" type="qcurve" smooth="yes"/>
+      <point x="539" y="580"/>
+      <point x="513" y="605" type="qcurve" smooth="yes"/>
+      <point x="488" y="627"/>
+      <point x="456" y="639" type="qcurve" smooth="yes"/>
+      <point x="426" y="650"/>
+      <point x="391" y="650" type="qcurve" smooth="yes"/>
+      <point x="61" y="650" type="line"/>
+      <point x="61" y="587" type="line"/>
+      <point x="158" y="544" type="line"/>
+    </contour>
+  </outline>
+</glyph>

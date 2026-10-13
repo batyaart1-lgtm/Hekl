@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yod" format="2">
+  <advance width="345"/>
+  <unicode hex="05D9"/>
+  <outline>
+    <contour>
+      <point x="79" y="650" type="line"/>
+      <point x="79" y="604" type="line"/>
+      <point x="110" y="590" type="line"/>
+      <point x="110" y="343" type="line"/>
+      <point x="76" y="299" type="line"/>
+      <point x="160" y="299" type="line"/>
+      <point x="160" y="570" type="line"/>
+      <point x="269" y="570" type="line"/>
+      <point x="269" y="650" type="line"/>
+    </contour>
+  </outline>
+</glyph>

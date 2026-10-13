@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="qamatsqatan" format="2">
+  <unicode hex="05C7"/>
+  <outline>
+    <contour>
+      <point x="-87" y="-73" type="line"/>
+      <point x="-52" y="-73" type="line"/>
+      <point x="-52" y="-187" type="line"/>
+      <point x="52" y="-187" type="line"/>
+      <point x="52" y="-73" type="line"/>
+      <point x="87" y="-73" type="line"/>
+      <point x="87" y="-6" type="line"/>
+      <point x="-87" y="-6" type="line"/>
+    </contour>
+  </outline>
+</glyph>

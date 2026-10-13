@@ -1,0 +1,5098 @@
+[
+ {
+  "glyph": ".notdef",
+  "unicode": [],
+  "weight": "Regular",
+  "construction": "rectangle frame (polygon difference)",
+  "generator": {
+   "function": "__main__.make_notdef",
+   "file": "src/swbook/__main__.py",
+   "line": 88,
+   "source_sha256": "055b351e95f8fc03"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "space",
+  "unicode": [
+   "U+0020"
+  ],
+  "weight": "Regular",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni00A0",
+  "unicode": [
+   "U+00A0"
+  ],
+  "weight": "Regular",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200C",
+  "unicode": [
+   "U+200C"
+  ],
+  "weight": "Regular",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200D",
+  "unicode": [
+   "U+200D"
+  ],
+  "weight": "Regular",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200E",
+  "unicode": [
+   "U+200E"
+  ],
+  "weight": "Regular",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200F",
+  "unicode": [
+   "U+200F"
+  ],
+  "weight": "Regular",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "alef",
+  "unicode": [
+   "U+05D0"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.alef",
+   "file": "src/swbook/hebrew.py",
+   "line": 406,
+   "source_sha256": "e43d382a22b679d1"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bet",
+  "unicode": [
+   "U+05D1"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.bet",
+   "file": "src/swbook/hebrew.py",
+   "line": 423,
+   "source_sha256": "9fbd94dbf599f209"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "gimel",
+  "unicode": [
+   "U+05D2"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.gimel",
+   "file": "src/swbook/hebrew.py",
+   "line": 436,
+   "source_sha256": "60568e897c52d593"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "dalet",
+  "unicode": [
+   "U+05D3"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.dalet",
+   "file": "src/swbook/hebrew.py",
+   "line": 81,
+   "source_sha256": "c4350f11f5381b0c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "he",
+  "unicode": [
+   "U+05D4"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.he",
+   "file": "src/swbook/hebrew.py",
+   "line": 105,
+   "source_sha256": "b8fc892ab83d9974"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "vav",
+  "unicode": [
+   "U+05D5"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.vav",
+   "file": "src/swbook/hebrew.py",
+   "line": 125,
+   "source_sha256": "ff39530d21e9b2b3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "zayin",
+  "unicode": [
+   "U+05D6"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.zayin",
+   "file": "src/swbook/hebrew.py",
+   "line": 137,
+   "source_sha256": "ad8922c77b02ca4e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "het",
+  "unicode": [
+   "U+05D7"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.het",
+   "file": "src/swbook/hebrew.py",
+   "line": 116,
+   "source_sha256": "209d56d67e20082e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tet",
+  "unicode": [
+   "U+05D8"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tet",
+   "file": "src/swbook/hebrew.py",
+   "line": 152,
+   "source_sha256": "1fd770c27587c524"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "yod",
+  "unicode": [
+   "U+05D9"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.yod",
+   "file": "src/swbook/hebrew.py",
+   "line": 145,
+   "source_sha256": "356c04c93fd015cc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalkaf",
+  "unicode": [
+   "U+05DA"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.kaf_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 185,
+   "source_sha256": "dc1de99b8d19bd2e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "kaf",
+  "unicode": [
+   "U+05DB"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.kaf",
+   "file": "src/swbook/hebrew.py",
+   "line": 172,
+   "source_sha256": "bbfe6c69bd98a209"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "lamed",
+  "unicode": [
+   "U+05DC"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.lamed",
+   "file": "src/swbook/hebrew.py",
+   "line": 198,
+   "source_sha256": "fa6f89de2c57ed03"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalmem",
+  "unicode": [
+   "U+05DD"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.mem_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 235,
+   "source_sha256": "538339822a47cb81"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "mem",
+  "unicode": [
+   "U+05DE"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.mem",
+   "file": "src/swbook/hebrew.py",
+   "line": 218,
+   "source_sha256": "b972d3ff90d36899"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalnun",
+  "unicode": [
+   "U+05DF"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.nun_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 260,
+   "source_sha256": "bd453e805f6405cc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "nun",
+  "unicode": [
+   "U+05E0"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.nun",
+   "file": "src/swbook/hebrew.py",
+   "line": 248,
+   "source_sha256": "3a8f73b8a663ae3e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "samekh",
+  "unicode": [
+   "U+05E1"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.samekh",
+   "file": "src/swbook/hebrew.py",
+   "line": 273,
+   "source_sha256": "e37e4b107a58d787"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "ayin",
+  "unicode": [
+   "U+05E2"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.ayin",
+   "file": "src/swbook/hebrew.py",
+   "line": 281,
+   "source_sha256": "e3877db465a31a77"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalpe",
+  "unicode": [
+   "U+05E3"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.pe_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 325,
+   "source_sha256": "6f6c078e901a9c77"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "pe",
+  "unicode": [
+   "U+05E4"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.pe",
+   "file": "src/swbook/hebrew.py",
+   "line": 297,
+   "source_sha256": "8fb742d9fe2a951b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finaltsadi",
+  "unicode": [
+   "U+05E5"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tsadi_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 359,
+   "source_sha256": "6b320410c4c94ded"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tsadi",
+  "unicode": [
+   "U+05E6"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tsadi",
+   "file": "src/swbook/hebrew.py",
+   "line": 329,
+   "source_sha256": "309fea17ef19e957"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qof",
+  "unicode": [
+   "U+05E7"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.qof",
+   "file": "src/swbook/hebrew.py",
+   "line": 363,
+   "source_sha256": "804842967ba7ff9c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "resh",
+  "unicode": [
+   "U+05E8"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.resh",
+   "file": "src/swbook/hebrew.py",
+   "line": 89,
+   "source_sha256": "9228488777bd0a78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "shin",
+  "unicode": [
+   "U+05E9"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.shin",
+   "file": "src/swbook/hebrew.py",
+   "line": 377,
+   "source_sha256": "3f882e399110a7d1"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tav",
+  "unicode": [
+   "U+05EA"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tav",
+   "file": "src/swbook/hebrew.py",
+   "line": 396,
+   "source_sha256": "090bde57a67b3e03"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "maqaf",
+  "unicode": [
+   "U+05BE"
+  ],
+  "weight": "Regular",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "geresh",
+  "unicode": [
+   "U+05F3"
+  ],
+  "weight": "Regular",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "gershayim",
+  "unicode": [
+   "U+05F4"
+  ],
+  "weight": "Regular",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "paseq",
+  "unicode": [
+   "U+05C0"
+  ],
+  "weight": "Regular",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "sofpasuq",
+  "unicode": [
+   "U+05C3"
+  ],
+  "weight": "Regular",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "sheva",
+  "unicode": [
+   "U+05B0"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hatafsegol",
+  "unicode": [
+   "U+05B1"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hatafpatah",
+  "unicode": [
+   "U+05B2"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hatafqamats",
+  "unicode": [
+   "U+05B3"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hiriq",
+  "unicode": [
+   "U+05B4"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tsere",
+  "unicode": [
+   "U+05B5"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "segol",
+  "unicode": [
+   "U+05B6"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "patah",
+  "unicode": [
+   "U+05B7"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qamats",
+  "unicode": [
+   "U+05B8"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "holam",
+  "unicode": [
+   "U+05B9"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "holamhaser",
+  "unicode": [
+   "U+05BA"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qubuts",
+  "unicode": [
+   "U+05BB"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "dagesh",
+  "unicode": [
+   "U+05BC"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "meteg",
+  "unicode": [
+   "U+05BD"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "rafe",
+  "unicode": [
+   "U+05BF"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "shindot",
+  "unicode": [
+   "U+05C1"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "sindot",
+  "unicode": [
+   "U+05C2"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qamatsqatan",
+  "unicode": [
+   "U+05C7"
+  ],
+  "weight": "Regular",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "A",
+  "unicode": [
+   "U+0041"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_A",
+   "file": "src/swbook/latin.py",
+   "line": 93,
+   "source_sha256": "a5c5284e22fb101f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "B",
+  "unicode": [
+   "U+0042"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_B",
+   "file": "src/swbook/latin.py",
+   "line": 105,
+   "source_sha256": "703dca259d847964"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "C",
+  "unicode": [
+   "U+0043"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_C",
+   "file": "src/swbook/latin.py",
+   "line": 117,
+   "source_sha256": "7f1dbed96a51ddd8"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "D",
+  "unicode": [
+   "U+0044"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_D",
+   "file": "src/swbook/latin.py",
+   "line": 129,
+   "source_sha256": "7e4b421fec4a285b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "E",
+  "unicode": [
+   "U+0045"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_E",
+   "file": "src/swbook/latin.py",
+   "line": 138,
+   "source_sha256": "5790c49b11cb2d28"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "F",
+  "unicode": [
+   "U+0046"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_F",
+   "file": "src/swbook/latin.py",
+   "line": 150,
+   "source_sha256": "12d2062d94d63f73"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "G",
+  "unicode": [
+   "U+0047"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_G",
+   "file": "src/swbook/latin.py",
+   "line": 161,
+   "source_sha256": "19728665bcd91454"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "H",
+  "unicode": [
+   "U+0048"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_H",
+   "file": "src/swbook/latin.py",
+   "line": 174,
+   "source_sha256": "4be6d5fe284e97ab"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "I",
+  "unicode": [
+   "U+0049"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_I",
+   "file": "src/swbook/latin.py",
+   "line": 183,
+   "source_sha256": "f3068ca1104257ad"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "J",
+  "unicode": [
+   "U+004A"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_J",
+   "file": "src/swbook/latin.py",
+   "line": 191,
+   "source_sha256": "87bb3bd62e12df95"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "K",
+  "unicode": [
+   "U+004B"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_K",
+   "file": "src/swbook/latin.py",
+   "line": 201,
+   "source_sha256": "4fd278f48ca4537c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "L",
+  "unicode": [
+   "U+004C"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_L",
+   "file": "src/swbook/latin.py",
+   "line": 213,
+   "source_sha256": "4b354193a2d731c4"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "M",
+  "unicode": [
+   "U+004D"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_M",
+   "file": "src/swbook/latin.py",
+   "line": 222,
+   "source_sha256": "6c19a32236b1ca7a"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "N",
+  "unicode": [
+   "U+004E"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_N",
+   "file": "src/swbook/latin.py",
+   "line": 233,
+   "source_sha256": "b75a96592d4384b7"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "O",
+  "unicode": [
+   "U+004F"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_O",
+   "file": "src/swbook/latin.py",
+   "line": 243,
+   "source_sha256": "2fc2f11f94b4a297"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "P",
+  "unicode": [
+   "U+0050"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_P",
+   "file": "src/swbook/latin.py",
+   "line": 250,
+   "source_sha256": "6ed57f81a43b45b3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "Q",
+  "unicode": [
+   "U+0051"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_Q",
+   "file": "src/swbook/latin.py",
+   "line": 259,
+   "source_sha256": "d118c8f8b42e0c60"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "R",
+  "unicode": [
+   "U+0052"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_R",
+   "file": "src/swbook/latin.py",
+   "line": 266,
+   "source_sha256": "f58346d397145252"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "S",
+  "unicode": [
+   "U+0053"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_S",
+   "file": "src/swbook/latin.py",
+   "line": 277,
+   "source_sha256": "a17be88b2f9b5d14"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "T",
+  "unicode": [
+   "U+0054"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_T",
+   "file": "src/swbook/latin.py",
+   "line": 292,
+   "source_sha256": "0a00ce43d8908778"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "U",
+  "unicode": [
+   "U+0055"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_U",
+   "file": "src/swbook/latin.py",
+   "line": 301,
+   "source_sha256": "85dab0f9f43ddfb7"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "V",
+  "unicode": [
+   "U+0056"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_V",
+   "file": "src/swbook/latin.py",
+   "line": 313,
+   "source_sha256": "3b785c4052b2842f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "W",
+  "unicode": [
+   "U+0057"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_W",
+   "file": "src/swbook/latin.py",
+   "line": 322,
+   "source_sha256": "c8bab68033cd14cc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "X",
+  "unicode": [
+   "U+0058"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_X",
+   "file": "src/swbook/latin.py",
+   "line": 332,
+   "source_sha256": "ef861147475a1a9d"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "Y",
+  "unicode": [
+   "U+0059"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_Y",
+   "file": "src/swbook/latin.py",
+   "line": 342,
+   "source_sha256": "b3f93940b53256c3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "Z",
+  "unicode": [
+   "U+005A"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_Z",
+   "file": "src/swbook/latin.py",
+   "line": 352,
+   "source_sha256": "c6e1046f4a9ff99e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "a",
+  "unicode": [
+   "U+0061"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_a",
+   "file": "src/swbook/latin.py",
+   "line": 366,
+   "source_sha256": "99368431418daf93"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "b",
+  "unicode": [
+   "U+0062"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_b",
+   "file": "src/swbook/latin.py",
+   "line": 381,
+   "source_sha256": "eec46051e6d4de70"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "c",
+  "unicode": [
+   "U+0063"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_c",
+   "file": "src/swbook/latin.py",
+   "line": 390,
+   "source_sha256": "fe26ad4cf8c2736b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "d",
+  "unicode": [
+   "U+0064"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_d",
+   "file": "src/swbook/latin.py",
+   "line": 401,
+   "source_sha256": "a25bc79d00526efc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "e",
+  "unicode": [
+   "U+0065"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_e",
+   "file": "src/swbook/latin.py",
+   "line": 410,
+   "source_sha256": "d74a22a0c16bfd4a"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "f",
+  "unicode": [
+   "U+0066"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_f",
+   "file": "src/swbook/latin.py",
+   "line": 419,
+   "source_sha256": "8f6e6cf2ec6bca49"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "g",
+  "unicode": [
+   "U+0067"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_g",
+   "file": "src/swbook/latin.py",
+   "line": 430,
+   "source_sha256": "1a6434a30a6097e3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "h",
+  "unicode": [
+   "U+0068"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_h",
+   "file": "src/swbook/latin.py",
+   "line": 445,
+   "source_sha256": "df0f3f408269b88f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "i",
+  "unicode": [
+   "U+0069"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_i",
+   "file": "src/swbook/latin.py",
+   "line": 455,
+   "source_sha256": "3eb5dacbcb40fb8c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "j",
+  "unicode": [
+   "U+006A"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_j",
+   "file": "src/swbook/latin.py",
+   "line": 463,
+   "source_sha256": "2a164240ff9b2e95"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "k",
+  "unicode": [
+   "U+006B"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_k",
+   "file": "src/swbook/latin.py",
+   "line": 473,
+   "source_sha256": "95426270094a3b05"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "l",
+  "unicode": [
+   "U+006C"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_l",
+   "file": "src/swbook/latin.py",
+   "line": 485,
+   "source_sha256": "24bffe9dd1a3aed6"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "m",
+  "unicode": [
+   "U+006D"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_m",
+   "file": "src/swbook/latin.py",
+   "line": 493,
+   "source_sha256": "4b55b70b24df4a43"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "n",
+  "unicode": [
+   "U+006E"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_n",
+   "file": "src/swbook/latin.py",
+   "line": 504,
+   "source_sha256": "bc9da613269e87d0"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "o",
+  "unicode": [
+   "U+006F"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_o",
+   "file": "src/swbook/latin.py",
+   "line": 513,
+   "source_sha256": "ce30cbcb36476dd9"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "p",
+  "unicode": [
+   "U+0070"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_p",
+   "file": "src/swbook/latin.py",
+   "line": 520,
+   "source_sha256": "2c6f68ba25389296"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "q",
+  "unicode": [
+   "U+0071"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_q",
+   "file": "src/swbook/latin.py",
+   "line": 529,
+   "source_sha256": "2fa6714f792f2264"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "r",
+  "unicode": [
+   "U+0072"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_r",
+   "file": "src/swbook/latin.py",
+   "line": 538,
+   "source_sha256": "830fdb070d4a7df0"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "s",
+  "unicode": [
+   "U+0073"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_s",
+   "file": "src/swbook/latin.py",
+   "line": 548,
+   "source_sha256": "20f77fc905aea122"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "t",
+  "unicode": [
+   "U+0074"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_t",
+   "file": "src/swbook/latin.py",
+   "line": 560,
+   "source_sha256": "32b8ccce57faf7d1"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "u",
+  "unicode": [
+   "U+0075"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_u",
+   "file": "src/swbook/latin.py",
+   "line": 572,
+   "source_sha256": "02ab10c2ddf51c7f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "v",
+  "unicode": [
+   "U+0076"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_v",
+   "file": "src/swbook/latin.py",
+   "line": 582,
+   "source_sha256": "f2f05fd9e7276714"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "w",
+  "unicode": [
+   "U+0077"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_w",
+   "file": "src/swbook/latin.py",
+   "line": 591,
+   "source_sha256": "84b167fda1a93837"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "x",
+  "unicode": [
+   "U+0078"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_x",
+   "file": "src/swbook/latin.py",
+   "line": 601,
+   "source_sha256": "e649beff461a6d1c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "y",
+  "unicode": [
+   "U+0079"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_y",
+   "file": "src/swbook/latin.py",
+   "line": 611,
+   "source_sha256": "3560935029e84f23"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "z",
+  "unicode": [
+   "U+007A"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_z",
+   "file": "src/swbook/latin.py",
+   "line": 623,
+   "source_sha256": "d3aaa8af609029f2"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "zero",
+  "unicode": [
+   "U+0030"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "one",
+  "unicode": [
+   "U+0031"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "two",
+  "unicode": [
+   "U+0032"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "three",
+  "unicode": [
+   "U+0033"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "four",
+  "unicode": [
+   "U+0034"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "five",
+  "unicode": [
+   "U+0035"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "six",
+  "unicode": [
+   "U+0036"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "seven",
+  "unicode": [
+   "U+0037"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "eight",
+  "unicode": [
+   "U+0038"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "nine",
+  "unicode": [
+   "U+0039"
+  ],
+  "weight": "Regular",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "exclam",
+  "unicode": [
+   "U+0021"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedbl",
+  "unicode": [
+   "U+0022"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "numbersign",
+  "unicode": [
+   "U+0023"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "dollar",
+  "unicode": [
+   "U+0024"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "percent",
+  "unicode": [
+   "U+0025"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "ampersand",
+  "unicode": [
+   "U+0026"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotesingle",
+  "unicode": [
+   "U+0027"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "parenleft",
+  "unicode": [
+   "U+0028"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "parenright",
+  "unicode": [
+   "U+0029"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "asterisk",
+  "unicode": [
+   "U+002A"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "plus",
+  "unicode": [
+   "U+002B"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "comma",
+  "unicode": [
+   "U+002C"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hyphen",
+  "unicode": [
+   "U+002D"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "period",
+  "unicode": [
+   "U+002E"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "slash",
+  "unicode": [
+   "U+002F"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "colon",
+  "unicode": [
+   "U+003A"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "semicolon",
+  "unicode": [
+   "U+003B"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "less",
+  "unicode": [
+   "U+003C"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "equal",
+  "unicode": [
+   "U+003D"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "greater",
+  "unicode": [
+   "U+003E"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "question",
+  "unicode": [
+   "U+003F"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "at",
+  "unicode": [
+   "U+0040"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bracketleft",
+  "unicode": [
+   "U+005B"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "backslash",
+  "unicode": [
+   "U+005C"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bracketright",
+  "unicode": [
+   "U+005D"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "asciicircum",
+  "unicode": [
+   "U+005E"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "underscore",
+  "unicode": [
+   "U+005F"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "grave",
+  "unicode": [
+   "U+0060"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "braceleft",
+  "unicode": [
+   "U+007B"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bar",
+  "unicode": [
+   "U+007C"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "braceright",
+  "unicode": [
+   "U+007D"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "asciitilde",
+  "unicode": [
+   "U+007E"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "endash",
+  "unicode": [
+   "U+2013"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "emdash",
+  "unicode": [
+   "U+2014"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quoteleft",
+  "unicode": [
+   "U+2018"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quoteright",
+  "unicode": [
+   "U+2019"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedblleft",
+  "unicode": [
+   "U+201C"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedblright",
+  "unicode": [
+   "U+201D"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedblbase",
+  "unicode": [
+   "U+201E"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "ellipsis",
+  "unicode": [
+   "U+2026"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bullet",
+  "unicode": [
+   "U+2022"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "guillemotleft",
+  "unicode": [
+   "U+00AB"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "guillemotright",
+  "unicode": [
+   "U+00BB"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "periodcentered",
+  "unicode": [
+   "U+00B7"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "section",
+  "unicode": [
+   "U+00A7"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "paragraph",
+  "unicode": [
+   "U+00B6"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "degree",
+  "unicode": [
+   "U+00B0"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "copyright",
+  "unicode": [
+   "U+00A9"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "plusminus",
+  "unicode": [
+   "U+00B1"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "multiply",
+  "unicode": [
+   "U+00D7"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "divide",
+  "unicode": [
+   "U+00F7"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni2212",
+  "unicode": [
+   "U+2212"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni20AA",
+  "unicode": [
+   "U+20AA"
+  ],
+  "weight": "Regular",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": ".notdef",
+  "unicode": [],
+  "weight": "Bold",
+  "construction": "rectangle frame (polygon difference)",
+  "generator": {
+   "function": "__main__.make_notdef",
+   "file": "src/swbook/__main__.py",
+   "line": 88,
+   "source_sha256": "055b351e95f8fc03"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "space",
+  "unicode": [
+   "U+0020"
+  ],
+  "weight": "Bold",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni00A0",
+  "unicode": [
+   "U+00A0"
+  ],
+  "weight": "Bold",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200C",
+  "unicode": [
+   "U+200C"
+  ],
+  "weight": "Bold",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200D",
+  "unicode": [
+   "U+200D"
+  ],
+  "weight": "Bold",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200E",
+  "unicode": [
+   "U+200E"
+  ],
+  "weight": "Bold",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni200F",
+  "unicode": [
+   "U+200F"
+  ],
+  "weight": "Bold",
+  "construction": "empty/zero-outline glyph",
+  "generator": null,
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "alef",
+  "unicode": [
+   "U+05D0"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.alef",
+   "file": "src/swbook/hebrew.py",
+   "line": 406,
+   "source_sha256": "e43d382a22b679d1"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bet",
+  "unicode": [
+   "U+05D1"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.bet",
+   "file": "src/swbook/hebrew.py",
+   "line": 423,
+   "source_sha256": "9fbd94dbf599f209"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "gimel",
+  "unicode": [
+   "U+05D2"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.gimel",
+   "file": "src/swbook/hebrew.py",
+   "line": 436,
+   "source_sha256": "60568e897c52d593"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "dalet",
+  "unicode": [
+   "U+05D3"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.dalet",
+   "file": "src/swbook/hebrew.py",
+   "line": 81,
+   "source_sha256": "c4350f11f5381b0c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "he",
+  "unicode": [
+   "U+05D4"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.he",
+   "file": "src/swbook/hebrew.py",
+   "line": 105,
+   "source_sha256": "b8fc892ab83d9974"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "vav",
+  "unicode": [
+   "U+05D5"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.vav",
+   "file": "src/swbook/hebrew.py",
+   "line": 125,
+   "source_sha256": "ff39530d21e9b2b3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "zayin",
+  "unicode": [
+   "U+05D6"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.zayin",
+   "file": "src/swbook/hebrew.py",
+   "line": 137,
+   "source_sha256": "ad8922c77b02ca4e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "het",
+  "unicode": [
+   "U+05D7"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.het",
+   "file": "src/swbook/hebrew.py",
+   "line": 116,
+   "source_sha256": "209d56d67e20082e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tet",
+  "unicode": [
+   "U+05D8"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tet",
+   "file": "src/swbook/hebrew.py",
+   "line": 152,
+   "source_sha256": "1fd770c27587c524"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "yod",
+  "unicode": [
+   "U+05D9"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.yod",
+   "file": "src/swbook/hebrew.py",
+   "line": 145,
+   "source_sha256": "356c04c93fd015cc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalkaf",
+  "unicode": [
+   "U+05DA"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.kaf_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 185,
+   "source_sha256": "dc1de99b8d19bd2e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "kaf",
+  "unicode": [
+   "U+05DB"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.kaf",
+   "file": "src/swbook/hebrew.py",
+   "line": 172,
+   "source_sha256": "bbfe6c69bd98a209"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "lamed",
+  "unicode": [
+   "U+05DC"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.lamed",
+   "file": "src/swbook/hebrew.py",
+   "line": 198,
+   "source_sha256": "fa6f89de2c57ed03"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalmem",
+  "unicode": [
+   "U+05DD"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.mem_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 235,
+   "source_sha256": "538339822a47cb81"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "mem",
+  "unicode": [
+   "U+05DE"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.mem",
+   "file": "src/swbook/hebrew.py",
+   "line": 218,
+   "source_sha256": "b972d3ff90d36899"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalnun",
+  "unicode": [
+   "U+05DF"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.nun_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 260,
+   "source_sha256": "bd453e805f6405cc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "nun",
+  "unicode": [
+   "U+05E0"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.nun",
+   "file": "src/swbook/hebrew.py",
+   "line": 248,
+   "source_sha256": "3a8f73b8a663ae3e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "samekh",
+  "unicode": [
+   "U+05E1"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.samekh",
+   "file": "src/swbook/hebrew.py",
+   "line": 273,
+   "source_sha256": "e37e4b107a58d787"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "ayin",
+  "unicode": [
+   "U+05E2"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.ayin",
+   "file": "src/swbook/hebrew.py",
+   "line": 281,
+   "source_sha256": "e3877db465a31a77"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finalpe",
+  "unicode": [
+   "U+05E3"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.pe_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 325,
+   "source_sha256": "6f6c078e901a9c77"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "pe",
+  "unicode": [
+   "U+05E4"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.pe",
+   "file": "src/swbook/hebrew.py",
+   "line": 297,
+   "source_sha256": "8fb742d9fe2a951b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "finaltsadi",
+  "unicode": [
+   "U+05E5"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tsadi_final",
+   "file": "src/swbook/hebrew.py",
+   "line": 359,
+   "source_sha256": "6b320410c4c94ded"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tsadi",
+  "unicode": [
+   "U+05E6"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tsadi",
+   "file": "src/swbook/hebrew.py",
+   "line": 329,
+   "source_sha256": "309fea17ef19e957"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qof",
+  "unicode": [
+   "U+05E7"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.qof",
+   "file": "src/swbook/hebrew.py",
+   "line": 363,
+   "source_sha256": "804842967ba7ff9c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "resh",
+  "unicode": [
+   "U+05E8"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.resh",
+   "file": "src/swbook/hebrew.py",
+   "line": 89,
+   "source_sha256": "9228488777bd0a78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "shin",
+  "unicode": [
+   "U+05E9"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.shin",
+   "file": "src/swbook/hebrew.py",
+   "line": 377,
+   "source_sha256": "3f882e399110a7d1"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tav",
+  "unicode": [
+   "U+05EA"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + chiselled polygons (hebrew.py)",
+  "generator": {
+   "function": "hebrew.tav",
+   "file": "src/swbook/hebrew.py",
+   "line": 396,
+   "source_sha256": "090bde57a67b3e03"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "maqaf",
+  "unicode": [
+   "U+05BE"
+  ],
+  "weight": "Bold",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "geresh",
+  "unicode": [
+   "U+05F3"
+  ],
+  "weight": "Bold",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "gershayim",
+  "unicode": [
+   "U+05F4"
+  ],
+  "weight": "Bold",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "paseq",
+  "unicode": [
+   "U+05C0"
+  ],
+  "weight": "Bold",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "sofpasuq",
+  "unicode": [
+   "U+05C3"
+  ],
+  "weight": "Bold",
+  "construction": "polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.heb_punct",
+   "file": "src/swbook/misc.py",
+   "line": 264,
+   "source_sha256": "1ebcc0f56649f385"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "sheva",
+  "unicode": [
+   "U+05B0"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hatafsegol",
+  "unicode": [
+   "U+05B1"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hatafpatah",
+  "unicode": [
+   "U+05B2"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hatafqamats",
+  "unicode": [
+   "U+05B3"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hiriq",
+  "unicode": [
+   "U+05B4"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "tsere",
+  "unicode": [
+   "U+05B5"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "segol",
+  "unicode": [
+   "U+05B6"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "patah",
+  "unicode": [
+   "U+05B7"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qamats",
+  "unicode": [
+   "U+05B8"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "holam",
+  "unicode": [
+   "U+05B9"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "holamhaser",
+  "unicode": [
+   "U+05BA"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qubuts",
+  "unicode": [
+   "U+05BB"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "dagesh",
+  "unicode": [
+   "U+05BC"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "meteg",
+  "unicode": [
+   "U+05BD"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "rafe",
+  "unicode": [
+   "U+05BF"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "shindot",
+  "unicode": [
+   "U+05C1"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "sindot",
+  "unicode": [
+   "U+05C2"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "qamatsqatan",
+  "unicode": [
+   "U+05C7"
+  ],
+  "weight": "Bold",
+  "construction": "dots/bars from circle & rectangle primitives (misc.py)",
+  "generator": {
+   "function": "misc.mk",
+   "file": "src/swbook/misc.py",
+   "line": 295,
+   "source_sha256": "835589d1bf340c78"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "A",
+  "unicode": [
+   "U+0041"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_A",
+   "file": "src/swbook/latin.py",
+   "line": 93,
+   "source_sha256": "a5c5284e22fb101f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "B",
+  "unicode": [
+   "U+0042"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_B",
+   "file": "src/swbook/latin.py",
+   "line": 105,
+   "source_sha256": "703dca259d847964"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "C",
+  "unicode": [
+   "U+0043"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_C",
+   "file": "src/swbook/latin.py",
+   "line": 117,
+   "source_sha256": "7f1dbed96a51ddd8"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "D",
+  "unicode": [
+   "U+0044"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_D",
+   "file": "src/swbook/latin.py",
+   "line": 129,
+   "source_sha256": "7e4b421fec4a285b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "E",
+  "unicode": [
+   "U+0045"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_E",
+   "file": "src/swbook/latin.py",
+   "line": 138,
+   "source_sha256": "5790c49b11cb2d28"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "F",
+  "unicode": [
+   "U+0046"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_F",
+   "file": "src/swbook/latin.py",
+   "line": 150,
+   "source_sha256": "12d2062d94d63f73"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "G",
+  "unicode": [
+   "U+0047"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_G",
+   "file": "src/swbook/latin.py",
+   "line": 161,
+   "source_sha256": "19728665bcd91454"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "H",
+  "unicode": [
+   "U+0048"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_H",
+   "file": "src/swbook/latin.py",
+   "line": 174,
+   "source_sha256": "4be6d5fe284e97ab"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "I",
+  "unicode": [
+   "U+0049"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_I",
+   "file": "src/swbook/latin.py",
+   "line": 183,
+   "source_sha256": "f3068ca1104257ad"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "J",
+  "unicode": [
+   "U+004A"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_J",
+   "file": "src/swbook/latin.py",
+   "line": 191,
+   "source_sha256": "87bb3bd62e12df95"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "K",
+  "unicode": [
+   "U+004B"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_K",
+   "file": "src/swbook/latin.py",
+   "line": 201,
+   "source_sha256": "4fd278f48ca4537c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "L",
+  "unicode": [
+   "U+004C"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_L",
+   "file": "src/swbook/latin.py",
+   "line": 213,
+   "source_sha256": "4b354193a2d731c4"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "M",
+  "unicode": [
+   "U+004D"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_M",
+   "file": "src/swbook/latin.py",
+   "line": 222,
+   "source_sha256": "6c19a32236b1ca7a"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "N",
+  "unicode": [
+   "U+004E"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_N",
+   "file": "src/swbook/latin.py",
+   "line": 233,
+   "source_sha256": "b75a96592d4384b7"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "O",
+  "unicode": [
+   "U+004F"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_O",
+   "file": "src/swbook/latin.py",
+   "line": 243,
+   "source_sha256": "2fc2f11f94b4a297"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "P",
+  "unicode": [
+   "U+0050"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_P",
+   "file": "src/swbook/latin.py",
+   "line": 250,
+   "source_sha256": "6ed57f81a43b45b3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "Q",
+  "unicode": [
+   "U+0051"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_Q",
+   "file": "src/swbook/latin.py",
+   "line": 259,
+   "source_sha256": "d118c8f8b42e0c60"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "R",
+  "unicode": [
+   "U+0052"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_R",
+   "file": "src/swbook/latin.py",
+   "line": 266,
+   "source_sha256": "f58346d397145252"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "S",
+  "unicode": [
+   "U+0053"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_S",
+   "file": "src/swbook/latin.py",
+   "line": 277,
+   "source_sha256": "a17be88b2f9b5d14"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "T",
+  "unicode": [
+   "U+0054"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_T",
+   "file": "src/swbook/latin.py",
+   "line": 292,
+   "source_sha256": "0a00ce43d8908778"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "U",
+  "unicode": [
+   "U+0055"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_U",
+   "file": "src/swbook/latin.py",
+   "line": 301,
+   "source_sha256": "85dab0f9f43ddfb7"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "V",
+  "unicode": [
+   "U+0056"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_V",
+   "file": "src/swbook/latin.py",
+   "line": 313,
+   "source_sha256": "3b785c4052b2842f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "W",
+  "unicode": [
+   "U+0057"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_W",
+   "file": "src/swbook/latin.py",
+   "line": 322,
+   "source_sha256": "c8bab68033cd14cc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "X",
+  "unicode": [
+   "U+0058"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_X",
+   "file": "src/swbook/latin.py",
+   "line": 332,
+   "source_sha256": "ef861147475a1a9d"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "Y",
+  "unicode": [
+   "U+0059"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_Y",
+   "file": "src/swbook/latin.py",
+   "line": 342,
+   "source_sha256": "b3f93940b53256c3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "Z",
+  "unicode": [
+   "U+005A"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.U_Z",
+   "file": "src/swbook/latin.py",
+   "line": 352,
+   "source_sha256": "c6e1046f4a9ff99e"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "a",
+  "unicode": [
+   "U+0061"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_a",
+   "file": "src/swbook/latin.py",
+   "line": 366,
+   "source_sha256": "99368431418daf93"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "b",
+  "unicode": [
+   "U+0062"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_b",
+   "file": "src/swbook/latin.py",
+   "line": 381,
+   "source_sha256": "eec46051e6d4de70"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "c",
+  "unicode": [
+   "U+0063"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_c",
+   "file": "src/swbook/latin.py",
+   "line": 390,
+   "source_sha256": "fe26ad4cf8c2736b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "d",
+  "unicode": [
+   "U+0064"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_d",
+   "file": "src/swbook/latin.py",
+   "line": 401,
+   "source_sha256": "a25bc79d00526efc"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "e",
+  "unicode": [
+   "U+0065"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_e",
+   "file": "src/swbook/latin.py",
+   "line": 410,
+   "source_sha256": "d74a22a0c16bfd4a"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "f",
+  "unicode": [
+   "U+0066"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_f",
+   "file": "src/swbook/latin.py",
+   "line": 419,
+   "source_sha256": "8f6e6cf2ec6bca49"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "g",
+  "unicode": [
+   "U+0067"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_g",
+   "file": "src/swbook/latin.py",
+   "line": 430,
+   "source_sha256": "1a6434a30a6097e3"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "h",
+  "unicode": [
+   "U+0068"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_h",
+   "file": "src/swbook/latin.py",
+   "line": 445,
+   "source_sha256": "df0f3f408269b88f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "i",
+  "unicode": [
+   "U+0069"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_i",
+   "file": "src/swbook/latin.py",
+   "line": 455,
+   "source_sha256": "3eb5dacbcb40fb8c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "j",
+  "unicode": [
+   "U+006A"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_j",
+   "file": "src/swbook/latin.py",
+   "line": 463,
+   "source_sha256": "2a164240ff9b2e95"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "k",
+  "unicode": [
+   "U+006B"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_k",
+   "file": "src/swbook/latin.py",
+   "line": 473,
+   "source_sha256": "95426270094a3b05"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "l",
+  "unicode": [
+   "U+006C"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_l",
+   "file": "src/swbook/latin.py",
+   "line": 485,
+   "source_sha256": "24bffe9dd1a3aed6"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "m",
+  "unicode": [
+   "U+006D"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_m",
+   "file": "src/swbook/latin.py",
+   "line": 493,
+   "source_sha256": "4b55b70b24df4a43"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "n",
+  "unicode": [
+   "U+006E"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_n",
+   "file": "src/swbook/latin.py",
+   "line": 504,
+   "source_sha256": "bc9da613269e87d0"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "o",
+  "unicode": [
+   "U+006F"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_o",
+   "file": "src/swbook/latin.py",
+   "line": 513,
+   "source_sha256": "ce30cbcb36476dd9"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "p",
+  "unicode": [
+   "U+0070"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_p",
+   "file": "src/swbook/latin.py",
+   "line": 520,
+   "source_sha256": "2c6f68ba25389296"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "q",
+  "unicode": [
+   "U+0071"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_q",
+   "file": "src/swbook/latin.py",
+   "line": 529,
+   "source_sha256": "2fa6714f792f2264"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "r",
+  "unicode": [
+   "U+0072"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_r",
+   "file": "src/swbook/latin.py",
+   "line": 538,
+   "source_sha256": "830fdb070d4a7df0"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "s",
+  "unicode": [
+   "U+0073"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_s",
+   "file": "src/swbook/latin.py",
+   "line": 548,
+   "source_sha256": "20f77fc905aea122"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "t",
+  "unicode": [
+   "U+0074"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_t",
+   "file": "src/swbook/latin.py",
+   "line": 560,
+   "source_sha256": "32b8ccce57faf7d1"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "u",
+  "unicode": [
+   "U+0075"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_u",
+   "file": "src/swbook/latin.py",
+   "line": 572,
+   "source_sha256": "02ab10c2ddf51c7f"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "v",
+  "unicode": [
+   "U+0076"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_v",
+   "file": "src/swbook/latin.py",
+   "line": 582,
+   "source_sha256": "f2f05fd9e7276714"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "w",
+  "unicode": [
+   "U+0077"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_w",
+   "file": "src/swbook/latin.py",
+   "line": 591,
+   "source_sha256": "84b167fda1a93837"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "x",
+  "unicode": [
+   "U+0078"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_x",
+   "file": "src/swbook/latin.py",
+   "line": 601,
+   "source_sha256": "e649beff461a6d1c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "y",
+  "unicode": [
+   "U+0079"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_y",
+   "file": "src/swbook/latin.py",
+   "line": 611,
+   "source_sha256": "3560935029e84f23"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "z",
+  "unicode": [
+   "U+007A"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes + slab serifs (latin.py)",
+  "generator": {
+   "function": "latin.l_z",
+   "file": "src/swbook/latin.py",
+   "line": 623,
+   "source_sha256": "d3aaa8af609029f2"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "zero",
+  "unicode": [
+   "U+0030"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "one",
+  "unicode": [
+   "U+0031"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "two",
+  "unicode": [
+   "U+0032"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "three",
+  "unicode": [
+   "U+0033"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "four",
+  "unicode": [
+   "U+0034"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "five",
+  "unicode": [
+   "U+0035"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "six",
+  "unicode": [
+   "U+0036"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "seven",
+  "unicode": [
+   "U+0037"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "eight",
+  "unicode": [
+   "U+0038"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "nine",
+  "unicode": [
+   "U+0039"
+  ],
+  "weight": "Bold",
+  "construction": "elliptical-pen strokes (misc.py)",
+  "generator": {
+   "function": "misc.digit",
+   "file": "src/swbook/misc.py",
+   "line": 19,
+   "source_sha256": "d08d6b0f3e6e8d2b"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "exclam",
+  "unicode": [
+   "U+0021"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedbl",
+  "unicode": [
+   "U+0022"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "numbersign",
+  "unicode": [
+   "U+0023"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "dollar",
+  "unicode": [
+   "U+0024"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "percent",
+  "unicode": [
+   "U+0025"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "ampersand",
+  "unicode": [
+   "U+0026"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotesingle",
+  "unicode": [
+   "U+0027"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "parenleft",
+  "unicode": [
+   "U+0028"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "parenright",
+  "unicode": [
+   "U+0029"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "asterisk",
+  "unicode": [
+   "U+002A"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "plus",
+  "unicode": [
+   "U+002B"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "comma",
+  "unicode": [
+   "U+002C"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "hyphen",
+  "unicode": [
+   "U+002D"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "period",
+  "unicode": [
+   "U+002E"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "slash",
+  "unicode": [
+   "U+002F"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "colon",
+  "unicode": [
+   "U+003A"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "semicolon",
+  "unicode": [
+   "U+003B"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "less",
+  "unicode": [
+   "U+003C"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "equal",
+  "unicode": [
+   "U+003D"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "greater",
+  "unicode": [
+   "U+003E"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "question",
+  "unicode": [
+   "U+003F"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "at",
+  "unicode": [
+   "U+0040"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bracketleft",
+  "unicode": [
+   "U+005B"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "backslash",
+  "unicode": [
+   "U+005C"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bracketright",
+  "unicode": [
+   "U+005D"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "asciicircum",
+  "unicode": [
+   "U+005E"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "underscore",
+  "unicode": [
+   "U+005F"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "grave",
+  "unicode": [
+   "U+0060"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "braceleft",
+  "unicode": [
+   "U+007B"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bar",
+  "unicode": [
+   "U+007C"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "braceright",
+  "unicode": [
+   "U+007D"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "asciitilde",
+  "unicode": [
+   "U+007E"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "endash",
+  "unicode": [
+   "U+2013"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "emdash",
+  "unicode": [
+   "U+2014"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quoteleft",
+  "unicode": [
+   "U+2018"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quoteright",
+  "unicode": [
+   "U+2019"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedblleft",
+  "unicode": [
+   "U+201C"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedblright",
+  "unicode": [
+   "U+201D"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "quotedblbase",
+  "unicode": [
+   "U+201E"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "ellipsis",
+  "unicode": [
+   "U+2026"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "bullet",
+  "unicode": [
+   "U+2022"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "guillemotleft",
+  "unicode": [
+   "U+00AB"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "guillemotright",
+  "unicode": [
+   "U+00BB"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "periodcentered",
+  "unicode": [
+   "U+00B7"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "section",
+  "unicode": [
+   "U+00A7"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "paragraph",
+  "unicode": [
+   "U+00B6"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "degree",
+  "unicode": [
+   "U+00B0"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "copyright",
+  "unicode": [
+   "U+00A9"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "plusminus",
+  "unicode": [
+   "U+00B1"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "multiply",
+  "unicode": [
+   "U+00D7"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "divide",
+  "unicode": [
+   "U+00F7"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni2212",
+  "unicode": [
+   "U+2212"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ },
+ {
+  "glyph": "uni20AA",
+  "unicode": [
+   "U+20AA"
+  ],
+  "weight": "Bold",
+  "construction": "strokes/polygons/circles (misc.py)",
+  "generator": {
+   "function": "misc.punct",
+   "file": "src/swbook/misc.py",
+   "line": 76,
+   "source_sha256": "d9aaf7a57ecbc50c"
+  },
+  "third_party_outlines": false
+ }
+]

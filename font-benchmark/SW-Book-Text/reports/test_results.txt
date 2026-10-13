@@ -1,0 +1,171 @@
+# SW Book Text benchmark prototype - full validation log
+# started: 2026-10-13T11:07:26Z   host: Linux 6.18.44-fc-v114 x86_64   python: Python 3.13.16
+
+$ bash -c cd src && python3 -m swbook.build
+built Regular
+built Bold
+[exit code: 0]
+
+$ python3 specimen/build_specimen.py
+/home/user/Hekl/font-benchmark/SW-Book-Text/specimen/SWBookText-Specimen.pdf
+[exit code: 0]
+
+$ python3 tools/make_reports.py
+reports written to /home/user/Hekl/font-benchmark/SW-Book-Text/reports
+[exit code: 0]
+
+$ sha256sum fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf specimen/SWBookText-Specimen.pdf
+e654ea24d43036a0462d63179d3d190903e8846901048f96b701f86f47f3bb8d  fonts/SWBookText-Regular.ttf
+7f2b82fba7023554dcbcbaacb88ecf5f204e4251acb247b5a0a1a1724da80d90  fonts/SWBookText-Bold.ttf
+529e95023ac7f565e4de508dc6fb851adda8ba5eedc648d2ec00edff009d3c45  specimen/SWBookText-Specimen.pdf
+[exit code: 0]
+
+$ python3 -m pytest tests -v -p no:cacheprovider
+============================= test session starts ==============================
+platform linux -- Python 3.13.16, pytest-9.1.1, pluggy-1.6.0 -- /usr/bin/python3
+rootdir: /home/user/Hekl/font-benchmark/SW-Book-Text
+plugins: anyio-4.15.1
+collecting ... collected 68 items
+
+tests/test_font.py::test_required_tables_present[Regular] PASSED         [  1%]
+tests/test_font.py::test_ots_sanitizer_accepts_font[Regular] PASSED      [  2%]
+tests/test_font.py::test_all_tables_decompile_and_roundtrip[Regular] PASSED [  4%]
+tests/test_font.py::test_name_table[Regular] PASSED                      [  5%]
+tests/test_font.py::test_head_hhea_os2_consistency[Regular] PASSED       [  7%]
+tests/test_font.py::test_cmap_covers_required[Regular] PASSED            [  8%]
+tests/test_font.py::test_hebrew_27_letters_distinct_outlines[Regular] PASSED [ 10%]
+tests/test_font.py::test_unicode_mapping_is_one_to_one_for_letters[Regular] PASSED [ 11%]
+tests/test_font.py::test_no_missing_glyphs_in_specimen_text[Regular] PASSED [ 13%]
+tests/test_font.py::test_glyph_names_valid_unique[Regular] PASSED        [ 14%]
+tests/test_font.py::test_contours_valid[Regular] PASSED                  [ 16%]
+tests/test_font.py::test_extreme_bboxes[Regular] PASSED                  [ 17%]
+tests/test_font.py::test_outer_contours_clockwise_truetype[Regular] PASSED [ 19%]
+tests/test_font.py::test_horizontal_metrics[Regular] PASSED              [ 20%]
+tests/test_font.py::test_sidebearing_consistency_hebrew[Regular] PASSED  [ 22%]
+tests/test_font.py::test_gpos_features_present[Regular] PASSED           [ 23%]
+tests/test_font.py::test_mark_positioning_attaches_all_marks[Regular] PASSED [ 25%]
+tests/test_font.py::test_marks_do_not_collide_with_base[Regular] PASSED  [ 26%]
+tests/test_font.py::test_shin_sin_dots_and_holam_above[Regular] PASSED   [ 27%]
+tests/test_font.py::test_dagesh_inside_counter[Regular] PASSED           [ 29%]
+tests/test_font.py::test_kerning_applied[Regular] PASSED                 [ 30%]
+tests/test_font.py::test_kern_pair_count[Regular] PASSED                 [ 32%]
+tests/test_font.py::test_no_collisions_between_neighbouring_letters[Regular] PASSED [ 33%]
+tests/test_font.py::test_glyph_rendering_at_print_sizes[Regular] PASSED  [ 35%]
+tests/test_font.py::test_required_tables_present[Bold] PASSED            [ 36%]
+tests/test_font.py::test_ots_sanitizer_accepts_font[Bold] PASSED         [ 38%]
+tests/test_font.py::test_all_tables_decompile_and_roundtrip[Bold] PASSED [ 39%]
+tests/test_font.py::test_name_table[Bold] PASSED                         [ 41%]
+tests/test_font.py::test_head_hhea_os2_consistency[Bold] PASSED          [ 42%]
+tests/test_font.py::test_cmap_covers_required[Bold] PASSED               [ 44%]
+tests/test_font.py::test_hebrew_27_letters_distinct_outlines[Bold] PASSED [ 45%]
+tests/test_font.py::test_unicode_mapping_is_one_to_one_for_letters[Bold] PASSED [ 47%]
+tests/test_font.py::test_no_missing_glyphs_in_specimen_text[Bold] PASSED [ 48%]
+tests/test_font.py::test_glyph_names_valid_unique[Bold] PASSED           [ 50%]
+tests/test_font.py::test_contours_valid[Bold] PASSED                     [ 51%]
+tests/test_font.py::test_extreme_bboxes[Bold] PASSED                     [ 52%]
+tests/test_font.py::test_outer_contours_clockwise_truetype[Bold] PASSED  [ 54%]
+tests/test_font.py::test_horizontal_metrics[Bold] PASSED                 [ 55%]
+tests/test_font.py::test_sidebearing_consistency_hebrew[Bold] PASSED     [ 57%]
+tests/test_font.py::test_gpos_features_present[Bold] PASSED              [ 58%]
+tests/test_font.py::test_mark_positioning_attaches_all_marks[Bold] PASSED [ 60%]
+tests/test_font.py::test_marks_do_not_collide_with_base[Bold] PASSED     [ 61%]
+tests/test_font.py::test_shin_sin_dots_and_holam_above[Bold] PASSED      [ 63%]
+tests/test_font.py::test_dagesh_inside_counter[Bold] PASSED              [ 64%]
+tests/test_font.py::test_kerning_applied[Bold] PASSED                    [ 66%]
+tests/test_font.py::test_kern_pair_count[Bold] PASSED                    [ 67%]
+tests/test_font.py::test_no_collisions_between_neighbouring_letters[Bold] PASSED [ 69%]
+tests/test_font.py::test_glyph_rendering_at_print_sizes[Bold] PASSED     [ 70%]
+tests/test_font.py::test_stem_contrast_regular_vs_bold PASSED            [ 72%]
+tests/test_font.py::test_bold_regular_same_coverage_and_glyph_order PASSED [ 73%]
+tests/test_font.py::test_build_reads_no_foreign_font_binaries PASSED     [ 75%]
+tests/test_font.py::test_reproducible_build PASSED                       [ 76%]
+tests/test_pdf.py::test_pdf_exists_six_a4_pages PASSED                   [ 77%]
+tests/test_pdf.py::test_fonts_embedded_and_only_sw_book_text PASSED      [ 79%]
+tests/test_pdf.py::test_embedded_font_identical_to_ttf PASSED            [ 80%]
+tests/test_pdf.py::test_page_text_extractable[1-words0] PASSED           [ 82%]
+tests/test_pdf.py::test_page_text_extractable[2-words1] PASSED           [ 83%]
+tests/test_pdf.py::test_page_text_extractable[3-words2] PASSED           [ 85%]
+tests/test_pdf.py::test_page_text_extractable[4-words3] PASSED           [ 86%]
+tests/test_pdf.py::test_page_text_extractable[5-words4] PASSED           [ 88%]
+tests/test_pdf.py::test_page_text_extractable[6-words5] PASSED           [ 89%]
+tests/test_pdf.py::test_no_notdef_glyphs_used PASSED                     [ 91%]
+tests/test_pdf.py::test_pages_nonblank_and_inside_margins PASSED         [ 92%]
+tests/test_pdf.py::test_page3_two_columns_filled PASSED                  [ 94%]
+tests/test_pdf.py::test_page6_side_by_side_bold_heavier_than_regular PASSED [ 95%]
+tests/test_pdf.py::test_text_inside_column_and_no_overlap_page3 PASSED   [ 97%]
+tests/test_pdf.py::test_pdf_build_reproducible PASSED                    [ 98%]
+tests/test_pdf.py::test_shared_specimen_text_hash_recorded PASSED        [100%]
+
+============================= 68 passed in 11.50s ==============================
+[exit code: 0]
+
+$ fontbakery check-universal --skip-network --succinct -n fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf
+/usr/local/lib/python3.13/dist-packages/fontbakery/fonts_profile.py:103: UserWarning: Failed to load fontbakery.checks.vendorspecific.googlefonts.glyphsets.shape_languages: No module named 'glyphsets'
+  warnings.warn("Failed to load %s: %s" % (import_path, e))
+Start ... running 242 individual check executions.
+SWBookText-Regular.ttf: contour_count: WARN [contour-count]
+SWBookText-Bold.ttf: contour_count: WARN [contour-count]
+SWBookText-Regular.ttf: overlapping_path_segments: WARN [overlapping-path-segments]
+
+ ERROR: 0 FATAL: 0 FAIL: 0 WARN: 3 INFO: 8 SKIP: 82 PASS: 149
+[exit code: 0]
+
+$ fontbakery check-opentype --skip-network --succinct -n fonts/SWBookText-Regular.ttf fonts/SWBookText-Bold.ttf
+/usr/local/lib/python3.13/dist-packages/fontbakery/fonts_profile.py:103: UserWarning: Failed to load fontbakery.checks.vendorspecific.googlefonts.glyphsets.shape_languages: No module named 'glyphsets'
+  warnings.warn("Failed to load %s: %s" % (import_path, e))
+Start ... running 98 individual check executions.
+
+ ERROR: 0 FATAL: 0 FAIL: 0 WARN: 0 INFO: 2 SKIP: 33 PASS: 63
+[exit code: 0]
+
+$ python3 -m ots fonts/SWBookText-Regular.ttf
+File sanitized successfully!
+[exit code: 0]
+
+$ python3 -m ots fonts/SWBookText-Bold.ttf
+File sanitized successfully!
+[exit code: 0]
+
+$ pdfinfo specimen/SWBookText-Specimen.pdf
+Title:           SW Book Text - Benchmark Prototype - Specimen
+Creator:         HarfBuzz via uharfbuzz
+Producer:        SW Book Text specimen builder: custom Python writer
+CreationDate:    Thu Jan  1 00:00:00 2026 UTC
+ModDate:         Thu Jan  1 00:00:00 2026 UTC
+Custom Metadata: no
+Metadata Stream: no
+Tagged:          no
+UserProperties:  no
+Suspects:        no
+Form:            none
+JavaScript:      no
+Pages:           6
+Encrypted:       no
+Page size:       595.276 x 841.89 pts (A4)
+Page rot:        0
+File size:       112498 bytes
+Optimized:       no
+PDF version:     1.7
+[exit code: 0]
+
+$ pdffonts specimen/SWBookText-Specimen.pdf
+name                                 type              encoding         emb sub uni object ID
+------------------------------------ ----------------- ---------------- --- --- --- ---------
+SWBookText-Regular                   CID TrueType      Identity-H       yes no  yes      7  0
+SWBookText-Bold                      CID TrueType      Identity-H       yes no  yes     12  0
+[exit code: 0]
+
+$ python3 tools/shaping_demo.py
+Regular 'בָּ' qamats(adv=0,dx=346,dy=-22) dagesh(adv=0,dx=301,dy=325) bet(adv=692,dx=0,dy=0)
+Regular 'שֹׁ' holam(adv=0,dx=402,dy=698) shindot(adv=0,dx=594,dy=698) shin(adv=774,dx=0,dy=0)
+Regular 'ךָ' qamats(adv=0,dx=340,dy=-110) finalkaf(adv=562,dx=0,dy=0)
+Regular 'שָׁלוֹם' finalmem(adv=656,dx=0,dy=0) holam(adv=0,dx=150,dy=686) vav(adv=302,dx=0,dy=0) lamed(adv=554,dx=0,dy=0) qamats(adv=0,dx=387,dy=-22) shindot(adv=0,dx=594,dy=698) shin(adv=774,dx=0,dy=0)
+Regular 'AV To' A(adv=692,dx=0,dy=0) V(adv=720,dx=0,dy=0) space(adv=250,dx=0,dy=0) T(adv=606,dx=0,dy=0) o(adv=570,dx=0,dy=0)
+Bold 'בָּ' qamats(adv=0,dx=363,dy=-22) dagesh(adv=0,dx=314,dy=325) bet(adv=726,dx=0,dy=0)
+Bold 'שֹׁ' holam(adv=0,dx=449,dy=698) shindot(adv=0,dx=657,dy=698) shin(adv=843,dx=0,dy=0)
+Bold 'ךָ' qamats(adv=0,dx=298,dy=-110) finalkaf(adv=586,dx=0,dy=0)
+Bold 'שָׁלוֹם' finalmem(adv=690,dx=0,dy=0) holam(adv=0,dx=181,dy=686) vav(adv=363,dx=0,dy=0) lamed(adv=577,dx=0,dy=0) qamats(adv=0,dx=421,dy=-22) shindot(adv=0,dx=657,dy=698) shin(adv=843,dx=0,dy=0)
+Bold 'AV To' A(adv=750,dx=0,dy=0) V(adv=760,dx=0,dy=0) space(adv=250,dx=0,dy=0) T(adv=642,dx=0,dy=0) o(adv=594,dx=0,dy=0)
+[exit code: 0]
+
+# finished in 20 s
